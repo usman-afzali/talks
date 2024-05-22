@@ -1,7 +1,7 @@
 ---
 title: "Belonging and Exclusion: The Psychology of Identity Crisis in a Diverse World"
 author: "Usman Afzali, PhD"
-date: 23 May 2024
+date: 31 May 2024
 affiliation: University of Canterbury
 format: beamer
 ---
