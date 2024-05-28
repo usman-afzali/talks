@@ -1,9 +1,24 @@
 ---
-title: "Belonging and Exclusion: The Psychology of Identity Crisis in a Diverse World"
-author: "Usman Afzali, PhD"
+title: "Belonging and Exclusion"
+subtitle: "The Psychology of Identity Crisis in a Diverse World"
+author: "Usman Afzali, PhD - Postdoc Fellow"
+institute: Uni of Canterbury
+fontfamily: libertinus
 date: 31 May 2024
-affiliation: University of Canterbury
-format: beamer
+format:
+  beamer:
+    navigation: horizontal
+    number-sections: false
+    colorlinks: true
+    aspectratio: 169
+    theme: AnnArbor
+    colortheme: orchid
+    incremental: false
+    keep-tex: true  
+execute:
+  echo: false
+  warning: false
+  error: false
 ---
 
 ## Quarto
