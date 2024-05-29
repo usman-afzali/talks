@@ -3,7 +3,6 @@ title: "Belonging and Exclusion"
 subtitle: "The Psychology of Identity Crisis in a Diverse World"
 author: "Usman Afzali, PhD - Postdoc Fellow"
 institute: Uni of Canterbury
-logo: mds.jpg 
 fontfamily: libertinus
 date: 31 May 2024
 format:
@@ -26,8 +25,8 @@ execute:
 ## Institutional Partners
 
 ::: {layout="[[1], [1,1,1]]"}
-![](mds.png){width=60% fig-align="center"}
-![](sponsors.png)
+![](figs/mds.png){width=60% fig-align="center"}
+![](figs/sponsors.png)
 :::
 
 ## Outline
@@ -60,7 +59,7 @@ Divided into two random groups
 :::
 
 ::: {.column width="60%"}
-![](tajfel.png)
+![](figs/tajfel.png)
 :::
 
 :::: 
@@ -74,7 +73,7 @@ Divided into two random groups
 :::
 
 ## The need for self-esteem
-![](selfesteem.png)
+![](figs/selfesteem.png)
 
 ## Minimal Groups Paradigm
 ::: {.incremental}
@@ -113,10 +112,10 @@ People all over the world believe that their own nation, culture, language, and 
 :::
 
 ## Psychosocial theory of human development
-![](stages.png)
+![](figs/stages.png)
 
 ## Marcia’s identity statuses
-![](marcia.png)
+![](figs/marcia.png)
 Identity achievement is associated with higher self-esteem, conscientiousness, security, achievement motivation, and capacity for intimacy (Kroger, 2003).
 
 # Have you been in a condition that people don’t believe that you are a New Zealander?
@@ -162,9 +161,9 @@ Subjective well-being, the meaning of life, and psychological distress are simil
 
 ::: {layout="[[1], [1]]"}
 
-![](mds.png){width=50% fig-align="center"}
+![](figs/mds.png){width=50% fig-align="center"}
 
-![](sponsors.png)
+![](figs/sponsors.png)
 
 :::
 
@@ -199,7 +198,8 @@ Can they be linked back to me?
 
 ## How can you participate?
 blah blah blah
-
+. . .
+blah blah blah
 
 ## MDS Team
 :::: {.columns}
@@ -217,11 +217,11 @@ contents...
 
 ## MDS Core Team
 
-![](usman-a.jpeg)
-![](joe-b.jpg)
-![](chris-s.png)
-![](kumar-y.jpg)
-![](aarif-r.jpeg)
+![](figs/usman-a.jpeg)
+![](figs/joe-b.jpg)
+![](figs/chris-s.png)
+![](figs/kumar-y.jpg)
+![](figs/aarif-r.jpeg)
 
 
 ## Team
