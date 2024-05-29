@@ -89,17 +89,20 @@ Divided into two random groups
 -   Now, suppose an individual in New Zealand experiences a threat to their self-esteem, such as being criticized by colleagues at work or feeling excluded in a social setting. In response to this threat, they may seek ways to restore their sense of self-worth or superiority. Unfortunately, in some cases, individuals may resort to derogating others, including Muslims, as a means of boosting their own self-esteem.
 :::
 
-## A scenario
+---
+
 ::: {.incremental}
 -   For example, this person might start expressing or endorsing negative stereotypes about Muslims, such as portraying them as terrorists, backward, or incompatible with Western values. By doing so, they may attempt to reaffirm their own identity or sense of belonging within the dominant culture, thus temporarily alleviating their feelings of insecurity or inferiority.
 -   By linking the individual's feelings of insecurity or threat in social or professional settings to the broader context of Islamophobia in New Zealand, you can illustrate how the self-esteem maintenance model proposed by Fein and Spencer may play out in real-life situations, where individuals derogate members of stereotyped groups, such as Muslims, to cope with their own insecurities.
 :::
 
-## This tells us
+---
+
 People all over the world believe that their own nation, culture, language, and religion are better and more deserving than others.
 
-## But wait...
-`When` do we start thinking about identity?
+---
+
+But wait... `When` do we start thinking about identity?
 
 # Identity Development
 
