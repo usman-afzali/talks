@@ -106,6 +106,39 @@
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -157,7 +190,7 @@
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={Belonging and Exclusion},
-  pdfauthor={Usman Afzali, PhD - Postdoc Fellow},
+  pdfauthor={Usman Afzali, PhD - Postdoctoral Fellow},
   colorlinks=true,
   linkcolor={Maroon},
   filecolor={Maroon},
@@ -167,16 +200,15 @@
 
 \title{Belonging and Exclusion}
 \subtitle{The Psychology of Identity Crisis in a Diverse World}
-\author{Usman Afzali, PhD - Postdoc Fellow}
+\author{Usman Afzali, PhD - Postdoctoral Fellow}
 \date{2024-05-31}
-\institute{Uni of Canterbury}
+\institute{University of Canterbury}
 \logo{\includegraphics{mds.png}}
 
 \begin{document}
 \frame{\titlepage}
 
-\begin{frame}{Institutional Partners}
-\phantomsection\label{institutional-partners}
+\begin{frame}
 \begin{figure}
 
 \begin{minipage}{\linewidth}
@@ -205,13 +237,14 @@
 \end{itemize}
 \end{frame}
 
-\section{What is your perception from the term
-``identity''?}\label{what-is-your-perception-from-the-term-identity}
+\begin{frame}
+\textbf{What is your perception from the term ``identity''?}
+\end{frame}
 
 \section{Social Identity}\label{social-identity}
 
-\begin{frame}{Social Identity}
-\phantomsection\label{social-identity-1}
+\begin{frame}{Social Identity Theory}
+\phantomsection\label{social-identity-theory}
 \begin{itemize}[<+->]
 \tightlist
 \item
@@ -224,6 +257,14 @@
 \end{itemize}
 \end{frame}
 
+\begin{frame}
+Henri Tajfel 1919 - 1982. From Wikipedia (The Free Encyclopedia)
+
+\begin{center}
+\includegraphics{figs/Henri_Tajfel.jpg}
+\end{center}
+\end{frame}
+
 \begin{frame}{Social Experiment}
 \phantomsection\label{social-experiment}
 \begin{columns}[c,totalwidth=8em]
@@ -231,13 +272,15 @@
 \begin{itemize}[<+->]
 \tightlist
 \item
-  Task 1: Estimate the number of dots on each slide
+  \textbf{Task 1}: Estimate the number of dots on each slide
 \item
-  Outcome: ``over-estimators'' and ``under-estimators'' Divided into two
-  random groups
+  \textbf{Outcome}: \emph{``over-estimators''} and
+  \emph{``under-estimators''}
 \item
-  Task 2: allocate points to other participants that can be cashed for
-  money
+  Divided into two random groups
+\item
+  \textbf{Task 2}: allocate points to other participants that can be
+  cashed for money.
 \end{itemize}
 \end{column}
 
@@ -252,10 +295,10 @@
 \begin{itemize}[<+->]
 \tightlist
 \item
-  More points to members of their own group than to members of the other
-  group.
+  Allocated more points to members of their own group than to members of
+  the other group.
 \item
-  Ingroup favouritism (discrimination)
+  \emph{Ingroup favouritism} (discrimination)
 \item
   Replicated in many countries
 \item
@@ -265,21 +308,22 @@
 
 \begin{frame}{The need for self-esteem}
 \phantomsection\label{the-need-for-self-esteem}
-\includegraphics{figs/selfesteem.png}
+Kassin et al.~(2021)
+
+\includegraphics[width=0.9\textwidth,height=\textheight]{figs/selfesteem.png}
 \end{frame}
 
-\begin{frame}{Minimal Groups Paradigm}
-\phantomsection\label{minimal-groups-paradigm}
+\begin{frame}
 \begin{itemize}[<+->]
 \tightlist
 \item
-  Advantage: derive pride from our connections
+  \textbf{Advantage}: derive pride from our connections
 \item
-  Disadvantage: the need to belittle ``them'' in order to feel secure
-  about ``us.''
+  \textbf{Disadvantage}: the need to belittle \emph{``them''} in order
+  to feel secure about \emph{``us''}.
 \item
   Examples: Religious fervor, racial and ethnic conceit, aggressive
-  nationalism, even gossiping (Bosson et al., 2006; Weaver \& Bosson,
+  nationalism, even gossiping (Bosson et al. 2006; Weaver and Bosson
   2011)
 \item
   When people shared negative attitudes about a third party, they felt
@@ -313,18 +357,19 @@
 \tightlist
 \item
   For example, this person might start expressing or endorsing negative
-  stereotypes about Muslims, such as portraying them as terrorists,
-  backward, or incompatible with Western values. By doing so, they may
-  attempt to reaffirm their own identity or sense of belonging within
-  the dominant culture, thus temporarily alleviating their feelings of
-  insecurity or inferiority.
+  stereotypes about Muslims, such as portraying them as
+  \emph{terrorists}, \emph{backward}, or \emph{incompatible} with
+  Western values. By doing so, they may attempt to reaffirm their own
+  \emph{identity} or sense of \emph{belonging} within the dominant
+  culture, thus temporarily alleviating their feelings of
+  \emph{insecurity} or \emph{inferiority}.
 \item
   By linking the individual's feelings of insecurity or threat in social
   or professional settings to the broader context of Islamophobia in New
-  Zealand, you can illustrate how the self-esteem maintenance model
-  proposed by Fein and Spencer may play out in real-life situations,
-  where individuals derogate members of stereotyped groups, such as
-  Muslims, to cope with their own insecurities.
+  Zealand, we can illustrate how the self-esteem maintenance model (Fein
+  and Spencer 1997) may play out in real-life situations, where
+  individuals derogate members of stereotyped groups, such as Muslims,
+  to cope with their own insecurities.
 \end{itemize}
 \end{frame}
 
@@ -334,17 +379,25 @@ language, and religion are better and more deserving than others.
 \end{frame}
 
 \begin{frame}[fragile]
-But wait\ldots{} \texttt{When} do we start thinking about identity?
+\textbf{But wait\ldots{} \texttt{When} do we start thinking about
+identity?}
 \end{frame}
 
 \section{Identity Development}\label{identity-development}
+
+\begin{frame}{Erik Erikson}
+\phantomsection\label{erik-erikson}
+1902 - 1994. From Wikipedia (The Free Encyclopedia)
+
+\begin{center}
+\includegraphics{figs/Erik_Erikson.jpg}
+\end{center}
+\end{frame}
 
 \begin{frame}{Psychosocial theory of human development}
 \phantomsection\label{psychosocial-theory-of-human-development}
 \begin{itemize}[<+->]
 \tightlist
-\item
-  Erik Erikson.
 \item
   Stages of development
 \item
@@ -357,39 +410,54 @@ But wait\ldots{} \texttt{When} do we start thinking about identity?
 
 \begin{frame}{Psychosocial theory of human development}
 \phantomsection\label{psychosocial-theory-of-human-development-1}
-\includegraphics{figs/stages.png}
+Weiten (2013)
+\includegraphics[width=0.9\textwidth,height=\textheight]{figs/stages.png}
 \end{frame}
 
 \begin{frame}{Marcia's identity statuses}
 \phantomsection\label{marcias-identity-statuses}
-\includegraphics{figs/marcia.png} Identity achievement is associated
-with higher self-esteem, conscientiousness, security, achievement
-motivation, and capacity for intimacy (Kroger, 2003).
+Weiten (2013) \includegraphics{figs/marcia.png} Identity achievement is
+associated with higher self-esteem, conscientiousness, security,
+achievement motivation, and capacity for intimacy (Kroger 2006).
 \end{frame}
 
-\section{Have you been in a condition that people don't believe that you
-are a New
-Zealander?}\label{have-you-been-in-a-condition-that-people-dont-believe-that-you-are-a-new-zealander}
+\section{Negative consequences}\label{negative-consequences}
+
+\begin{frame}{Identity crisis might lead to}
+\phantomsection\label{identity-crisis-might-lead-to}
+\begin{itemize}
+\tightlist
+\item
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\textbf{Have you been in a condition that people don't believe that you
+are a New Zealander?}
+\end{frame}
+
+\section{Identity Denial}\label{identity-denial}
 
 \begin{frame}{Identity denial}
-\phantomsection\label{identity-denial}
+\phantomsection\label{identity-denial-1}
 \begin{itemize}
 \tightlist
 \item
   Where are you \emph{really} from?: Asian Americans and identity denial
-  (Cheryan \& Monin, 2005)
+  (Cheryan and Monin 2005)
 \item
   Leads to poor psychological health and wellbeing, such as depressive
-  symptoms and stress (Albuja et al., 2018)
+  symptoms and stress (Albuja, Sanchez, and Gaither 2019)
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Do you think we have an identity problem?}
-\phantomsection\label{do-you-think-we-have-an-identity-problem}
+\begin{frame}
+\textbf{Do you think we have an identity problem?}
 \end{frame}
 
-\begin{frame}{What to do?}
-\phantomsection\label{what-to-do}
+\section{Solutions}\label{solutions}
+
+\begin{frame}
 \begin{itemize}[<+->]
 \tightlist
 \item
@@ -401,13 +469,13 @@ Zealander?}\label{have-you-been-in-a-condition-that-people-dont-believe-that-you
 \end{itemize}
 \end{frame}
 
-\begin{frame}{The importance of social support}
+\begin{frame}[fragile]{The importance of social support}
 \phantomsection\label{the-importance-of-social-support}
 \begin{itemize}[<+->]
 \tightlist
 \item
   Whoever desires an increase in his sustenance and age, should keep
-  good relations with kith and kin. Muslim
+  good relations with kith and kin. \texttt{Sahih\ Muslim}.
 \item
   Broad. But comes from family, relatives, friends and peers.
 \item
@@ -417,9 +485,9 @@ Zealander?}\label{have-you-been-in-a-condition-that-people-dont-believe-that-you
   Offering/giving social support is more beneficial than receiving it:
   reduces distress, and improves physical as well as mental health.
 \item
-  In married couple mortality was significantly reduced for those who
+  In married couples, mortality was significantly reduced for those who
   reported providing instrumental support to friends, relatives,
-  neighbours, and spouses. (Utz, 2011)
+  neighbours, and spouses (Utz 2011).
 \end{itemize}
 \end{frame}
 
@@ -435,36 +503,38 @@ Zealander?}\label{have-you-been-in-a-condition-that-people-dont-believe-that-you
   Significantly low levels of depression
 \item
   Children that grow up in a married two parent family are less likely
-  to experience emotional-behavioural problems (Brown, 2004)
+  to experience emotional-behavioural problems (Brown 2004)
 \item
   They are less likely to drop out of the school, use drugs, give birth
-  as teenagers, or experience child abuse (Flewelling et el., 1990)
+  as teenagers, or experience child abuse (Flewelling and Bauman 1990)
 \item
-  More educated and better educational outcomes (Haurin, 1992).
+  More educated and better educational outcomes (Haurin 1992).
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Muslims with the strongest ties to their community as
-measured by service attendance and prayer are buffered most from
-anti-Muslim prejudice.}
-\phantomsection\label{muslims-with-the-strongest-ties-to-their-community-as-measured-by-service-attendance-and-prayer-are-buffered-most-from-anti-muslim-prejudice.}
+\begin{frame}
+\textbf{Muslims with the strongest ties to their community as measured
+by service attendance and prayer are buffered most from anti-Muslim
+prejudice.}
 \end{frame}
 
-\begin{frame}{Muslims experience greater challenges to employment and
-health than matched members of other religious groups.}
-\phantomsection\label{muslims-experience-greater-challenges-to-employment-and-health-than-matched-members-of-other-religious-groups.}
-Subjective well-being, the meaning of life, and psychological distress
-are similar among Muslims and matched members of religious groups from
-the buffering of religious community-making.
+\begin{frame}
+\textbf{Muslims experience greater challenges to employment and health
+than matched members of other religious groups.}
 \end{frame}
 
-\begin{frame}{Muslim Diversity Study}
-\phantomsection\label{muslim-diversity-study}
+\begin{frame}
+\textbf{Subjective well-being, the meaning of life, and psychological
+distress are similar among Muslims and matched members of religious
+groups from the buffering of religious community-making.}
+\end{frame}
+
+\begin{frame}
 \begin{figure}
 
 \begin{minipage}{\linewidth}
 \begin{center}
-\includegraphics[width=0.5\textwidth,height=\textheight]{figs/mds.png}
+\includegraphics[width=0.6\textwidth,height=\textheight]{figs/mds.png}
 \end{center}
 \end{minipage}%
 \newline
@@ -480,7 +550,7 @@ the buffering of religious community-making.
 \begin{itemize}[<+->]
 \tightlist
 \item
-  Perception of Muslim in New Zealand
+  Perception of Muslims in New Zealand
 \item
   Who is a true New Zealander?
 \item
@@ -488,9 +558,22 @@ the buffering of religious community-making.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{But\ldots. it does not raise the Muslim voice}
-\phantomsection\label{but.-it-does-not-raise-the-muslim-voice}
+\begin{frame}[fragile]{My concerns\ldots{}}
+\phantomsection\label{my-concerns}
+\begin{itemize}
+\tightlist
+\item
+  It does not raise the Muslim voice, because\ldots.
+\item
+  Muslims are under-represented as \texttt{participants} as well as as
+  \texttt{researchers}.
+\item
+  We don't have an objective understanding of Muslim lives in New
+  Zealand.
+\end{itemize}
 \end{frame}
+
+\section{Muslim Diversity Study}\label{muslim-diversity-study}
 
 \begin{frame}{Muslim Diversity Study covers}
 \phantomsection\label{muslim-diversity-study-covers}
@@ -498,67 +581,188 @@ the buffering of religious community-making.
 \tightlist
 \item
   Muslims self-perception, perception of discrimination, diversity,
-  flourishing, wellbeing, meaning-making, resilience, and health
-  outcomes.
+  flourishing, wellbeing, meaning-making, resilience, life satisfaction,
+  and health outcomes.
 \item
-  More importantly, effects of religion and religious support.
+  Effects of religion and religious support.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{More importantly, effects of religion and religious
-support.}
-\phantomsection\label{more-importantly-effects-of-religion-and-religious-support.}
+\begin{frame}{Aims}
+\phantomsection\label{aims}
+\begin{itemize}[<+->]
+\tightlist
+\item
+  Increase Muslim community \textbf{representation} in research
+\item
+  Increase \textbf{research opportunities} for the Muslim community
+\item
+  \textbf{Share findings} back with the community members, leadership,
+  and government.
+\end{itemize}
 \end{frame}
 
-\begin{frame}{Increase Muslim community representation}
-\phantomsection\label{increase-muslim-community-representation}
+\begin{frame}{FAQ's}
+\phantomsection\label{faqs}
+::: incremental - Are my responses confidential? - Can my responses be
+linked back to me? - How does it help Muslim community in the long run?
+- How can you participate?
 \end{frame}
 
-\begin{frame}{Increase research opportunities for the Muslim community}
-\phantomsection\label{increase-research-opportunities-for-the-muslim-community}
+\begin{frame}{MDS Team Christchurch}
+\phantomsection\label{mds-team-christchurch}
+\begin{itemize}
+\tightlist
+\item
+  Marzia Ehsani
+\item
+  Zahra Haidary
+\item
+  Dr Nasrat Hamid
+\item
+  Khadija Jasim
+\item
+  Sarah Quader
+\end{itemize}
 \end{frame}
 
-\begin{frame}{Share findings back with the community members,
-leadership, and government.}
-\phantomsection\label{share-findings-back-with-the-community-members-leadership-and-government.}
+\begin{frame}{MDS Auckland Team}
+\phantomsection\label{mds-auckland-team}
+\begin{itemize}
+\tightlist
+\item
+  Omer Anwarzada
+\item
+  Ayyan Ali
+\item
+  Asem Arif
+\item
+  Weaam Bassiouni
+\item
+  Aqsa Butt
+\item
+  Dr Iman Hussain
+\item
+  Abduallah Kalantan
+\item
+  Noor Najm
+\end{itemize}
 \end{frame}
 
-\begin{frame}{Are my responses confidential?}
-\phantomsection\label{are-my-responses-confidential}
-Can they be linked back to me?
+\begin{frame}{MDS Hamilton Team}
+\phantomsection\label{mds-hamilton-team}
+\begin{itemize}
+\tightlist
+\item
+  Sana Nisar Ahmad
+\item
+  Dr Hala Burhoum
+\item
+  Yasir Saifudeen
+\end{itemize}
 \end{frame}
 
-\begin{frame}{How does it help Muslim community in the long run?}
-\phantomsection\label{how-does-it-help-muslim-community-in-the-long-run}
+\begin{frame}{MDS Palmerston North Team}
+\phantomsection\label{mds-palmerston-north-team}
+\begin{itemize}
+\tightlist
+\item
+  Mashal Khan
+\end{itemize}
 \end{frame}
 
-\begin{frame}{How can you participate?}
-\phantomsection\label{how-can-you-participate}
-blah blah blah . . . blah blah blah
+\begin{frame}{MDS Wellington Team}
+\phantomsection\label{mds-wellington-team}
+\begin{itemize}
+\tightlist
+\item
+  Tuba Azeem
+\item
+  Parus Khoso
+\item
+  Hawwa Niyaz
+\item
+  Hussain Raissi
+\end{itemize}
 \end{frame}
 
-\begin{frame}{MDS Team}
-\phantomsection\label{mds-team}
-\begin{columns}[T]
-\begin{column}{0.4\textwidth}
-contents\ldots{}
-\end{column}
+\begin{frame}{MDS Dunedin Team}
+\phantomsection\label{mds-dunedin-team}
+\begin{itemize}
+\tightlist
+\item
+  Dr Farah Shawkat
+\item
+  Dr Mai Tamimi
+\end{itemize}
+\end{frame}
 
-\begin{column}{0.6\textwidth}
-contents\ldots{}
-\end{column}
-\end{columns}
+\begin{frame}{MDS Media and Admin Team}
+\phantomsection\label{mds-media-and-admin-team}
+\begin{itemize}
+\tightlist
+\item
+  Jamila Badis
+\item
+  Noor Najm
+\end{itemize}
 \end{frame}
 
 \begin{frame}{MDS Core Team}
 \phantomsection\label{mds-core-team}
-\includegraphics{figs/usman-a.jpeg} \includegraphics{figs/joe-b.jpg}
-\includegraphics{figs/chris-s.png} \includegraphics{figs/kumar-y.jpg}
-\includegraphics{figs/aarif-r.jpeg}
+\begin{figure}
+
+\begin{minipage}{0.50\linewidth}
+\includegraphics[width=1in,height=\textheight]{figs/usman-a.jpeg}\end{minipage}%
+%
+\begin{minipage}{0.50\linewidth}
+\includegraphics[width=1in,height=\textheight]{figs/joe-b.jpg}
+\includegraphics[width=1in,height=\textheight]{figs/chris-s.png}\end{minipage}%
+\newline
+\begin{minipage}{0.50\linewidth}
+\includegraphics[width=1in,height=\textheight]{figs/kumar-y.jpg}\end{minipage}%
+%
+\begin{minipage}{0.50\linewidth}
+\includegraphics[width=1in,height=\textheight]{figs/aarif-r.jpeg}\end{minipage}%
+
+\end{figure}%
 \end{frame}
 
-\begin{frame}{Team}
-\phantomsection\label{team}
+\begin{frame}{MDS Core Team}
+\phantomsection\label{mds-core-team-1}
+\begin{figure}
+
+\begin{minipage}{0.40\linewidth}
+\includegraphics[width=0.9in,height=\textheight]{figs/usman-a.jpeg}\end{minipage}%
+%
+\begin{minipage}{0.20\linewidth}
+~\end{minipage}%
+%
+\begin{minipage}{0.40\linewidth}
+\includegraphics[width=0.9in,height=\textheight]{figs/joe-b.jpg}\end{minipage}%
+\newline
+\begin{minipage}{0.30\linewidth}
+~\end{minipage}%
+%
+\begin{minipage}{0.40\linewidth}
+\includegraphics[width=0.9in,height=\textheight]{figs/chris-s.png}\end{minipage}%
+%
+\begin{minipage}{0.30\linewidth}
+~\end{minipage}%
+\newline
+\begin{minipage}{0.40\linewidth}
+\includegraphics[width=0.9in,height=\textheight]{figs/kumar-y.jpg}\end{minipage}%
+%
+\begin{minipage}{0.20\linewidth}
+~\end{minipage}%
+%
+\begin{minipage}{0.40\linewidth}
+\includegraphics[width=0.9in,height=\textheight]{figs/aarif-r.jpeg}\end{minipage}%
+
+\end{figure}%
+\end{frame}
+
+\begin{frame}
 \begin{itemize}
 \tightlist
 \item
@@ -570,13 +774,80 @@ contents\ldots{}
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Thanks to}
-\phantomsection\label{thanks-to}
-MSA Library Salam Aotearoa Afghan Association of NZ
+\begin{frame}{Thank you}
+\phantomsection\label{thank-you}
+\begin{itemize}
+\tightlist
+\item
+  UCMUSA
+\item
+  Christchurch MDS Team
+\item
+  Asturlab Cultural Centre
+\end{itemize}
 \end{frame}
 
-\begin{frame}{Special Thanks to MDS Auckland Team}
-\phantomsection\label{special-thanks-to-mds-auckland-team}
+\begin{frame}
+\textbf{Any questions?}
+\end{frame}
+
+\begin{frame}{References}
+\phantomsection\label{references}
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-albuja2019identity}
+Albuja, Analia F, Diana T Sanchez, and Sarah E Gaither. 2019.
+{``Identity Denied: Comparing American or White Identity Denial and
+Psychological Health Outcomes Among Bicultural and Biracial People.''}
+\emph{Personality and Social Psychology Bulletin} 45 (3): 416--30.
+
+\bibitem[\citeproctext]{ref-bosson2006}
+Bosson, JENNIFER K., AMBER B. JOHNSON, KATE NIEDERHOFFER, and WILLIAM B.
+SWANN. 2006. {``Interpersonal Chemistry Through Negativity: Bonding by
+Sharing Negative Attitudes about Others.''} \emph{Personal
+Relationships} 13 (2): 135--50.
+\url{https://doi.org/10.1111/j.1475-6811.2006.00109.x}.
+
+\bibitem[\citeproctext]{ref-brown2004family}
+Brown, Susan L. 2004. {``Family Structure and Child Well-Being: The
+Significance of Parental Cohabitation.''} \emph{Journal of Marriage and
+Family} 66 (2): 351--67.
+
+\bibitem[\citeproctext]{ref-cheryan2005you}
+Cheryan, Sapna, and Benoı̂t Monin. 2005. {``Where Are You Really from?:
+Asian Americans and Identity Denial.''} \emph{Journal of Personality and
+Social Psychology} 89 (5): 717.
+
+\bibitem[\citeproctext]{ref-fein1997a}
+Fein, Steven, and Steven J. Spencer. 1997. {``Prejudice as Self-Image
+Maintenance: Affirming the Self Through Derogating Others.''}
+\emph{Journal of Personality and Social Psychology} 73 (1): 31--44.
+\url{https://doi.org/10.1037/0022-3514.73.1.31}.
+
+\bibitem[\citeproctext]{ref-flewelling1990family}
+Flewelling, Robert L, and Karl E Bauman. 1990. {``Family Structure as a
+Predictor of Initial Substance Use and Sexual Intercourse in Early
+Adolescence.''} \emph{Journal of Marriage and the Family}, 171--81.
+
+\bibitem[\citeproctext]{ref-haurin1992patterns}
+Haurin, R Jean. 1992. {``Patterns of Childhood Residence and the
+Relationship to Young Adult Outcomes.''} \emph{Journal of Marriage and
+the Family}, 846--60.
+
+\bibitem[\citeproctext]{ref-kroger2006identity}
+Kroger, Jane. 2006. {``Identity Development During Adolescence.''}
+\emph{Blackwell Handbook of Adolescence}, 205--26.
+
+\bibitem[\citeproctext]{ref-utz2011psychology}
+Utz, Aisha. 2011. \emph{Psychology from the Islamic Perspective}.
+
+\bibitem[\citeproctext]{ref-weaver2011}
+Weaver, Jonathan R., and Jennifer K. Bosson. 2011. {``I Feel Like I Know
+You: Sharing Negative Attitudes of Others Promotes Feelings of
+Familiarity.''} \emph{Personality and Social Psychology Bulletin} 37
+(4): 481--91. \url{https://doi.org/10.1177/0146167211398364}.
+
+\end{CSLReferences}
 \end{frame}
 
 

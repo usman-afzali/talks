@@ -1,8 +1,8 @@
 ---
 title: "Belonging and Exclusion"
 subtitle: "The Psychology of Identity Crisis in a Diverse World"
-author: "Usman Afzali, PhD - Postdoc Fellow"
-institute: Uni of Canterbury
+author: "Usman Afzali, PhD - Postdoctoral Fellow"
+institute: University of Canterbury
 fontfamily: libertinus
 date: 31 May 2024
 format:
@@ -20,223 +20,392 @@ execute:
   echo: false
   warning: false
   error: false
+editor: 
+  markdown: 
+    wrap: 72
+bibliography: references.bib
 ---
 
-## Institutional Partners
+------------------------------------------------------------------------
 
 ::: {layout="[[1], [1,1,1]]"}
-![](figs/mds.png){width=60% fig-align="center"}
-![](figs/sponsors.png)
+![](figs/mds.png){width="60%" fig-align="center"} ![](figs/sponsors.png)
 :::
 
 ## Outline
+
 -   Social perspective
 -   Developmental perspective
 -   Identity denial
 -   Negative consequences
 -   What to do?
 
-# What is your perception from the term "identity"?
+------------------------------------------------------------------------
+
+**What is your perception from the term "identity"?**
 
 # Social Identity
 
-## Social Identity
-::: {.incremental}
--   People all over the world believe that their own nation, culture, language, and religion are better and more deserving than others.
+## Social Identity Theory
+
+::: incremental
+-   People all over the world believe that their own nation, culture,
+    language, and religion are better and more deserving than others.
 -   But why?
 -   Henri Tajfel (1971)
 :::
 
+------------------------------------------------------------------------
+
+Henri Tajfel 1919 - 1982. From Wikipedia (The Free Encyclopedia)
+
+![](figs/Henri_Tajfel.jpg){fig-align="center"}
+
 ## Social Experiment
-:::: {.columns align=center totalwidth=8em}
-::: {.incremental}
+
+::: {.columns align="center" totalwidth="8em"}
+::: incremental
 ::: {.column width="40%"}
--   Task 1: Estimate the number of dots on each slide
--   Outcome: “over-estimators” and “under-estimators”
-Divided into two random groups
--   Task 2: allocate points to other participants that can be cashed for money
+-   **Task 1**: Estimate the number of dots on each slide
+-   **Outcome**: *"over-estimators"* and *"under-estimators"*
+-   Divided into two random groups
+-   **Task 2**: allocate points to other participants that can be cashed
+    for money.
 :::
 :::
 
 ::: {.column width="60%"}
 ![](figs/tajfel.png)
 :::
-
-:::: 
+:::
 
 ## Findings
-::: {.incremental}
--   More points to members of their own group than to members of the other group.
--   Ingroup favouritism (discrimination)
+
+::: incremental
+-   Allocated more points to members of their own group than to members
+    of the other group.
+-   *Ingroup favouritism* (discrimination)
 -   Replicated in many countries
 -   `Minimal Groups Paradigm`
 :::
 
 ## The need for self-esteem
-![](figs/selfesteem.png)
 
-## Minimal Groups Paradigm
-::: {.incremental}
--   Advantage: derive pride from our connections
--   Disadvantage: the need to belittle “them” in order to feel secure about “us.”
--   Examples: Religious fervor, racial and ethnic conceit, aggressive nationalism, even gossiping (Bosson et al., 2006; Weaver & Bosson, 2011) 
--   When people shared negative attitudes about a third party, they felt closer to each other.
+Kassin et al. (2021)
+
+![](figs/selfesteem.png){width="90%"}
+
+------------------------------------------------------------------------
+
+::: incremental
+-   **Advantage**: derive pride from our connections
+-   **Disadvantage**: the need to belittle *“them”* in order to feel
+    secure about *“us”*.
+-   Examples: Religious fervor, racial and ethnic conceit, aggressive
+    nationalism, even gossiping [@bosson2006; @weaver2011]
+-   When people shared negative attitudes about a third party, they felt
+    closer to each other.
 :::
 
 ## A scenario
-::: {.incremental}
--   In New Zealand, as in many other parts of the world, Muslims often face stereotypes and prejudices due to their religion, culture, or appearance. Islamophobia, or fear and hostility toward Islam and Muslims, can be pervasive in society and can manifest in various forms, such as discrimination, harassment, or even violence.
--   Now, suppose an individual in New Zealand experiences a threat to their self-esteem, such as being criticized by colleagues at work or feeling excluded in a social setting. In response to this threat, they may seek ways to restore their sense of self-worth or superiority. Unfortunately, in some cases, individuals may resort to derogating others, including Muslims, as a means of boosting their own self-esteem.
+
+::: incremental
+-   In New Zealand, as in many other parts of the world, Muslims often
+    face stereotypes and prejudices due to their religion, culture, or
+    appearance. Islamophobia, or fear and hostility toward Islam and
+    Muslims, can be pervasive in society and can manifest in various
+    forms, such as discrimination, harassment, or even violence.
+-   Now, suppose an individual in New Zealand experiences a threat to
+    their self-esteem, such as being criticized by colleagues at work or
+    feeling excluded in a social setting. In response to this threat,
+    they may seek ways to restore their sense of self-worth or
+    superiority. Unfortunately, in some cases, individuals may resort to
+    derogating others, including Muslims, as a means of boosting their
+    own self-esteem.
 :::
 
----
+------------------------------------------------------------------------
 
-::: {.incremental}
--   For example, this person might start expressing or endorsing negative stereotypes about Muslims, such as portraying them as terrorists, backward, or incompatible with Western values. By doing so, they may attempt to reaffirm their own identity or sense of belonging within the dominant culture, thus temporarily alleviating their feelings of insecurity or inferiority.
--   By linking the individual's feelings of insecurity or threat in social or professional settings to the broader context of Islamophobia in New Zealand, you can illustrate how the self-esteem maintenance model proposed by Fein and Spencer may play out in real-life situations, where individuals derogate members of stereotyped groups, such as Muslims, to cope with their own insecurities.
+::: incremental
+-   For example, this person might start expressing or endorsing
+    negative stereotypes about Muslims, such as portraying them as
+    *terrorists*, *backward*, or *incompatible* with Western values. By
+    doing so, they may attempt to reaffirm their own *identity* or sense
+    of *belonging* within the dominant culture, thus temporarily
+    alleviating their feelings of *insecurity* or *inferiority*.
+-   By linking the individual's feelings of insecurity or threat in
+    social or professional settings to the broader context of
+    Islamophobia in New Zealand, we can illustrate how the self-esteem
+    maintenance model [@fein1997a] may play out in real-life situations,
+    where individuals derogate members of stereotyped groups, such as
+    Muslims, to cope with their own insecurities.
 :::
 
----
+------------------------------------------------------------------------
 
-People all over the world believe that their own nation, culture, language, and religion are better and more deserving than others.
+People all over the world believe that their own nation, culture,
+language, and religion are better and more deserving than others.
 
----
+------------------------------------------------------------------------
 
-But wait... `When` do we start thinking about identity?
+**But wait... `When` do we start thinking about identity?**
 
 # Identity Development
 
+## Erik Erikson
+
+1902 - 1994. From Wikipedia (The Free Encyclopedia)
+
+![](figs/Erik_Erikson.jpg){fig-align="center"}
+
 ## Psychosocial theory of human development
-::: {.incremental}
--   Erik Erikson.
+
+::: incremental
 -   Stages of development
--   Each stage represents a psychosocial crisis
-“Human personality in principle develops according to steps predetermined in the growing person’s readiness to be driven toward, to be aware of, and to interact with a widening social radius.” – c. 1963
+-   Each stage represents a psychosocial crisis “Human personality in
+    principle develops according to steps predetermined in the growing
+    person’s readiness to be driven toward, to be aware of, and to
+    interact with a widening social radius.” – c. 1963
 :::
 
 ## Psychosocial theory of human development
-![](figs/stages.png)
+
+Weiten (2013) ![](figs/stages.png){width="90%"}
 
 ## Marcia’s identity statuses
-![](figs/marcia.png)
-Identity achievement is associated with higher self-esteem, conscientiousness, security, achievement motivation, and capacity for intimacy (Kroger, 2003).
 
-# Have you been in a condition that people don’t believe that you are a New Zealander?
+Weiten (2013) ![](figs/marcia.png) Identity achievement is associated
+with higher self-esteem, conscientiousness, security, achievement
+motivation, and capacity for intimacy [@kroger2006identity].
+
+# Negative consequences
+
+## Identity crisis might lead to
+
+-   
+
+------------------------------------------------------------------------
+
+**Have you been in a condition that people don’t believe that you are a
+New Zealander?**
+
+# Identity Denial
 
 ## Identity denial
--   Where are you *really* from?: Asian Americans and identity denial (Cheryan & Monin, 2005)
--   Leads to poor psychological health and wellbeing, such as depressive symptoms and stress (Albuja et al., 2018)
 
-## Do you think we have an identity problem?
+-   Where are you *really* from?: Asian Americans and identity denial
+    [@cheryan2005you]
+-   Leads to poor psychological health and wellbeing, such as depressive
+    symptoms and stress [@albuja2019identity]
 
-## What to do?
-::: {.incremental}
--   Individually: coping, awareness, standing up, promoting positive intergroup contact, building bridges
--   As a group: nurture a strong supportive social network but remember that this should not be exclusive!
+------------------------------------------------------------------------
+
+**Do you think we have an identity problem?**
+
+# Solutions
+
+------------------------------------------------------------------------
+
+::: incremental
+-   Individually: coping, awareness, standing up, promoting positive
+    intergroup contact, building bridges
+-   As a group: nurture a strong supportive social network but remember
+    that this should not be exclusive!
 :::
 
 ## The importance of social support
-::: {.incremental}
--   Whoever desires an increase in his sustenance and age, should keep good relations with kith and kin. Muslim
+
+::: incremental
+-   Whoever desires an increase in his sustenance and age, should keep
+    good relations with kith and kin. `Sahih Muslim`.
 -   Broad. But comes from family, relatives, friends and peers.
--   Social support domains: emotional, instrumental, informational, and physical affection. These buffer individuals from stressors. 
--   Offering/giving social support is more beneficial than receiving it: reduces distress, and improves physical as well as mental health.
--   In married couple mortality was significantly reduced for those who reported providing instrumental support to friends, relatives, neighbours, and spouses. (Utz, 2011)
+-   Social support domains: emotional, instrumental, informational, and
+    physical affection. These buffer individuals from stressors.
+-   Offering/giving social support is more beneficial than receiving it:
+    reduces distress, and improves physical as well as mental health.
+-   In married couples, mortality was significantly reduced for those
+    who reported providing instrumental support to friends, relatives,
+    neighbours, and spouses [@utz2011psychology].
 :::
 
 ## The importance of family/parenting
-::: {.incremental}
--   Married couples have high wellbeing (emotional and psych) and physical
+
+::: incremental
+-   Married couples have high wellbeing (emotional and psych) and
+    physical
 -   Reported being more happy
 -   Significantly low levels of depression
--   Children that grow up in a married two parent family are less likely to experience emotional-behavioural problems (Brown, 2004)
--   They are less likely to drop out of the school, use drugs, give birth as teenagers, or experience child abuse (Flewelling et el., 1990)
--   More educated and better educational outcomes (Haurin, 1992).
+-   Children that grow up in a married two parent family are less likely
+    to experience emotional-behavioural problems [@brown2004family]
+-   They are less likely to drop out of the school, use drugs, give
+    birth as teenagers, or experience child abuse
+    [@flewelling1990family]
+-   More educated and better educational outcomes [@haurin1992patterns].
 :::
 
-## Muslims with the strongest ties to their community as measured by service attendance and prayer are buffered most from anti-Muslim prejudice.
+------------------------------------------------------------------------
 
-## Muslims experience greater challenges to employment and health than matched members of other religious groups.
+**Muslims with the strongest ties to their community as measured by
+service attendance and prayer are buffered most from anti-Muslim
+prejudice.**
 
-Subjective well-being, the meaning of life, and psychological distress are similar among Muslims and matched members of religious groups from the buffering of religious community-making.
+------------------------------------------------------------------------
 
-## Muslim Diversity Study
+**Muslims experience greater challenges to employment and health than
+matched members of other religious groups.**
+
+------------------------------------------------------------------------
+
+**Subjective well-being, the meaning of life, and psychological distress
+are similar among Muslims and matched members of religious groups from
+the buffering of religious community-making.**
+
+------------------------------------------------------------------------
 
 ::: {layout="[[1], [1]]"}
-
-![](figs/mds.png){width=50% fig-align="center"}
+![](figs/mds.png){width="60%" fig-align="center"}
 
 ![](figs/sponsors.png)
-
 :::
 
-
 ## Our research into the perception of Muslim community (2016-present)
-::: {.incremental}
--   Perception of Muslim in New Zealand
+
+::: incremental
+-   Perception of Muslims in New Zealand
 -   Who is a true New Zealander?
 -   Change in attitudes post March 15 attacks
 :::
 
-## But…. it does not raise the Muslim voice
+------------------------------------------------------------------------
+
+## My concerns...
+
+-   It does not raise the Muslim voice, because....
+-   Muslims are under-represented as `participants` as well as as
+    `researchers`.
+-   We don't have an objective understanding of Muslim lives in New
+    Zealand.
+
+# Muslim Diversity Study
 
 ## Muslim Diversity Study covers
-::: {.incremental}
--   Muslims self-perception, perception of discrimination, diversity, flourishing, wellbeing, meaning-making, resilience, and health outcomes.
--   More importantly, effects of religion and religious support.
+
+::: incremental
+-   Muslims self-perception, perception of discrimination, diversity,
+    flourishing, wellbeing, meaning-making, resilience, life
+    satisfaction, and health outcomes.
+-   Effects of religion and religious support.
 :::
 
-## More importantly, effects of religion and religious support.
+## Aims
 
-## Increase Muslim community representation 
-
-## Increase research opportunities for the Muslim community
-
-## Share findings back with the community members, leadership, and government.
-
-## Are my responses confidential?
-Can they be linked back to me?
-
-## How does it help Muslim community in the long run?
-
-## How can you participate?
-blah blah blah
-. . .
-blah blah blah
-
-## MDS Team
-:::: {.columns}
-
-::: {.column width="40%"}
-contents...
+::: incremental
+-   Increase Muslim community **representation** in research
+-   Increase **research opportunities** for the Muslim community
+-   **Share findings** back with the community members, leadership, and
+    government.
 :::
 
-::: {.column width="60%"}
-contents...
-:::
+## FAQ's
 
-::::
+::: incremental 
+-   Are my responses confidential?
+-   Can my responses be linked back to me?
+-   How does it help Muslim community in the long run?
+-   How can you participate?
 
+## MDS Team Christchurch
+
+-   Marzia Ehsani
+-   Zahra Haidary
+-   Dr Nasrat Hamid
+-   Khadija Jasim
+-   Sarah Quader
+
+## MDS Auckland Team 
+
+-   Omer Anwarzada
+-   Ayyan Ali
+-   Asem Arif
+-   Weaam Bassiouni
+-   Aqsa Butt
+-   Dr Iman Hussain
+-   Abduallah Kalantan
+-   Noor Najm
+
+## MDS Hamilton Team
+
+-   Sana Nisar Ahmad
+-   Dr Hala Burhoum
+-   Yasir Saifudeen
+
+## MDS Palmerston North Team
+
+-   Mashal Khan
+
+## MDS Wellington Team
+
+-   Tuba Azeem
+-   Parus Khoso
+-   Hawwa Niyaz
+-   Hussain Raissi
+
+## MDS Dunedin Team
+
+-   Dr Farah Shawkat
+-   Dr Mai Tamimi
+
+## MDS Media and Admin Team
+-   Jamila Badis
+-   Noor Najm
 
 ## MDS Core Team
 
-![](figs/usman-a.jpeg)
-![](figs/joe-b.jpg)
-![](figs/chris-s.png)
-![](figs/kumar-y.jpg)
-![](figs/aarif-r.jpeg)
+:::{layout-nrow=2}
+![](figs/usman-a.jpeg){width=1in}
+
+![](figs/joe-b.jpg){width=1in}
+![](figs/chris-s.png){width=1in}
 
 
-## Team
+![](figs/kumar-y.jpg){width=1in}
+
+![](figs/aarif-r.jpeg){width=1in}
+
+:::
+
+## MDS Core Team
+
+:::{layout="[[40,-20,40], [-30, 40, -30], [40,-20,40]]"}
+
+![](figs/usman-a.jpeg){width=0.9in}
+
+![](figs/joe-b.jpg){width=0.9in}
+
+![](figs/chris-s.png){width=0.9in}
+
+![](figs/kumar-y.jpg){width=0.9in}
+
+![](figs/aarif-r.jpeg){width=0.9in}
+
+:::
+
+---
 
 -   20+ Research Assistants
 -   Numerous research collaborators
--   Muslim Reference Group 
+-   Muslim Reference Group
 
-## Thanks to
-MSA
-Library
-Salam Aotearoa
-Afghan Association of NZ
+## Thank you
 
-## Special Thanks to MDS Auckland Team
+-   UCMUSA
+-   Christchurch MDS Team
+-   Asturlab Cultural Centre
+
+---
+
+**Any questions?**
+
+
+## References
+
