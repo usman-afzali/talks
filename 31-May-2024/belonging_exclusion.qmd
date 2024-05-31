@@ -307,7 +307,7 @@ the buffering of religious community-making.
 
 :::
 
-# Muslim Diversity Study
+# Muslim Diversity Study (MDS)
 
 ## Muslim Diversity Study covers
 
@@ -333,6 +333,7 @@ the buffering of religious community-making.
 
 -   Are my responses confidential?
 -   Can my responses be linked back to me?
+-   I don't like some of the questions. Is it required to answer all questions?
 -   How does it help Muslim community in the long run?
 -   How can you participate?
 :::
