@@ -150,7 +150,7 @@ language, and religion are better and more deserving than others.**
 
 **But wait... `When` do we start thinking about identity?**
 
-# Identity Development
+# Identity development
 
 ## Erik Erikson
 
@@ -183,13 +183,16 @@ motivation, and capacity for intimacy [@kroger2006identity].
 
 ## Identity confusion might lead to
 
+[@côté2018]
+
+:::incremental
 -   Anxiety
 -   Depression
 -   Stress and feeling of being overwhelmed
 -   Generally, not a disorder, unless it becomes debilitating
 -   For us, it is a bit more complex.
+:::
 
-[@côté2018]
 
 ------------------------------------------------------------------------
 
@@ -251,17 +254,17 @@ New Zealander?**
 :::
 
 ## What are your thoughts on the following?
-:::{incremental}
+
+:::incremental
 -   What brought us together here today?
 -   Do we need to look further into Muslim lives, in a more objective way?
-:::
----
-:::{incremental}
 -   Are Muslims' happiness, sense of meaning in life, and levels of psychological stress similar to those of people from other religious groups because of the support they get from their religious communities?
 -   Will attending mosque more, prevent us from feeling of discrimination?
 -   Do we face more challenges to employment and health service than other groups?
 :::
+
 ------------------------------------------------------------------------
+
 
 1.  Muslims with the strongest ties to their community as measured by
 service attendance and prayer are buffered most from anti-Muslim
@@ -273,6 +276,7 @@ matched members of other religious groups.
 3. Subjective well-being, the meaning of life, and psychological distress
 are similar among Muslims and matched members of religious groups from
 the buffering of religious community-making.
+
 
 ------------------------------------------------------------------------
 
@@ -323,10 +327,12 @@ the buffering of religious community-making.
 ## FAQ's
 
 ::: incremental
+
 -   Are my responses confidential?
 -   Can my responses be linked back to me?
 -   How does it help Muslim community in the long run?
 -   How can you participate?
+:::
 
 ## MDS Team Christchurch
 
