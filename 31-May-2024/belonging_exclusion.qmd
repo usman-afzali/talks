@@ -298,11 +298,14 @@ the buffering of religious community-making.
 
 ## My concerns...
 
+::: incremental
 -   It does not raise the Muslim voice, because....
 -   Muslims are under-represented as `participants` as well as as
     `researchers`.
 -   We don't have an objective understanding of Muslim lives in New
     Zealand.
+
+:::
 
 # Muslim Diversity Study
 
