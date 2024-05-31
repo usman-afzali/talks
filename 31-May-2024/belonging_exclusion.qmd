@@ -42,11 +42,11 @@ bibliography: references.bib
 
 ------------------------------------------------------------------------
 
-**What is your perception from the term "identity"?**
+**What is your perception from the term *"identity"*?**
 
-# Social Identity
+# How is identity formed socially?
 
-## Social Identity Theory
+## Identity formation
 
 ::: incremental
 -   People all over the world believe that their own nation, culture,
@@ -61,15 +61,15 @@ Henri Tajfel 1919 - 1982. From Wikipedia (The Free Encyclopedia)
 
 ![](figs/Henri_Tajfel.jpg){fig-align="center"}
 
-## Social Experiment
+## Social experiment
 
 ::: {.columns align="center" totalwidth="8em"}
 ::: incremental
 ::: {.column width="40%"}
 -   **Task 1**: Estimate the number of dots on each slide
--   **Outcome**: *"over-estimators"* and *"under-estimators"*
+-   **Outcome**: *"Over-estimators"* and *"under-estimators"*
 -   Divided into two random groups
--   **Task 2**: allocate points to other participants that can be cashed
+-   **Task 2**: Allocate points to other participants that can be cashed
     for money.
 :::
 :::
@@ -82,8 +82,8 @@ Henri Tajfel 1919 - 1982. From Wikipedia (The Free Encyclopedia)
 ## Findings
 
 ::: incremental
--   Allocated more points to members of their own group than to members
-    of the other group.
+-   Allocated **more** points to members of their own group than to
+    members of the other group.
 -   *Ingroup favouritism* (discrimination)
 -   Replicated in many countries
 -   `Minimal Groups Paradigm`
@@ -98,11 +98,11 @@ Kassin et al. (2021)
 ------------------------------------------------------------------------
 
 ::: incremental
--   **Advantage**: derive pride from our connections
--   **Disadvantage**: the need to belittle *“them”* in order to feel
+-   **Advantage**: Derive pride from our connections
+-   **Disadvantage**: The need to belittle *“them”* in order to feel
     secure about *“us”*.
 -   Examples: Religious fervor, racial and ethnic conceit, aggressive
-    nationalism, even gossiping [@bosson2006; @weaver2011]
+    nationalism, and even gossiping [@bosson2006; @weaver2011]
 -   When people shared negative attitudes about a third party, they felt
     closer to each other.
 :::
@@ -143,8 +143,8 @@ Kassin et al. (2021)
 
 ------------------------------------------------------------------------
 
-People all over the world believe that their own nation, culture,
-language, and religion are better and more deserving than others.
+**People all over the world believe that their own nation, culture,
+language, and religion are better and more deserving than others.**
 
 ------------------------------------------------------------------------
 
@@ -162,10 +162,11 @@ language, and religion are better and more deserving than others.
 
 ::: incremental
 -   Stages of development
--   Each stage represents a psychosocial crisis “Human personality in
-    principle develops according to steps predetermined in the growing
-    person’s readiness to be driven toward, to be aware of, and to
-    interact with a widening social radius.” – c. 1963
+-   Each stage represents a psychosocial crisis
+-   “Human *personality* in principle develops according to steps
+    predetermined in the growing person’s readiness to be driven toward,
+    to be aware of, and to interact with a widening social radius.” – c.
+    1963
 :::
 
 ## Psychosocial theory of human development
@@ -180,27 +181,34 @@ motivation, and capacity for intimacy [@kroger2006identity].
 
 # Negative consequences
 
-## Identity crisis might lead to
+## Identity confusion might lead to
 
--   
+-   Anxiety
+-   Depression
+-   Stress and feeling of being overwhelmed
+-   Generally, not a disorder, unless it becomes debilitating
+-   For us, it is a bit more complex.
+
+[@côté2018]
 
 ------------------------------------------------------------------------
 
 **Have you been in a condition that people don’t believe that you are a
 New Zealander?**
 
-# Identity Denial
+# Identity denial
 
 ## Identity denial
-
+:::incremental
 -   Where are you *really* from?: Asian Americans and identity denial
     [@cheryan2005you]
 -   Leads to poor psychological health and wellbeing, such as depressive
     symptoms and stress [@albuja2019identity]
-
+:::
 ------------------------------------------------------------------------
 
-**Do you think we have an identity problem?**
+**Do you think our youth have an identity problem?**
+
 
 # Solutions
 
@@ -209,8 +217,8 @@ New Zealander?**
 ::: incremental
 -   Individually: coping, awareness, standing up, promoting positive
     intergroup contact, building bridges
--   As a group: nurture a strong supportive social network but remember
-    that this should not be exclusive!
+-   As a group: nurture a strong supportive social network
+-   But remember that this should not be exclusive!
 :::
 
 ## The importance of social support
@@ -231,8 +239,7 @@ New Zealander?**
 ## The importance of family/parenting
 
 ::: incremental
--   Married couples have high wellbeing (emotional and psych) and
-    physical
+-   Married couples have high emotional, psychological, and physical wellbeing
 -   Reported being more happy
 -   Significantly low levels of depression
 -   Children that grow up in a married two parent family are less likely
@@ -243,22 +250,29 @@ New Zealander?**
 -   More educated and better educational outcomes [@haurin1992patterns].
 :::
 
+## What are your thoughts on the following?
+:::{incremental}
+-   What brought us together here today?
+-   Do we need to look further into Muslim lives, in a more objective way?
+:::
+---
+:::{incremental}
+-   Are Muslims' happiness, sense of meaning in life, and levels of psychological stress similar to those of people from other religious groups because of the support they get from their religious communities?
+-   Will attending mosque more, prevent us from feeling of discrimination?
+-   Do we face more challenges to employment and health service than other groups?
+:::
 ------------------------------------------------------------------------
 
-**Muslims with the strongest ties to their community as measured by
+1.  Muslims with the strongest ties to their community as measured by
 service attendance and prayer are buffered most from anti-Muslim
-prejudice.**
+prejudice.
 
-------------------------------------------------------------------------
+2.    Muslims experience greater challenges to employment and health than
+matched members of other religious groups.
 
-**Muslims experience greater challenges to employment and health than
-matched members of other religious groups.**
-
-------------------------------------------------------------------------
-
-**Subjective well-being, the meaning of life, and psychological distress
+3. Subjective well-being, the meaning of life, and psychological distress
 are similar among Muslims and matched members of religious groups from
-the buffering of religious community-making.**
+the buffering of religious community-making.
 
 ------------------------------------------------------------------------
 
@@ -272,7 +286,7 @@ the buffering of religious community-making.**
 
 ::: incremental
 -   Perception of Muslims in New Zealand
--   Who is a true New Zealander?
+-   National identity
 -   Change in attitudes post March 15 attacks
 :::
 
@@ -308,7 +322,7 @@ the buffering of religious community-making.**
 
 ## FAQ's
 
-::: incremental 
+::: incremental
 -   Are my responses confidential?
 -   Can my responses be linked back to me?
 -   How does it help Muslim community in the long run?
@@ -318,11 +332,10 @@ the buffering of religious community-making.**
 
 -   Marzia Ehsani
 -   Zahra Haidary
--   Dr Nasrat Hamid
 -   Khadija Jasim
 -   Sarah Quader
 
-## MDS Auckland Team 
+## MDS Auckland Team
 
 -   Omer Anwarzada
 -   Ayyan Ali
@@ -356,45 +369,45 @@ the buffering of religious community-making.**
 -   Dr Mai Tamimi
 
 ## MDS Media and Admin Team
+
 -   Jamila Badis
 -   Noor Najm
 
 ## MDS Core Team
 
-:::{layout-nrow=2}
-![](figs/usman-a.jpeg){width=1in}
+::: {layout="[[40,-20,40], [-30, 40, -30], [40,-20,40]]"}
+![](figs/usman-a.jpeg){width="0.9in"}
 
-![](figs/joe-b.jpg){width=1in}
-![](figs/chris-s.png){width=1in}
+![](figs/joe-b.jpg){width="0.9in"}
 
+![](figs/chris-s.png){width="0.9in"}
 
-![](figs/kumar-y.jpg){width=1in}
+![](figs/kumar-y.jpg){width="0.9in"}
 
-![](figs/aarif-r.jpeg){width=1in}
-
+![](figs/aarif-r.jpeg){width="0.9in"}
 :::
 
-## MDS Core Team
-
-:::{layout="[[40,-20,40], [-30, 40, -30], [40,-20,40]]"}
-
-![](figs/usman-a.jpeg){width=0.9in}
-
-![](figs/joe-b.jpg){width=0.9in}
-
-![](figs/chris-s.png){width=0.9in}
-
-![](figs/kumar-y.jpg){width=0.9in}
-
-![](figs/aarif-r.jpeg){width=0.9in}
-
-:::
-
----
+------------------------------------------------------------------------
 
 -   20+ Research Assistants
 -   Numerous research collaborators
 -   Muslim Reference Group
+
+## Talks in the past
+
+![](figs/care-lecture.png){width="40%"}
+
+![](figs/uc-lecture.png){width="40%"}
+
+## To find out more
+
+![](figs/mds-uc-banner.png)
+
+<https://linktr.ee/muslimdiversity>
+
+## Or use this QR code
+
+![](figs/mds-qr.png){width=50%}
 
 ## Thank you
 
@@ -402,10 +415,8 @@ the buffering of religious community-making.**
 -   Christchurch MDS Team
 -   Asturlab Cultural Centre
 
----
+------------------------------------------------------------------------
 
 **Any questions?**
 
-
 ## References
-
