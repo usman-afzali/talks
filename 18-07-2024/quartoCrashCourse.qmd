@@ -1,0 +1,245 @@
+---
+title: "Quarto Crash Course"
+subtitle: "For School of Psychology, Speech and Hearing"
+author: "Usman Afzali"
+institute: "University of Canterbury"
+date: 2024 07 18
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+---
+
+## Karakia Whakatūwhera {background-color="#346bc8"}
+
+::: {layout="[[50, 50], [100]]"}
+Whakataka te hau ki te uru/ Whakataka te hau ki te tonga/ Kia mākinakina ki uta/ Kia mātaratara ki tai/ E hī ake ana te atakura/ He tio, he huka, he hau hū/ Tīhei mauri ora!
+
+Cease the winds from the west/ Cease the winds from the south/ Let the breeze blow over the land/ Let the breeze blow over the ocean/ Let the red-tipped dawn come with a sharpened air./ A touch of frost, a promise of a glorious day.
+:::
+
+# Kauhau {background-color="orange"}
+
+::: incremental
+-   What is `Quarto`?
+-   Documentation
+-   Version control, Remote repositories, and Blogging
+-   Templates
+-   Presentation
+-   Final thoughts
+:::
+
+## Problem 1 {background-color="#346bc8"}
+
+![](/posts/problem1.png){width="70%"}
+
+[Solution](https://github.com/usman-afzali/think-no-think/blob/main/TNT-processing-code.py)
+
+## Problem(s) 2 {background-color="#346bc8"}
+
+-   Time constraints and having to be efficient.
+-   Having to redo a whole document only to change formatting for various purposes.
+-   MS Word is not necessarily the best application for writing up.
+-   The need to remember data analysis/stats decisions made along the way.
+
+::: callout-important
+## What about the audience?
+
+Any other similar problems?
+:::
+
+## My favourite(?!) problem {background-color="#346bc8"}
+
+![](/posts/final.jpeg)
+
+## And then... {background-color="#346bc8"}
+
+![](/posts/mc-q.png)
+
+# Introduction {background-color="orange"}
+
+## Quarto {background-color="#346bc8"}
+
+![](/posts/quarto-intro.png)
+
+[Website](https://quarto.org)
+
+## Featured in *Nature* {background-color="#346bc8"}
+
+Cut the tyranny of copy-and-paste with these coding tools [@perkel2022]
+
+::: incremental
+-   App-switching, updating your numbers, fix an error
+-   Use `executable manuscripts`
+-   "Reduces the number of manual things you have to do" (Sarah Pederzani)
+-   Transparency
+-   Version control
+-   Collaboration
+-   Steep curve :)
+:::
+
+# Documentation {background-color="orange"}
+
+## Basics {background-color="#346bc8"}
+
+::: incremental
+-   Use the latest version of `RStudio`, at least `Version: 2022.12.0+353` or later on your computer.
+-   Within `RStudio`, click on `new file` drop down menu and open a new `Quarto Document`, and name it. ![RStudio Interface](/posts/r-interface.png)
+:::
+
+## Basics cont... {background-color="#346bc8"}
+
+-   Let's have a sneak peak at different parts of a quarto document [here](https://monashdatafluency.github.io/r-rep-res-quarto/03-quarto-documents/index.html).
+-   Once the `.qmd` document is opened, use either the `source` tab or `visual` tab to start documenting or writing code. Then hit `Render`. You will see output in the `Viewer` menu. See next slide.
+
+## Basics cont... {background-color="#346bc8"}
+
+![](/posts/rstudio-interf-2.png)
+
+## Basics cont... {background-color="#346bc8"}
+
+::: incremental
+-   For a brief start-up, copy [this code](https://github.com/usman-afzali/quarto-with-rstudio/blob/main/posts/quartoBasics.qmd) and paste it in the current open `.qmd` and hit render.
+-   Alternatively, you can copy a similar `.qmd` document to the current project, open it, then edit and render it.
+-   Demo
+-   A comprehensive step-by-step tutorial is available on Quarto [website](https://quarto.org/docs/authoring/markdown-basics.html).
+-   Or, you could watch this YouTube [video](https://www.youtube.com/watch?v=yvi5uXQMvu4) in your own time. It is a bit outdated, but a great start.
+:::
+
+## Add citations and reference list {background-color="#346bc8"}
+
+Best done using the `visual editor`.
+
+E.g., Quarto can be used to create executable manuscripts in RStudio, Python, or VS Code [@perkel2022].
+
+## Saving as pdf {background-color="#346bc8"}
+
+Add the following code to `yaml`.
+
+```         
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+```
+
+Visit [quarto website](https://quarto.org/docs/output-formats/pdf-basics.html) for further details.
+
+# Version control, Remote repositories, and Blogging {background-color="orange"}
+
+## Git {background-color="#346bc8"}
+
+![](/posts/git.png)
+
+To know more: See [official website](https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F), or just this quick [start-up guide](https://usman-afzali.github.io/quarto-with-rstudio/posts/git/git.html)
+
+## GitHub {background-color="#346bc8"}
+
+![](/posts/github.png)
+
+<https://github.com>
+
+## Blogging {background-color="#346bc8"}
+
+Now that we know basics of documentation, version control and remote repos (I know, we are yet to demonstrate this), blogging is extremely easy with Quarto. There are two ways:
+
+1.  We can add a `_quarto.yml` file in to our local repo, render it, and it would starting shaping like a blog. This is the more complicated way.
+2.  We can use an available blog template, create a new local repo and take it from there.
+
+Here is a [quick guide](https://youtu.be/YoKjBcuUP0s).
+
+## Blogging contd... {background-color="#346bc8"}
+
+Blogging with Quarto can be done with the use of Git and `GitHub Pages`, or we can also use `PositCloud` instead of GitHub Pages.
+
+As we can see [here](https://quarto.org/docs/publishing/github-pages.html#render-to-docs), a must do step during blogging with GitHub Pages is rendering output directory to `docs` in `_quarto.yml`.
+
+```         
+project:
+  type: website
+  output-dir: docs
+```
+
+## Demo {background-color="#346bc8"}
+
+Important steps for using remote repo are:
+
+1.  Installing Git
+2.  Creating a GitHub account
+3.  Connecting the local system with remote repo
+4.  Creating a repository on GitHub
+5.  Connecting the remote repo with the local one
+
+These steps are important whether or not we are blogging. For blogging, then of course we need a publisher domain - which could be GitHub Pages or PositCloud.
+
+# Quarto Templates {background-color="orange"}
+
+## An example {background-color="#346bc8"}
+
+-   Taylor and Francis:
+
+<https://github.com/mikemahoney218/quarto-tandf>.
+
+Follow on-screen instruction.
+
+-   For further info, see [Article Templates](https://quarto.org/docs/journals/templates.html)
+
+## Advantages of documentation with Quarto {background-color="#346bc8"}
+
+-   Keep your data files and write up files integrated.
+-   Create re-usable workflow -- becomes much easier once we are familiar.
+-   Use version control to see the previous versions.
+-   Hide/show `R` code when appropriate.
+-   Move ready-made `.qmd` files to a journal template rather than re-formatting the whole manuscript.
+-   The pdf version is generally appropriate for `PsyArXiv`.
+
+# Presentation {background-color="orange"}
+
+## Basic slides {background-color="#346bc8"}
+
+-   We used the good ol' `.qmd`.
+-   Add `revealjs` in the format. Or, to make it more elaborate:
+
+```         
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+```
+
+-   Further info: <https://quarto.org/docs/presentations/>
+
+-   Demo: let's use the current slides as an example :)
+
+## Sharing slides {background-color="#346bc8"}
+
+1.  Save as pdf: This option only works with `Google Chrome` as explained [here](https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf). Or, see below. ![](/posts/pdf.png)
+
+## Sharing slides {background-color="#346bc8"}
+
+2.  Provide the url from the blog/site.
+
+What are the advantages?
+
+## Final thoughts {background-color="#346bc8"}
+
+-   How I use Quarto: See my [repositories](https://github.com/usman-afzali?tab=repositories)
+
+-   Getting Help: [Awesome Quarto](https://github.com/mcanouil/awesome-quarto), Quarto website, YouTube, social media.
+
+-   Anonymous feedback: please use this [link](https://forms.gle/w4dp1UgRGZ3Vbgqf8)
+
+## Karakia Whakatūwhera {background-color="#346bc8"}
+
+::: {layout="[[50, 50], [100]]"}
+Unuhia, unuhia/ Te pou, te pou/ Kia wātea, kia wātea/ Āe, kua wātea
+
+Remove, uplift/ The posts/ In order to be free/ Yes, it has been cleared/
+:::
+
+# THE END {background-color="orange"}
+
+# References
