@@ -10,7 +10,7 @@
 <link href="quartoCrashCourse_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.552">
 
-  <meta name="author" content="Usman Afzali">
+  <meta name="author" content="Usman Afzali, PhD - Postdoctoral Fellow">
   <meta name="dcterms.date" content="2024-07-18">
   <title>Quarto Crash Course</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -30,7 +30,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="quartoCrashCourse_files/libs/revealjs/dist/theme/quarto.css">
   <link href="quartoCrashCourse_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="quartoCrashCourse_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -333,7 +353,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Usman Afzali 
+Usman Afzali, PhD - Postdoctoral Fellow 
 </div>
         <p class="quarto-title-affiliation">
             University of Canterbury
@@ -342,19 +362,6 @@ Usman Afzali
 </div>
 
   <p class="date">2024-07-18</p>
-</section>
-<section id="karakia-whakatūwhera" class="slide level2" data-background-color="#346bc8">
-<h2>Karakia Whakatūwhera</h2>
-<div class="quarto-layout-panel" data-layout="[[50, 50], [100]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p>Whakataka te hau ki te uru/ Whakataka te hau ki te tonga/ Kia mākinakina ki uta/ Kia mātaratara ki tai/ E hī ake ana te atakura/ He tio, he huka, he hau hū/ Tīhei mauri ora!</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p>Cease the winds from the west/ Cease the winds from the south/ Let the breeze blow over the land/ Let the breeze blow over the ocean/ Let the red-tipped dawn come with a sharpened air./ A touch of frost, a promise of a glorious day.</p>
-</div>
-</div>
-</div>
 </section>
 <section>
 <section id="kauhau" class="title-slide slide level1 center" data-background-color="orange">
@@ -373,16 +380,20 @@ Usman Afzali
 <section id="problem-1" class="slide level2" data-background-color="#346bc8">
 <h2>Problem 1</h2>
 
-<img data-src="/posts/problem1.png" style="width:70.0%" class="r-stretch"><p><a href="https://github.com/usman-afzali/think-no-think/blob/main/TNT-processing-code.py">Solution</a></p>
-</section>
+<img data-src="/posts/problem1.png" style="width:70.0%" class="r-stretch"></section>
 <section id="problems-2" class="slide level2" data-background-color="#346bc8">
 <h2>Problem(s) 2</h2>
+<div>
 <ul>
-<li>Time constraints and having to be efficient.</li>
-<li>Having to redo a whole document only to change formatting for various purposes.</li>
-<li>MS Word is not necessarily the best application for writing up.</li>
-<li>The need to remember data analysis/stats decisions made along the way.</li>
+<li class="fragment">Time constraints and having to be efficient.</li>
+<li class="fragment">Having to redo a whole document only to change formatting for various purposes.</li>
+<li class="fragment">MS Word is not necessarily the best application for writing up.</li>
+<li class="fragment">The need to remember data analysis/stats decisions made along the way.</li>
 </ul>
+</div>
+</section>
+<section id="section" class="slide level2" data-background-color="#346bc8">
+<h2></h2>
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -417,7 +428,7 @@ Usman Afzali
 </section>
 <section id="featured-in-nature" class="slide level2" data-background-color="#346bc8">
 <h2>Featured in <em>Nature</em></h2>
-<p>Cut the tyranny of copy-and-paste with these coding tools <span class="citation" data-cites="perkel2022">[@perkel2022]</span></p>
+<p>Cut the tyranny of copy-and-paste with these coding tools <span class="citation" data-cites="perkel2022">(<a href="#/references" role="doc-biblioref" onclick="">Perkel 2022</a>)</span></p>
 <div>
 <ul>
 <li class="fragment">App-switching, updating your numbers, fix an error</li>
@@ -447,7 +458,7 @@ Usman Afzali
 <section id="basics-cont" class="slide level2" data-background-color="#346bc8">
 <h2>Basics cont…</h2>
 <ul>
-<li>Let’s have a sneak peak at different parts of a quarto document <a href="https://monashdatafluency.github.io/r-rep-res-quarto/03-quarto-documents/index.html">here</a>.</li>
+<li>Let’s have a sneak peak at different parts of a quarto document <a href="https://quarto.org/docs/output-formats/html-basics.html">here</a>.</li>
 <li>Once the <code>.qmd</code> document is opened, use either the <code>source</code> tab or <code>visual</code> tab to start documenting or writing code. Then hit <code>Render</code>. You will see output in the <code>Viewer</code> menu. See next slide.</li>
 </ul>
 </section>
@@ -459,9 +470,9 @@ Usman Afzali
 <h2>Basics cont…</h2>
 <div>
 <ul>
-<li class="fragment">For a brief start-up, copy <a href="https://github.com/usman-afzali/quarto-with-rstudio/blob/main/posts/quartoBasics.qmd">this code</a> and paste it in the current open <code>.qmd</code> and hit render.</li>
-<li class="fragment">Alternatively, you can copy a similar <code>.qmd</code> document to the current project, open it, then edit and render it.</li>
+<li class="fragment">Let’s try some hands on start-up.</li>
 <li class="fragment">Demo</li>
+<li class="fragment">Alternatively, you can copy a similar <code>.qmd</code> document to the current project, open it, then edit and render it.</li>
 <li class="fragment">A comprehensive step-by-step tutorial is available on Quarto <a href="https://quarto.org/docs/authoring/markdown-basics.html">website</a>.</li>
 <li class="fragment">Or, you could watch this YouTube <a href="https://www.youtube.com/watch?v=yvi5uXQMvu4">video</a> in your own time. It is a bit outdated, but a great start.</li>
 </ul>
@@ -470,7 +481,7 @@ Usman Afzali
 <section id="add-citations-and-reference-list" class="slide level2" data-background-color="#346bc8">
 <h2>Add citations and reference list</h2>
 <p>Best done using the <code>visual editor</code>.</p>
-<p>E.g., Quarto can be used to create executable manuscripts in RStudio, Python, or VS Code <span class="citation" data-cites="perkel2022">[@perkel2022]</span>.</p>
+<p>E.g., Quarto can be used to create executable manuscripts in RStudio, Python, or VS Code <span class="citation" data-cites="perkel2022">(<a href="#/references" role="doc-biblioref" onclick="">Perkel 2022</a>)</span>.</p>
 </section>
 <section id="saving-as-pdf" class="slide level2" data-background-color="#346bc8">
 <h2>Saving as pdf</h2>
@@ -481,6 +492,15 @@ Usman Afzali
     number-sections: true
     colorlinks: true</code></pre>
 <p>Visit <a href="https://quarto.org/docs/output-formats/pdf-basics.html">quarto website</a> for further details.</p>
+</section>
+<section id="saving-as-docxword" class="slide level2" data-background-color="#346bc8">
+<h2>Saving as docx/Word</h2>
+<p>Add the following code to <code>yaml</code>.</p>
+<pre><code>format:
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github</code></pre>
 </section></section>
 <section>
 <section id="version-control-remote-repositories-and-blogging" class="title-slide slide level1 center" data-background-color="orange">
@@ -490,7 +510,7 @@ Usman Afzali
 <section id="git" class="slide level2" data-background-color="#346bc8">
 <h2>Git</h2>
 
-<img data-src="/posts/git.png" class="r-stretch"><p>To know more: See <a href="https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">official website</a>, or just this quick <a href="https://usman-afzali.github.io/quarto-with-rstudio/posts/git/git.html">start-up guide</a></p>
+<img data-src="/posts/git.png" class="r-stretch"><p>To know more: See <a href="https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">official website</a></p>
 </section>
 <section id="github" class="slide level2" data-background-color="#346bc8">
 <h2>GitHub</h2>
@@ -544,14 +564,16 @@ Usman Afzali
 </section>
 <section id="advantages-of-documentation-with-quarto" class="slide level2" data-background-color="#346bc8">
 <h2>Advantages of documentation with Quarto</h2>
+<div>
 <ul>
-<li>Keep your data files and write up files integrated.</li>
-<li>Create re-usable workflow – becomes much easier once we are familiar.</li>
-<li>Use version control to see the previous versions.</li>
-<li>Hide/show <code>R</code> code when appropriate.</li>
-<li>Move ready-made <code>.qmd</code> files to a journal template rather than re-formatting the whole manuscript.</li>
-<li>The pdf version is generally appropriate for <code>PsyArXiv</code>.</li>
+<li class="fragment">Keep your data files and write up files integrated.</li>
+<li class="fragment">Create re-usable workflow – becomes much easier once we are familiar.</li>
+<li class="fragment">Use version control to see the previous versions.</li>
+<li class="fragment">Hide/show <code>R</code> code when appropriate.</li>
+<li class="fragment">Move ready-made <code>.qmd</code> files to a journal template rather than re-formatting the whole manuscript.</li>
+<li class="fragment">The pdf version is generally appropriate for <code>PsyArXiv</code>.</li>
 </ul>
+</div>
 </section></section>
 <section>
 <section id="presentation" class="title-slide slide level1 center" data-background-color="orange">
@@ -595,7 +617,7 @@ Usman Afzali
 <li><p>Anonymous feedback: please use this <a href="https://forms.gle/w4dp1UgRGZ3Vbgqf8">link</a></p></li>
 </ul>
 </section>
-<section id="karakia-whakatūwhera-1" class="slide level2" data-background-color="#346bc8">
+<section id="karakia-whakatūwhera" class="slide level2" data-background-color="#346bc8">
 <h2>Karakia Whakatūwhera</h2>
 <div class="quarto-layout-panel" data-layout="[[50, 50], [100]]">
 <div class="quarto-layout-row">
@@ -613,11 +635,16 @@ Usman Afzali
 
 </section>
 
-<section id="references" class="title-slide slide level1 center">
+<section id="references" class="title-slide slide level1 smaller scrollable">
 <h1>References</h1>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-perkel2022" class="csl-entry" role="listitem">
+Perkel, Jeffrey M. 2022. <span>“Cut the Tyranny of Copy-and-Paste with These Coding Tools.”</span> <em>Nature</em> 603 (7899): 191–92. <a href="https://doi.org/10.1038/d41586-022-00563-z">https://doi.org/10.1038/d41586-022-00563-z</a>.
 </div>
 </div>
 </section>

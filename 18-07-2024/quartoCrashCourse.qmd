@@ -1,7 +1,7 @@
 ---
 title: "Quarto Crash Course"
 subtitle: "For School of Psychology, Speech and Hearing"
-author: "Usman Afzali"
+author: "Usman Afzali, PhD - Postdoctoral Fellow"
 institute: "University of Canterbury"
 date: 2024 07 18
 format: 
@@ -9,15 +9,8 @@ format:
     theme: simple
     highlight-style: github
     slide-number: c/t
+bibliography: references.bib
 ---
-
-## Karakia Whakatūwhera {background-color="#346bc8"}
-
-::: {layout="[[50, 50], [100]]"}
-Whakataka te hau ki te uru/ Whakataka te hau ki te tonga/ Kia mākinakina ki uta/ Kia mātaratara ki tai/ E hī ake ana te atakura/ He tio, he huka, he hau hū/ Tīhei mauri ora!
-
-Cease the winds from the west/ Cease the winds from the south/ Let the breeze blow over the land/ Let the breeze blow over the ocean/ Let the red-tipped dawn come with a sharpened air./ A touch of frost, a promise of a glorious day.
-:::
 
 # Kauhau {background-color="orange"}
 
@@ -34,14 +27,16 @@ Cease the winds from the west/ Cease the winds from the south/ Let the breeze bl
 
 ![](/posts/problem1.png){width="70%"}
 
-[Solution](https://github.com/usman-afzali/think-no-think/blob/main/TNT-processing-code.py)
-
 ## Problem(s) 2 {background-color="#346bc8"}
 
+::: incremental
 -   Time constraints and having to be efficient.
 -   Having to redo a whole document only to change formatting for various purposes.
 -   MS Word is not necessarily the best application for writing up.
 -   The need to remember data analysis/stats decisions made along the way.
+:::
+
+##  {background-color="#346bc8"}
 
 ::: callout-important
 ## What about the audience?
@@ -90,7 +85,7 @@ Cut the tyranny of copy-and-paste with these coding tools [@perkel2022]
 
 ## Basics cont... {background-color="#346bc8"}
 
--   Let's have a sneak peak at different parts of a quarto document [here](https://monashdatafluency.github.io/r-rep-res-quarto/03-quarto-documents/index.html).
+-   Let's have a sneak peak at different parts of a quarto document [here](https://quarto.org/docs/output-formats/html-basics.html).
 -   Once the `.qmd` document is opened, use either the `source` tab or `visual` tab to start documenting or writing code. Then hit `Render`. You will see output in the `Viewer` menu. See next slide.
 
 ## Basics cont... {background-color="#346bc8"}
@@ -100,9 +95,9 @@ Cut the tyranny of copy-and-paste with these coding tools [@perkel2022]
 ## Basics cont... {background-color="#346bc8"}
 
 ::: incremental
--   For a brief start-up, copy [this code](https://github.com/usman-afzali/quarto-with-rstudio/blob/main/posts/quartoBasics.qmd) and paste it in the current open `.qmd` and hit render.
--   Alternatively, you can copy a similar `.qmd` document to the current project, open it, then edit and render it.
+-   Let's try some hands on start-up.
 -   Demo
+-   Alternatively, you can copy a similar `.qmd` document to the current project, open it, then edit and render it.
 -   A comprehensive step-by-step tutorial is available on Quarto [website](https://quarto.org/docs/authoring/markdown-basics.html).
 -   Or, you could watch this YouTube [video](https://www.youtube.com/watch?v=yvi5uXQMvu4) in your own time. It is a bit outdated, but a great start.
 :::
@@ -127,13 +122,26 @@ format:
 
 Visit [quarto website](https://quarto.org/docs/output-formats/pdf-basics.html) for further details.
 
+
+## Saving as docx/Word {background-color="#346bc8"}
+
+Add the following code to `yaml`.
+
+```
+format:
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
+```
+
 # Version control, Remote repositories, and Blogging {background-color="orange"}
 
 ## Git {background-color="#346bc8"}
 
 ![](/posts/git.png)
 
-To know more: See [official website](https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F), or just this quick [start-up guide](https://usman-afzali.github.io/quarto-with-rstudio/posts/git/git.html)
+To know more: See [official website](https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
 
 ## GitHub {background-color="#346bc8"}
 
@@ -188,12 +196,15 @@ Follow on-screen instruction.
 
 ## Advantages of documentation with Quarto {background-color="#346bc8"}
 
+:::incremental
+
 -   Keep your data files and write up files integrated.
 -   Create re-usable workflow -- becomes much easier once we are familiar.
 -   Use version control to see the previous versions.
 -   Hide/show `R` code when appropriate.
 -   Move ready-made `.qmd` files to a journal template rather than re-formatting the whole manuscript.
 -   The pdf version is generally appropriate for `PsyArXiv`.
+:::
 
 # Presentation {background-color="orange"}
 

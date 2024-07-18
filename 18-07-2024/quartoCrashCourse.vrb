@@ -1,0 +1,56 @@
+\frametitle{Kauhau}
+\phantomsection\label{kauhau}
+\begin{itemize}[<+->]
+\tightlist
+\item
+  What is \texttt{Quarto}?
+\item
+  Documentation
+\item
+  Version control, Remote repositories, and Blogging
+\item
+  Templates
+\item
+  Presentation
+\item
+  Final thoughts
+\end{itemize}
+
+\begin{block}{Problem 1}
+\phantomsection\label{problem-1}
+\includegraphics[width=0.7\textwidth,height=\textheight]{/posts/problem1.png}
+
+\href{https://github.com/usman-afzali/think-no-think/blob/main/TNT-processing-code.py}{Solution}
+\end{block}
+
+\begin{block}{Problem(s) 2}
+\phantomsection\label{problems-2}
+\begin{itemize}
+\tightlist
+\item
+  Time constraints and having to be efficient.
+\item
+  Having to redo a whole document only to change formatting for various
+  purposes.
+\item
+  MS Word is not necessarily the best application for writing up.
+\item
+  The need to remember data analysis/stats decisions made along the way.
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, breakable, colbacktitle=quarto-callout-important-color!10!white, left=2mm, toptitle=1mm, rightrule=.15mm, colback=white, coltitle=black, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{What about the audience?}, opacityback=0, opacitybacktitle=0.6, colframe=quarto-callout-important-color-frame, toprule=.15mm, bottomtitle=1mm, arc=.35mm, leftrule=.75mm]
+
+Any other similar problems?
+
+\end{tcolorbox}
+\end{block}
+
+\begin{block}{My favourite(?!) problem}
+\phantomsection\label{my-favourite-problem}
+\includegraphics{/posts/final.jpeg}
+\end{block}
+
+\begin{block}{And then\ldots{}}
+\phantomsection\label{and-then}
+\includegraphics{/posts/mc-q.png}
+\end{block}
