@@ -25,7 +25,7 @@ bibliography: references.bib
 
 ## Problem 1 {background-color="#346bc8"}
 
-![](/posts/problem1.png){width="70%"}
+![](figs/problem1.png){width="70%"}
 
 ## Problem(s) 2 {background-color="#346bc8"}
 
@@ -46,17 +46,17 @@ Any other similar problems?
 
 ## My favourite(?!) problem {background-color="#346bc8"}
 
-![](/posts/final.jpeg)
+![](figs/final.jpeg)
 
 ## And then... {background-color="#346bc8"}
 
-![](/posts/mc-q.png)
+![](figs/mc-q.png)
 
 # Introduction {background-color="orange"}
 
 ## Quarto {background-color="#346bc8"}
 
-![](/posts/quarto-intro.png)
+![](figs/quarto-intro.png)
 
 [Website](https://quarto.org)
 
@@ -80,7 +80,7 @@ Cut the tyranny of copy-and-paste with these coding tools [@perkel2022]
 
 ::: incremental
 -   Use the latest version of `RStudio`, at least `Version: 2022.12.0+353` or later on your computer.
--   Within `RStudio`, click on `new file` drop down menu and open a new `Quarto Document`, and name it. ![RStudio Interface](/posts/r-interface.png)
+-   Within `RStudio`, click on `new file` drop down menu and open a new `Quarto Document`, and name it. ![RStudio Interface](figs/r-interface.png)
 :::
 
 ## Basics cont... {background-color="#346bc8"}
@@ -90,7 +90,7 @@ Cut the tyranny of copy-and-paste with these coding tools [@perkel2022]
 
 ## Basics cont... {background-color="#346bc8"}
 
-![](/posts/rstudio-interf-2.png)
+![](figs/rstudio-interf-2.png)
 
 ## Basics cont... {background-color="#346bc8"}
 
@@ -139,13 +139,13 @@ format:
 
 ## Git {background-color="#346bc8"}
 
-![](/posts/git.png)
+![](figs/git.png)
 
 To know more: See [official website](https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
 
 ## GitHub {background-color="#346bc8"}
 
-![](/posts/github.png)
+![](figs/github.png)
 
 <https://github.com>
 
