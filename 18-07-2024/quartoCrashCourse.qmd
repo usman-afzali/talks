@@ -243,14 +243,6 @@ What are the advantages?
 
 -   Anonymous feedback: please use this [link](https://forms.gle/w4dp1UgRGZ3Vbgqf8)
 
-## Karakia Whakatūwhera {background-color="#346bc8"}
-
-::: {layout="[[50, 50], [100]]"}
-Unuhia, unuhia/ Te pou, te pou/ Kia wātea, kia wātea/ Āe, kua wātea
-
-Remove, uplift/ The posts/ In order to be free/ Yes, it has been cleared/
-:::
-
 # THE END {background-color="orange"}
 
 # References
