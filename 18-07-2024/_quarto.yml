@@ -1,0 +1,18 @@
+project:
+  type: website
+
+website:
+  title: "qcc"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/usman-afzali/quarto-with-rstudio
+      - icon: twitter
+        href: https://twitter.com/UsmanAfzali
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+editor: visual
