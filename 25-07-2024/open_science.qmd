@@ -1,6 +1,5 @@
 ---
-title: "Open Science: Enhancing Research Integrity"
-subtitle: "Addressing P-Hacking, Preregistration, and Transparency"
+title: "Open Science"
 author: "Usman Afzali, PhD - Postdoctoral Fellow and Lecturer"
 institute: University of Canterbury
 fontfamily: libertinus
@@ -30,13 +29,11 @@ bibliography: references.bib
 
 ## Outline
 
--   Historical context and key issues
--   Preregistration, data transparency, and open access
--   Best practices
--   Case studies and tools
+-   Scientific publishing
+-   Open science
+-   Preregistration
 -   Conclusion
 
-------------------------------------------------------------------------
 
 # Scientific Publishing
 
@@ -86,7 +83,7 @@ bibliography: references.bib
 
 ## Listening to \`\`Why I’m Sixty-Four” makes you younger
 
-## ![](figs/p-Hacking.png){fig-align="center"}
+![](figs/p-Hacking.png){fig-align="center" width=80%}
 
 ## *p*-Hacking
 
@@ -99,7 +96,7 @@ bibliography: references.bib
 
 ------------------------------------------------------------------------
 
-## Possible reasons for *p*-hacking
+## Possible reasons for *p*-Hacking
 
 ::: incremental
 -   **Researcher’s Intent:** Desire to publish significant findings.
@@ -112,7 +109,7 @@ bibliography: references.bib
 
 ## Changing the false positive rate
 
-## ![](figs/p-Hacking-table.png){fig-align="center"}
+![](figs/p-Hacking-table.png){fig-align="center" width=80%}
 
 ## HARKing
 
@@ -142,7 +139,7 @@ bibliography: references.bib
 
 # Open Science
 
-## Open science publication
+## Open publication
 
 ::: incremental
 -   Involves practices that make research processes and outputs more
@@ -186,12 +183,23 @@ bibliography: references.bib
 
 -   Peer-review *before* data collection: e.g.,
     <https://osf.io/nru4x/?view_only=bc189174a1cf4ca8b1dc83cf7967cd9e>
+    
+##
+
+Open Access (OA) refers to making research outputs freely available online, without subscription or payment barriers.
+
+The Open Access movement advocates for free and unrestricted access to research publications. Many researchers and institutions support this model, arguing that publicly funded research should be freely available to everyone.
+There are various Open Access models, including Gold Open Access (where authors or institutions pay publication fees) and Green Open Access (where authors deposit preprints or postprints in repositories).
+
+cOAlition S: This is an initiative launched in 2018 that requires research funded by participating organizations to be published in compliant open access journals or platforms.
 
 ## Open Science Manifesto
 
 -   Openness adds credibility
 -   Openness means mistakes are visible (doesn’t mean mistakes don’t
     happen!)
+    
+# Preregistration    
 
 ## How to Preregister?
 
@@ -263,7 +271,18 @@ A > B > C
 (A & B) > C, A > B
 {width="50%"}
 
+## A small diversion
+-   Predatory journals
+-   Cloned journals
 
+# Conclusion
+
+
+##
+ADD
+
+
+## 
 **Any questions?**
 
 ## References
