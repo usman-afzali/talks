@@ -1,7 +1,7 @@
 ---
 title: "Open Science: Enhancing Research Integrity"
-subtitle: "TAddressing P-Hacking, Preregistration, and Transparency"
-author: "Usman Afzali, PhD - Postdoctoral Fellow"
+subtitle: "Addressing P-Hacking, Preregistration, and Transparency"
+author: "Usman Afzali, PhD - Postdoctoral Fellow and Lecturer"
 institute: University of Canterbury
 fontfamily: libertinus
 date: 25 July 2024
@@ -38,26 +38,110 @@ bibliography: references.bib
 
 ------------------------------------------------------------------------
 
-**What is your perception from the term *"identity"*?**
+# Scientific Publishing
 
-# How is identity formed socially?
-
-## Identity formation
+## The Evolution of Scientific Publishing
 
 ::: incremental
--   People all over the world believe that their own nation, culture,
-    language, and religion are better and more deserving than others.
--   But why?
--   Henri Tajfel (1971)
+-   Philosophical Transactions of the Royal Society (1655) by Henry
+    Oldenburg. (<https://royalsocietypublishing.org/rsta/about>)
+-   Also, Journal des Sçavans (1665)
+    (<https://en.wikipedia.org/wiki/Journal_des_sçavans>).
+-   Nature (1869) by Sir Joseph Norman Lockyer
+    (<https://www.nature.com/nature-portfolio/about>) (*IF = 54.4*).
+-   19th Century: Growth of specialized journals.
+-   20th Century: Rise of electronic publishing and faster dissemination
+    and broader access through digital means
 :::
 
 ------------------------------------------------------------------------
 
-Henri Tajfel 1919 - 1982. From Wikipedia (The Free Encyclopedia)
+## Paywalls and Access to Scientific Articles
 
-![](figs/Henri_Tajfel.jpg){fig-align="center"}
+::: incremental
+-   Initially, published by scientific societies or university presses
+-   Funded through memberships, subscriptions, or institutional support
+-   Commercial publishing: subscription fees and profit motivation
+-   Open Access journals
+-   Hybrid journals
+-   Some examples: [Wiley](https://onlinelibrary.wiley.com),
+    [Routldeg/Taylor and Francis](https://www.taylorfrancis.com),
+    [Elsevier](https://www.elsevier.com/products/sciencedirect/journals),
+    [Nature](https://www.nature.com/nature/journal-impact),
+    [APA](https://www.apa.org/pubs/journals).
+:::
 
-## Social experiment
+------------------------------------------------------------------------
+
+## Questionable Research Practices (QRPs)
+
+::: incremental
+-   False positive psychology [@simmons2011]
+-   Researchers degrees of freedom
+-   Data manipulation, selective reporting, lack of transparency (e.g., in terms of excluding outliers)
+-   Choosing the DV, choosing sample size, covariates, reporting a subset only
+:::
+
+## Listening to ``Why I’m Sixty-Four” makes you younger
+
+![](figs/p-Hacking.png){fig-align="center"}
+------------------------------------------------------------------------
+
+
+## P-hacking
+
+::: incremental
+-   Manipulation of data analysis or reporting practices to find statistically significant results
+-   Inflates the likelihood of finding false positives, undermines the reliability of research
+:::
+
+------------------------------------------------------------------------
+
+## Possible causes of p-hacking
+
+::: incremental
+-   **Researcher’s Intent:** Desire to publish significant findings.
+-   **Ambiguity in Data Analysis:** Lack of clear analytical plans.
+-   **Lack of Pre-planning:** Not specifying methods before data collection.
+:::
+
+------------------------------------------------------------------------
+
+## Changing the false positive rate
+
+![](figs/p-Hacking-table.png){fig-align="center"}
+------------------------------------------------------------------------
+
+
+## HARKing
+
+::: incremental
+-   Hypothesizing After the Results are Known
+-   Presenting a *post hoc* hypothesis as if it were an *a priori* hypothesis
+-   Dataset: significant correlation between X and Y, *p* = .02
+-   What are the chances of finding this correlation in this dataset?
+-   HARKing ruins the meaning of *p*-values
+
+:::
+
+## Why would one engage in QRP's?
+
+::: incremental
+-   Pressure to Publish ("Publish or Perish")
+-   Career advancement
+-   Research funding
+-   Some examples: p-Hacking, HARKing, selective reporting, data fabrication/falsification, inadequate reporting of methods and procedures, publication bias, overinterpreation of results
+
+:::
+
+## Avoidng QRP's
+
+![](figs/avoid-qrp.png){fig-align="center"}
+
+# Open Science
+
+
+## 
 
 ::: {.columns align="center" totalwidth="8em"}
 ::: incremental
@@ -181,14 +265,13 @@ motivation, and capacity for intimacy [@kroger2006identity].
 
 [@côté2018]
 
-:::incremental
+::: incremental
 -   Anxiety
 -   Depression
 -   Stress and feeling of being overwhelmed
 -   Generally, not a disorder, unless it becomes debilitating
 -   For us, it is a bit more complex.
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -198,16 +281,17 @@ New Zealander?**
 # Identity denial
 
 ## Identity denial
-:::incremental
+
+::: incremental
 -   Where are you *really* from?: Asian Americans and identity denial
     [@cheryan2005you]
 -   Leads to poor psychological health and wellbeing, such as depressive
     symptoms and stress [@albuja2019identity]
 :::
+
 ------------------------------------------------------------------------
 
 **Do you think our youth have an identity problem?**
-
 
 # Solutions
 
@@ -238,7 +322,8 @@ New Zealander?**
 ## The importance of family/parenting
 
 ::: incremental
--   Married couples have high emotional, psychological, and physical wellbeing
+-   Married couples have high emotional, psychological, and physical
+    wellbeing
 -   Reported being more happy
 -   Significantly low levels of depression
 -   Children that grow up in a married two parent family are less likely
@@ -251,28 +336,32 @@ New Zealander?**
 
 ## What are your thoughts on the following?
 
-:::incremental
+::: incremental
 -   What brought us together here today?
--   Do we need to look further into Muslim lives, in a more objective way?
--   Are Muslims' happiness, sense of meaning in life, and levels of psychological stress similar to those of people from other religious groups because of the support they get from their religious communities?
--   Will attending mosque more, prevent us from feeling of discrimination?
--   Do we face more challenges to employment and health service than other groups?
+-   Do we need to look further into Muslim lives, in a more objective
+    way?
+-   Are Muslims' happiness, sense of meaning in life, and levels of
+    psychological stress similar to those of people from other religious
+    groups because of the support they get from their religious
+    communities?
+-   Will attending mosque more, prevent us from feeling of
+    discrimination?
+-   Do we face more challenges to employment and health service than
+    other groups?
 :::
 
 ------------------------------------------------------------------------
 
-
 1.  Muslims with the strongest ties to their community as measured by
-service attendance and prayer are buffered most from anti-Muslim
-prejudice.
+    service attendance and prayer are buffered most from anti-Muslim
+    prejudice.
 
-2.    Muslims experience greater challenges to employment and health than
-matched members of other religious groups.
+2.  Muslims experience greater challenges to employment and health than
+    matched members of other religious groups.
 
-3. Subjective well-being, the meaning of life, and psychological distress
-are similar among Muslims and matched members of religious groups from
-the buffering of religious community-making.
-
+3.  Subjective well-being, the meaning of life, and psychological
+    distress are similar among Muslims and matched members of religious
+    groups from the buffering of religious community-making.
 
 ------------------------------------------------------------------------
 
@@ -300,7 +389,6 @@ the buffering of religious community-making.
     `researchers`.
 -   We don't have an objective understanding of Muslim lives in New
     Zealand.
-
 :::
 
 # Muslim Diversity Study (MDS)
@@ -326,10 +414,10 @@ the buffering of religious community-making.
 ## FAQ's
 
 ::: incremental
-
 -   Are my responses confidential?
 -   Can my responses be linked back to me?
--   I don't like some of the questions. Is it required to answer all questions?
+-   I don't like some of the questions. Is it required to answer all
+    questions?
 -   How does it help Muslim community in the long run?
 -   How can you participate?
 :::
@@ -407,13 +495,13 @@ the buffering of religious community-making.
 
 ## To find out more
 
-![](figs/mds-uc-banner.png){width=50%}
+![](figs/mds-uc-banner.png){width="50%"}
 
 <https://linktr.ee/muslimdiversity>
 
 ## Or use this QR code
 
-![](figs/mds-qr.png){width=50%}
+![](figs/mds-qr.png){width="50%"}
 
 ## Thank you
 
