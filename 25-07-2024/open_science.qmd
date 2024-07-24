@@ -34,7 +34,6 @@ bibliography: references.bib
 -   Preregistration
 -   Conclusion
 
-
 # Scientific Publishing
 
 ## The Evolution of Scientific Publishing
@@ -83,7 +82,7 @@ bibliography: references.bib
 
 ## Listening to \`\`Why I’m Sixty-Four” makes you younger
 
-![](figs/p-Hacking.png){fig-align="center" width=80%}
+![](figs/p-Hacking.png){fig-align="center" width="80%"}
 
 ## *p*-Hacking
 
@@ -109,7 +108,7 @@ bibliography: references.bib
 
 ## Changing the false positive rate
 
-![](figs/p-Hacking-table.png){fig-align="center" width=80%}
+![](figs/p-Hacking-table.png){fig-align="center" width="80%"}
 
 ## HARKing
 
@@ -130,16 +129,16 @@ bibliography: references.bib
 -   Research funding
 -   Some examples: *p*-Hacking, HARKing, selective reporting, data
     fabrication/falsification, inadequate reporting of methods and
-    procedures, publication bias, over-interpreation of results
+    procedures, publication bias, over-interpretation of results
 :::
 
-## Avoidng QRP's
+## Avoiding QRP's
 
-![](figs/avoid-qrp.png){fig-align="center"}
+![](figs/avoid-qrp.png){fig-align="center" width="50%"}
 
 # Open Science
 
-## Open publication
+## 
 
 ::: incremental
 -   Involves practices that make research processes and outputs more
@@ -152,12 +151,12 @@ bibliography: references.bib
     journals
 -   Science should be publicly available
 -   Preprints (PsyArXiv: <https://osf.io/preprints/psyarxiv>)
--   Open access journals
+-   Open access/hybrid journals
 :::
 
 ## 
 
-![](figs/paid-os.png){fig-align="center"}
+![](figs/paid-os.png){fig-align="center" width="70%"}
 
 ## Open Materials
 
@@ -174,8 +173,8 @@ bibliography: references.bib
 ## Preregistration
 
 -   Design, analyses pre-planned
--   Preregistration = writing up your
-    hypotheses, conditions, data analytic plan, etc.
+-   Preregistration = writing up your hypotheses, conditions, data
+    analytic plan, etc.
 -   Prevents *p*-hacking, HARKing
 -   Does not prevent fraud
 
@@ -183,23 +182,39 @@ bibliography: references.bib
 
 -   Peer-review *before* data collection: e.g.,
     <https://osf.io/nru4x/?view_only=bc189174a1cf4ca8b1dc83cf7967cd9e>
-    
-##
 
-Open Access (OA) refers to making research outputs freely available online, without subscription or payment barriers.
+## 
 
-The Open Access movement advocates for free and unrestricted access to research publications. Many researchers and institutions support this model, arguing that publicly funded research should be freely available to everyone.
-There are various Open Access models, including Gold Open Access (where authors or institutions pay publication fees) and Green Open Access (where authors deposit preprints or postprints in repositories).
+Open Access (OA) refers to making research outputs freely available
+online, without subscription or payment barriers.
 
-cOAlition S: This is an initiative launched in 2018 that requires research funded by participating organizations to be published in compliant open access journals or platforms.
+The Open Access movement advocates for free and unrestricted access to
+research publications. Many researchers and institutions support this
+model, arguing that publicly funded research should be freely available
+to everyone. There are various Open Access models, including Gold Open
+Access (where authors or institutions pay publication fees) and Green
+Open Access (where authors deposit preprints or postprints in
+repositories).
+
+cOAlition S: This is an initiative launched in 2018 that requires
+research funded by participating organizations to be published in
+compliant open access journals or platforms.
 
 ## Open Science Manifesto
 
 -   Openness adds credibility
 -   Openness means mistakes are visible (doesn’t mean mistakes don’t
     happen!)
-    
-# Preregistration    
+
+## Centre for Open Science
+
+![](figs/cos.png){fig-align="center"}
+
+## Open Science Framework
+
+![](figs/osf.png){fig-align="center"}
+
+# Preregistration
 
 ## How to Preregister?
 
@@ -221,68 +236,70 @@ cOAlition S: This is an initiative launched in 2018 that requires research funde
 -   **Outliers and Exclusions.** Describe exactly how outliers will be
     defined and handled, and your precise rule(s) for excluding
     observations.
--   **Sample Size.** How many observations will be collected or what will determine sample size?
--   **Other.** Anything else you would like to pre-register? (e.g., secondary analyses, variables collected for exploratory purposes, unusual analyses planned?)
-
-## Centre for Open Science
-
-![](figs/cos.png){fig-align="center"}
-
-## Open Science Framework
-
-![](figs/osf.png){fig-align="center"}
-
-## Some useful references:
--   *p*-Hacking: Crash Course Statistics #30: <https://youtu.be/Gx0fAjNHb1M>
--   The Replication Crisis: Crash Course Statistics: <https://youtu.be/vBzEGSm23y8>
-
+-   **Sample Size.** How many observations will be collected or what
+    will determine sample size?
+-   **Other.** Anything else you would like to pre-register? (e.g.,
+    secondary analyses, variables collected for exploratory purposes,
+    unusual analyses planned?)
 
 ## Preregistration FAQ's
--   **After running preregistered analyses, discover something surprising!**
--   Totally fine to run exploratory follow-up analyses
--   Label them as exploratory in the paper
+
+-   **After running preregistered analyses, discover something
+    surprising!**
+-   *Totally fine to run exploratory follow-up analyses*
+-   *Label them as exploratory in the paper*
 -   **Learn better analysis technique after study is preregistered**
--   Disclose in paper
--   Usually, should also run planned analyses
--   Reporting in supplemental materials okay
--   If you don’t run, need to explain why
+-   *Disclose in paper*
+-   *Usually, should also run planned analyses*
+-   *Reporting in supplemental materials okay*
+-   *If you don’t run, need to explain why*
 -   **Data already collected**
--   OK to preregister late, but…
--   Ideal to preregister before collection
--   Important to preregister before looking at data
--   Vital to preregister before running focal test
-
+-   *OK to preregister late, but…*
+-   *Ideal to preregister before collection*
+-   *Important to preregister before looking at data*
+-   *Vital to preregister before running focal test*
 
 ## Preregistration FAQ's
+
 -   **Data collection doesn’t go as planned**
--   Power analysis indicates *n* = 200 N are needed to detect our effect with 80% power. We will collect *n* = 200.”
--   *n* = 87 participants failed inclusion criteria
--   What do you do?
--   Make reasonable decision, and disclose
+-   *Power analysis indicates n = 200 N are needed to detect our effect
+    with 80% power. We will collect n = 200.”*
+-   *n = 87 participants failed inclusion criteria*
+-   *What do you do?*
+-   *Make reasonable decision, and disclose*
 -   **Vague analyses**
--   ``ANOVA will test the difference between conditions”
--   Hypothesized direction of differences?
--   Post hoc comparisons? Planned comparisons? Which type?
--   Disclose decision-process, be more specific in future
+-   *\`\`ANOVA will test the difference between conditions”*
+-   *Hypothesized direction of differences?*
+-   *Post hoc comparisons? Planned comparisons? Which type?*
+-   *Disclose decision-process, be more specific in future*
 -   **Vague hypothesis**
--   ``We predict that people will report lower levels of free will in A and B conditions than in C condition, and furthermore that free will will be lower in the A condition than in B condition.”
--   What does this predict?
-A > B > C
-(A & B) > C, A > B
-{width="50%"}
+-   *\`\`We predict that people will report lower levels of free will in
+    A and B conditions than in C condition, and furthermore that free
+    will will be lower in the A condition than in B condition.”*
+-   *What does this predict? A \> B \> C: (A & B) \> C, A \> B*
 
 ## A small diversion
+
 -   Predatory journals
 -   Cloned journals
 
 # Conclusion
 
+## 
 
-##
-ADD
 
+
+## Some useful references:
+
+-   *p*-Hacking: Crash Course Statistics #30:
+    <https://youtu.be/Gx0fAjNHb1M>
+-   The Replication Crisis: Crash Course Statistics:
+    <https://youtu.be/vBzEGSm23y8>
+-   Falsification:
+-   Academic misconduct:
 
 ## 
+
 **Any questions?**
 
 ## References
