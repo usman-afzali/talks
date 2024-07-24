@@ -32,7 +32,7 @@ bibliography: references.bib
 -   Scientific publishing
 -   Open science
 -   Preregistration
--   Conclusion
+-   Conclusions
 
 # Scientific Publishing
 
@@ -76,8 +76,8 @@ bibliography: references.bib
 -   Researchers degrees of freedom
 -   Data manipulation, selective reporting, lack of transparency (e.g.,
     in terms of excluding outliers)
--   Choosing the DV, choosing sample size, covariates, reporting a
-    subset only
+-   Choosing the DV, choosing sample size arbitrarily, random
+    covariates, reporting a subset of findings only
 :::
 
 ## Listening to \`\`Why I’m Sixty-Four” makes you younger
@@ -123,6 +123,10 @@ bibliography: references.bib
 
 ## Why would one engage in QRP's?
 
+![](figs/pub-per.jpeg){fig-align="center" width="70%"}
+
+## 
+
 ::: incremental
 -   Pressure to Publish ("Publish or Perish")
 -   Career advancement
@@ -154,15 +158,12 @@ bibliography: references.bib
 -   Open access/hybrid journals
 :::
 
-## 
-
-![](figs/paid-os.png){fig-align="center" width="70%"}
-
 ## Open Materials
 
 -   Journal articles have word limits, often lack key details
 -   Unpublished studies left in file drawer – generally, published on
     OSF, or linked it from PsyArXiv to OSF
+-   See @morling2020a
 
 ## Open Data
 
@@ -200,6 +201,10 @@ cOAlition S: This is an initiative launched in 2018 that requires
 research funded by participating organizations to be published in
 compliant open access journals or platforms.
 
+## 
+
+![](figs/paid-os.png){fig-align="center" width="80%"}
+
 ## Open Science Manifesto
 
 -   Openness adds credibility
@@ -208,7 +213,7 @@ compliant open access journals or platforms.
 
 ## Centre for Open Science
 
-![](figs/cos.png){fig-align="center"}
+![](figs/cos.png){fig-align="center" width="80%"}
 
 ## Open Science Framework
 
@@ -280,23 +285,36 @@ compliant open access journals or platforms.
 
 ## A small diversion
 
--   Predatory journals
--   Cloned journals
-
-# Conclusion
+::: incremental
+-   Predatory journals: A type of publication that exploits the
+    open-access model by charging authors significant fees without
+    providing the standard editorial and publishing services associated
+    with legitimate academic journals. See: Beall's list
+    <https://beallslist.net>
+-   Cloned journals: A fraudulent imitation of a legitimate academic
+    journal. These fake journals mimic the name, website, and other
+    details of established and reputable journals to deceive researchers
+    into submitting their work and paying publication fees.
+:::
 
 ## 
 
+![](figs/su.jpg){fig-align="center"}
 
+## Some useful references
 
-## Some useful references:
-
--   *p*-Hacking: Crash Course Statistics #30:
+-   *p*-Hacking: Crash Course Statistics #30
     <https://youtu.be/Gx0fAjNHb1M>
--   The Replication Crisis: Crash Course Statistics:
-    <https://youtu.be/vBzEGSm23y8>
--   Falsification:
--   Academic misconduct:
+-   Why Science Fraud Goes Deeper Than the Stanford Scandal...
+    <https://www.youtube.com/watch?v=2mWwXO_guHk>\
+-   Science Fraud, the Stanford Scandal, and Trust: An Update
+    <https://www.youtube.com/watch?v=0LaYxpQpMdo>
+
+## 
+
+![](figs/retractions.png){fig-align="center"}
+
+# Conclusions
 
 ## 
 
