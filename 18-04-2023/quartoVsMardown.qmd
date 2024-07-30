@@ -1,0 +1,43 @@
+---
+title: "Quarto vs R Markdown"
+subtitle: "For UC Meta"
+author: "Usman Afzali, PhD"
+institute: "University of Canterbury"
+date: 2023 04 18
+format: 
+  revealjs:
+    theme: simple
+    highlight-style: github
+    slide-number: c/t
+---
+
+## Quarto {background-color="#346bc8"}
+
+![](quartoVsMarkdown/quarto-intro.png)
+
+[Website](https://quarto.org)
+
+## Quarto vs R Markdown {background-color="#346bc8"}
+
+![](quartoVsMarkdown//qms.png)
+
+## Quarto vs R Markdown {background-color="#346bc8"}
+
+![](quartoVsMarkdown/qVsRMs.png) <https://stackoverflow.com/questions/72089640/what-are-the-benefits-of-using-quarto-over-rmarkdown>
+
+## Uses {background-color="#346bc8"}
+
+::: incremental
+-   Create `executable manuscripts` with embedded code that can be easily formatted based on our needs (dissertations, manuscript etc.)
+-   Create teaching slides
+-   Blogging and website development
+-   With version control to share your work online (e.g., via GitHub)
+:::
+
+## Useful resources {background-color="#346bc8"}
+
+-   [Quarto with RStudio](https://usman-afzali.github.io/quarto-with-rstudio/)
+
+-   Getting Help: [Awesome Quarto](https://github.com/mcanouil/awesome-quarto), <https://quarto.org>, YouTube, social media.
+
+# THE END {background-color="orange"}
