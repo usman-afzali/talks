@@ -1,0 +1,466 @@
+---
+title: "Longitudinal Design"
+author: "Usman Afzali, PhD"
+fontfamily: libertinus
+date: 07 Oct 2024
+format:
+  beamer:
+    navigation: horizontal
+    logo: mds.png
+    number-sections: false
+    colorlinks: true
+    aspectratio: 169
+    theme: Hannover
+    colortheme: rose
+    incremental: false
+    keep-tex: true
+execute:
+  echo: false
+  warning: false
+  error: false
+editor: 
+  markdown: 
+    wrap: 72
+bibliography: references.bib
+---
+
+------------------------------------------------------------------------
+
+::: {layout="[[1], [1,1,1]]"}
+![](figs/mds.png){width="50%" fig-align="center"} ![](figs/sponsors.png)
+:::
+
+## Outline
+
+-   Social perspective
+-   Developmental perspective
+-   Identity denial
+-   Negative consequences
+-   What to do?
+
+------------------------------------------------------------------------
+
+**Longitudinal Design**
+
+::: incremental
+-   Measuring a variable (or variables) in the same group of subjects over a period of time.
+-   Subjects are generally in the same cohort and they age together.
+-   It is a within-subjects design (pretest-posttest)
+
+:::
+
+------------------------------------------------------------------------
+
+Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even the same individuals).
+
+![](figs/iq.jpg){fig-align="center"}
+
+## Social experiment
+
+::: {.columns align="center" totalwidth="8em"}
+::: incremental
+::: {.column width="40%"}
+-   **Task 1**: Estimate the number of dots on each slide
+-   **Outcome**: *"Over-estimators"* and *"under-estimators"*
+-   Divided into two random groups
+-   **Task 2**: Allocate points to other participants that can be cashed
+    for money.
+:::
+:::
+
+::: {.column width="60%"}
+![](figs/tajfel.png)
+:::
+:::
+
+## Strengths and Weaknesses
+
+::: incremental
+-   The absence of cohort effect
+-   Allows studies changes of behaviour in individuals across time
+-   Time consuming (for researchers and subjects), needs commitment
+-   Very expensive
+-   High drop-out rates (aka sample/participant attrition), that weakens internal validity (how?)
+
+:::
+
+## The need for self-esteem
+
+Kassin et al. (2021)
+
+![](figs/selfesteem.png){width="90%"}
+
+------------------------------------------------------------------------
+
+::: incremental
+-   **Advantage**: Derive pride from our connections
+-   **Disadvantage**: The need to belittle *“them”* in order to feel
+    secure about *“us”*.
+-   Examples: Religious fervor, racial and ethnic conceit, aggressive
+    nationalism, and even gossiping [@bosson2006; @weaver2011]
+-   When people shared negative attitudes about a third party, they felt
+    closer to each other.
+:::
+
+## ADesign and Analysis Considerations
+
+::: incremental
+-   Representative sampling
+-   Minimizing selection bias
+-   Choosing appropriate measurement tools
+-   Combining quantitative and qualitative approaches
+-   Analysing growth trajectories (e.g., growth curve modelling)
+-   Exploring inter-individual and intra-individual differences
+
+:::
+
+------------------------------------------------------------------------
+
+::: incremental
+-   For example, this person might start expressing or endorsing
+    negative stereotypes about Muslims, such as portraying them as
+    *terrorists*, *backward*, or *incompatible* with Western values. By
+    doing so, they may attempt to reaffirm their own *identity* or sense
+    of *belonging* within the dominant culture, thus temporarily
+    alleviating their feelings of *insecurity* or *inferiority*.
+-   By linking the individual's feelings of insecurity or threat in
+    social or professional settings to the broader context of
+    Islamophobia in New Zealand, we can illustrate how the self-esteem
+    maintenance model [@fein1997a] may play out in real-life situations,
+    where individuals derogate members of stereotyped groups, such as
+    Muslims, to cope with their own insecurities.
+:::
+
+------------------------------------------------------------------------
+
+**People all over the world believe that their own nation, culture,
+language, and religion are better and more deserving than others.**
+
+------------------------------------------------------------------------
+
+**But wait... `When` do we start thinking about identity?**
+
+# Identity development
+
+## Erik Erikson
+
+1902 - 1994. From Wikipedia (The Free Encyclopedia)
+
+![](figs/Erik_Erikson.jpg){fig-align="center"}
+
+## Types of longitudinal design
+
+::: incremental
+-   Trend studies
+-   Cohort studies
+-   Panel studies
+-   Accelerated longitudinal designs
+
+:::
+
+## Psychosocial theory of human development
+
+Weiten (2013) ![](figs/stages.png){width="90%"}
+
+## Marcia’s identity statuses
+
+Weiten (2013) ![](figs/marcia.png) Identity achievement is associated
+with higher self-esteem, conscientiousness, security, achievement
+motivation, and capacity for intimacy [@kroger2006identity].
+
+# Negative consequences
+
+## Trend studies
+
+:::incremental
+-   Trend studies, also known as time-trend studies, involve studying changes in a **single variable or phenomenon across different time points**. In trend studies, researchers collect data from different cross-sectional samples at various time intervals. The focus is on observing how the variable of interest changes over time within each sample, without necessarily tracking the same individuals across time.
+-   Example: Tracking changes in cognitive abilities in a cohort of aging adults
+
+:::
+
+## Cohort Studies
+
+:::incremental
+-   Cohort studies involve tracking **specific groups (cohorts)** of individuals over time. Cohorts are usually defined by a shared characteristic, such as birth year or life experience. Researchers collect data from the same group of individuals at multiple time points to study changes and developments within that specific cohort. This design allows for the examination of cohort-specific effects and trends.
+-   Example: Comparing social attitudes in different generations
+
+:::
+
+## Panel Studies
+
+:::incremental
+-   Panel studies involve collecting data from the **same individuals** (the panel) at multiple time points. The goal is to track individual trajectories and changes over time. Panel studies require the same participants to be measured on the same variables repeatedly, making them well-suited for examining within-person variability and changes within specific individuals over time.
+-   Example: Tracking academic performance in a group of students from childhood to adulthood
+
+:::
+
+## Accelerated longitudinal design
+
+:::incremental
+-   Accelerated longitudinal designs involve **intensive data collection over a shorter period** compared to traditional longitudinal studies. This design is particularly useful when researchers are interested in studying rapid changes or development within a relatively compressed timeframe. Accelerated designs can involve repeated measurements over weeks or months, capturing significant changes in a short span.
+-   Example: Studying language acquisition in children over a few months
+
+:::
+
+------------------------------------------------------------------------
+
+**Have you been in a condition that people don’t believe that you are a
+New Zealander?**
+
+# Identity denial
+
+## Identity denial
+:::incremental
+-   Where are you *really* from?: Asian Americans and identity denial
+    [@cheryan2005you]
+-   Leads to poor psychological health and wellbeing, such as depressive
+    symptoms and stress [@albuja2019identity]
+:::
+------------------------------------------------------------------------
+
+**Do you think our youth have an identity problem?**
+
+
+# Solutions
+
+------------------------------------------------------------------------
+
+::: incremental
+-   Individually: coping, awareness, standing up, promoting positive
+    intergroup contact, building bridges
+-   As a group: nurture a strong supportive social network
+-   But remember that this should not be exclusive!
+:::
+
+## Key differences
+
+::: incremental
+1.    **Focus and Purpose**: Trend studies focus on tracking changes in a single variable across different samples over time, while cohort studies focus on specific birth cohorts or groups, panel studies track the same individuals, and accelerated designs focus on capturing rapid changes.
+
+2.    **Sampling**: Trend studies involve different cross-sectional samples at each time point, cohort studies follow specific groups, panel studies involve the same individuals, and accelerated designs may involve a focused sample over a short period.
+
+:::
+
+## Key differences
+
+::: incremental
+3.    **Data collection**: Trend studies collect data from different samples at different times, cohort studies collect data from the same cohort over time, panel studies repeatedly measure the same individuals, and accelerated designs gather intensive data in a shorter duration.
+
+
+4.    **Research questions**: Trend studies are good for examining overall trends, cohort studies are useful for cohort-specific effects, panel studies can explore within-person changes, and accelerated designs capture rapid changes or developments.
+
+:::
+
+## Key differences
+
+5.    **Benefits and challenges**: Trend studies can identify overall patterns but may suffer from cohort effects; cohort studies provide cohort-specific insights but require long-term commitment; panel studies allow for individual-level analysis but can be resource-intensive; accelerated designs capture rapid changes but may not capture long-term effects.
+
+
+## Applications of longitudinal studies
+
+::: incremental
+-   **Developmental psychology**
+-   Examining cognitive, social, and emotional development
+-   Identifying risk and protective factors for developmental outcomes 
+-   **Clinical psychology** 
+-   Tracking treatment effectiveness and relapse prevention 
+-   Understanding trajectories of mental health disorders
+
+:::
+
+## Dunedin Multidisciplinary Health and Development Study
+
+This study has followed a cohort of 1,037 individuals born in Dunedin, New Zealand in 1972-1973. Participants have been assessed at various ages to understand the development of physical health, mental health, and social behavior over their lives. The study has provided insights into the development of mental disorders, addiction, and antisocial behavior.
+
+<https://dunedinstudy.otago.ac.nz>
+
+
+## The New Zealand Attitudes and Values Study (NZAVS)
+
+The New Zealand Attitudes and Values Study is a long-term research project that began in 2009 by Prof [Chris Sibley]() (The University of Auckland). It focuses on investigating the attitudes, values, and beliefs of New Zealanders over time. The study aims to provide a comprehensive understanding of how various factors, including demographics, experiences, and historical context, shape individuals' opinions and behaviours.
+
+------------------------------------------------------------------------
+
+
+1.  Muslims with the strongest ties to their community as measured by
+service attendance and prayer are buffered most from anti-Muslim
+prejudice.
+
+2.    Muslims experience greater challenges to employment and health than
+matched members of other religious groups.
+
+3. Subjective well-being, the meaning of life, and psychological distress
+are similar among Muslims and matched members of religious groups from
+the buffering of religious community-making.
+
+
+------------------------------------------------------------------------
+
+![](figs/alluvial.png)
+
+
+
+-------------
+
+
+::: {layout="[[1], [1]]"}
+![](figs/mds.png){width="60%" fig-align="center"}
+
+![](figs/sponsors.png)
+:::
+
+## NZAVS Key Features
+
+::: incremental
+-   Longitudinal Nature: The NZAVS follows a large and diverse sample of New Zealanders across different age groups over an extended period. This longitudinal design enables researchers to track changes in attitudes and values across generations and identify trends and shifts over time.
+-   Wide Range of Topics: The study covers a broad range of topics, including social, political, environmental, and cultural attitudes. It delves into issues such as discrimination, social cohesion, well-being, environmental concerns, political participation, and national identity.
+-   Cohort Comparison: By comparing responses from different cohorts of participants (e.g., different age groups), the NZAVS can highlight generational shifts in attitudes and values. This approach provides insights into how social and historical changes impact people's worldviews.
+:::
+
+------------------------------------------------------------------------
+::: incremental
+-   Data Collection Methods: The NZAVS collects data through online or printed surveys. The surveys include both established measures and new items designed to capture emerging issues and trends.
+-   Public Engagement: The study emphasizes public engagement and transparency. Researchers share findings with the public and policymakers, contributing to informed discussions and evidence-based decision-making.
+-   Impact on Policy and Society: The insights gained from the NZAVS have the potential to inform social policies, educational initiatives, and public discourse in New Zealand. The study's findings can help anticipate societal changes and design interventions that address emerging challenges.
+-   Treatment: Treatments can happen – but mostly in the form of natural or man-made events (e.g., changes in the government, some government policies/legislations, Covid-19, earthquakes, floods, massacres).
+
+:::
+
+
+
+## Examples of Research Questions Addressed by NZAVS
+
+::: incremental
+1.    How have attitudes toward multiculturalism and diversity changed over different generations?
+2.    What are the factors influencing environmental attitudes and behaviors among New Zealanders?
+3.    How do perceptions of social inequality vary across age groups and socioeconomic backgrounds?
+4.    What are the predictors of political engagement and civic participation in New Zealand?
+5.    How has the perception of national identity evolved in response to changing societal norms and events?
+6.    A current NZAVS project looking at diversity and flourishing within Muslims in NZ: https://usman-afzali.github.io/muslim-diversity/
+
+
+:::
+
+# Muslim Diversity Study (MDS)
+
+## Important NZAVS links
+
+Homepage: https://osf.io/75snb/wiki/home/
+Current study group: https://osf.io/75snb/wiki/Research%20Group/
+Publications: https://osf.io/75snb/wiki/Publications/
+
+
+## Aims
+
+::: incremental
+-   Increase Muslim community **representation** in research
+-   Increase **research opportunities** for the Muslim community
+-   **Share findings** back with the community members, leadership, and
+    government.
+:::
+
+## FAQ's
+
+::: incremental
+
+-   Are my responses confidential?
+-   Can my responses be linked back to me?
+-   I don't like some of the questions. Is it required to answer all questions?
+-   How does it help Muslim community in the long run?
+-   How can you participate?
+:::
+
+## MDS Team Christchurch
+
+-   Marzia Ehsani
+-   Zahra Haidary
+-   Khadija Jasim
+-   Sarah Quader
+
+## MDS Auckland Team
+
+-   Omer Anwarzada
+-   Ayyan Ali
+-   Asem Arif
+-   Weaam Bassiouni
+-   Aqsa Butt
+-   Dr Iman Hussain
+-   Abduallah Kalantan
+-   Noor Najm
+
+## MDS Hamilton Team
+
+-   Sana Nisar Ahmad
+-   Dr Hala Burhoum
+-   Yasir Saifudeen
+
+## MDS Palmerston North Team
+
+-   Mashal Khan
+
+## MDS Wellington Team
+
+-   Tuba Azeem
+-   Parus Khoso
+-   Hawwa Niyaz
+-   Hussain Raissi
+
+## MDS Dunedin Team
+
+-   Dr Farah Shawkat
+-   Dr Mai Tamimi
+
+## MDS Media and Admin Team
+
+-   Jamila Badis
+-   Noor Najm
+
+## MDS Core Team
+
+::: {layout="[[40,-20,40], [-30, 40, -30], [40,-20,40]]"}
+![](figs/usman-a.jpeg){width="0.9in"}
+
+![](figs/joe-b.jpg){width="0.9in"}
+
+![](figs/chris-s.png){width="0.9in"}
+
+![](figs/kumar-y.jpg){width="0.9in"}
+
+![](figs/aarif-r.jpeg){width="0.9in"}
+:::
+
+------------------------------------------------------------------------
+
+-   20+ Research Assistants
+-   Numerous research collaborators
+-   Muslim Reference Group
+
+## Talks in the past
+
+![](figs/care-lecture.png){width="40%"}
+
+![](figs/uc-lecture.png){width="40%"}
+
+## To find out more
+
+![](figs/mds-uc-banner.png){width=50%}
+
+<https://linktr.ee/muslimdiversity>
+
+## Or use this QR code
+
+![](figs/mds-qr.png){width=50%}
+
+## Thank you
+
+-   UCMUSA
+-   Christchurch MDS Team
+-   Asturlab Cultural Centre
+
+------------------------------------------------------------------------
+
+**Patai?**
+
+**Ka Kite**
+
+## References
