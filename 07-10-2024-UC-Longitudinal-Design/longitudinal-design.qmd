@@ -21,14 +21,13 @@ execute:
 editor: 
   markdown: 
     wrap: 72
-bibliography: references.bib
 ---
 
 ------------------------------------------------------------------------
 
 ## Outline
 
--   Longitudinal design
+-   Introduction
 -   Strengths and weaknesses
 -   Design and analysis considerations
 -   Types of longitudinal design
@@ -36,7 +35,7 @@ bibliography: references.bib
 
 ------------------------------------------------------------------------
 
-**Longitudinal Design**
+## Introduction
 
 ::: incremental
 -   Measuring a variable (or variables) in the same group of subjects over a period of time.
@@ -81,14 +80,14 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 :::
 
 
-## Types of longitudinal design
+## Types of Longitudinal Design
 
 -   Trend studies
 -   Cohort studies
 -   Panel studies
 -   Accelerated longitudinal designs
 
-## Trend studies
+## Trend Studies
 
 :::incremental
 -   Example: Tracking changes in cognitive abilities in a cohort of aging adults.
@@ -112,7 +111,7 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 
 :::
 
-## Accelerated longitudinal design
+## Accelerated Longitudinal Design
 
 :::incremental
 -   Example: Studying language acquisition in children over a few months
@@ -121,7 +120,7 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 :::
 
 
-## Key differences
+## Key Differences
 
 ::: incremental
 1.    **Focus and Purpose**: Trend studies focus on tracking changes in a single variable across different samples over time, while cohort studies focus on specific birth cohorts or groups, panel studies track the same individuals, and accelerated designs focus on capturing rapid changes.
@@ -130,7 +129,7 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 
 :::
 
-## Key differences
+## Key Differences
 
 ::: incremental
 3.    **Data collection**: Trend studies collect data from different samples at different times, cohort studies collect data from the same cohort over time, panel studies repeatedly measure the same individuals, and accelerated designs gather intensive data in a shorter duration.
@@ -140,12 +139,12 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 
 :::
 
-## Key differences
+## Key Differences
 
 5.    **Benefits and challenges**: Trend studies can identify overall patterns but may suffer from cohort effects; cohort studies provide cohort-specific insights but require long-term commitment; panel studies allow for individual-level analysis but can be resource-intensive; accelerated designs capture rapid changes but may not capture long-term effects.
 
 
-## Applications of longitudinal studies
+## Applications of Longitudinal Studies
 
 ::: incremental
 -   **Developmental psychology**
@@ -180,7 +179,7 @@ The New Zealand Attitudes and Values Study (NZAVS) is a longitudinal quantitativ
 
 
 
-## NZAVS Key Features
+## NZAVS Features
 
 ::: incremental
 -   **Longitudinal Nature:** The NZAVS follows a large and diverse sample of New Zealanders across different age groups over an extended period. This longitudinal design enables researchers to track changes in attitudes and values across generations and identify trends and shifts over time.
@@ -218,7 +217,7 @@ The New Zealand Attitudes and Values Study (NZAVS) is a longitudinal quantitativ
 
 
 
-## Important NZAVS links
+## NZAVS Links
 
 -   Homepage: <https://osf.io/75snb/wiki/home/>
 -   Publications: <https://osf.io/75snb/wiki/Publications/>
