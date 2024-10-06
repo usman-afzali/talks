@@ -26,17 +26,13 @@ bibliography: references.bib
 
 ------------------------------------------------------------------------
 
-::: {layout="[[1], [1,1,1]]"}
-![](figs/mds.png){width="50%" fig-align="center"} ![](figs/sponsors.png)
-:::
-
 ## Outline
 
--   Social perspective
--   Developmental perspective
--   Identity denial
--   Negative consequences
--   What to do?
+-   Longitudinal design
+-   Strengths and weaknesses
+-   Design and analysis considerations
+-   Types of longitudinal design
+-   Applications and examples
 
 ------------------------------------------------------------------------
 
@@ -46,7 +42,6 @@ bibliography: references.bib
 -   Measuring a variable (or variables) in the same group of subjects over a period of time.
 -   Subjects are generally in the same cohort and they age together.
 -   It is a within-subjects design (pretest-posttest)
-
 :::
 
 ------------------------------------------------------------------------
@@ -55,54 +50,26 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 
 ![](figs/iq.jpg){fig-align="center"}
 
-## Social experiment
 
-::: {.columns align="center" totalwidth="8em"}
-::: incremental
-::: {.column width="40%"}
--   **Task 1**: Estimate the number of dots on each slide
--   **Outcome**: *"Over-estimators"* and *"under-estimators"*
--   Divided into two random groups
--   **Task 2**: Allocate points to other participants that can be cashed
-    for money.
-:::
-:::
-
-::: {.column width="60%"}
-![](figs/tajfel.png)
-:::
-:::
-
-## Strengths and Weaknesses
+## Strengths
 
 ::: incremental
--   The absence of cohort effect
--   Allows studies changes of behaviour in individuals across time
+-   Estimation of the cohort effect
+-   Cohort effect: A cohort effect is when differences in behaviour or traits among people are due to the time period or events they experienced together, rather than their age or other factors. Example: Technology Adoption: People born in the 1990s grew up with the internet and are generally more tech-savvy than those born in the 1950s, who had to learn digital skills later in life. The difference in comfort with technology is a cohort effect.
+-   Allows studying changes of behaviour in individuals across time
+
+:::
+
+## Weaknesses
+
+::: incremental
 -   Time consuming (for researchers and subjects), needs commitment
 -   Very expensive
 -   High drop-out rates (aka sample/participant attrition), that weakens internal validity (how?)
 
 :::
 
-## The need for self-esteem
-
-Kassin et al. (2021)
-
-![](figs/selfesteem.png){width="90%"}
-
-------------------------------------------------------------------------
-
-::: incremental
--   **Advantage**: Derive pride from our connections
--   **Disadvantage**: The need to belittle *“them”* in order to feel
-    secure about *“us”*.
--   Examples: Religious fervor, racial and ethnic conceit, aggressive
-    nationalism, and even gossiping [@bosson2006; @weaver2011]
--   When people shared negative attitudes about a third party, they felt
-    closer to each other.
-:::
-
-## ADesign and Analysis Considerations
+## Design and Analysis Considerations
 
 ::: incremental
 -   Representative sampling
@@ -114,39 +81,6 @@ Kassin et al. (2021)
 
 :::
 
-------------------------------------------------------------------------
-
-::: incremental
--   For example, this person might start expressing or endorsing
-    negative stereotypes about Muslims, such as portraying them as
-    *terrorists*, *backward*, or *incompatible* with Western values. By
-    doing so, they may attempt to reaffirm their own *identity* or sense
-    of *belonging* within the dominant culture, thus temporarily
-    alleviating their feelings of *insecurity* or *inferiority*.
--   By linking the individual's feelings of insecurity or threat in
-    social or professional settings to the broader context of
-    Islamophobia in New Zealand, we can illustrate how the self-esteem
-    maintenance model [@fein1997a] may play out in real-life situations,
-    where individuals derogate members of stereotyped groups, such as
-    Muslims, to cope with their own insecurities.
-:::
-
-------------------------------------------------------------------------
-
-**People all over the world believe that their own nation, culture,
-language, and religion are better and more deserving than others.**
-
-------------------------------------------------------------------------
-
-**But wait... `When` do we start thinking about identity?**
-
-# Identity development
-
-## Erik Erikson
-
-1902 - 1994. From Wikipedia (The Free Encyclopedia)
-
-![](figs/Erik_Erikson.jpg){fig-align="center"}
 
 ## Types of longitudinal design
 
@@ -157,18 +91,6 @@ language, and religion are better and more deserving than others.**
 -   Accelerated longitudinal designs
 
 :::
-
-## Psychosocial theory of human development
-
-Weiten (2013) ![](figs/stages.png){width="90%"}
-
-## Marcia’s identity statuses
-
-Weiten (2013) ![](figs/marcia.png) Identity achievement is associated
-with higher self-esteem, conscientiousness, security, achievement
-motivation, and capacity for intimacy [@kroger2006identity].
-
-# Negative consequences
 
 ## Trend studies
 
@@ -202,35 +124,6 @@ motivation, and capacity for intimacy [@kroger2006identity].
 
 :::
 
-------------------------------------------------------------------------
-
-**Have you been in a condition that people don’t believe that you are a
-New Zealander?**
-
-# Identity denial
-
-## Identity denial
-:::incremental
--   Where are you *really* from?: Asian Americans and identity denial
-    [@cheryan2005you]
--   Leads to poor psychological health and wellbeing, such as depressive
-    symptoms and stress [@albuja2019identity]
-:::
-------------------------------------------------------------------------
-
-**Do you think our youth have an identity problem?**
-
-
-# Solutions
-
-------------------------------------------------------------------------
-
-::: incremental
--   Individually: coping, awareness, standing up, promoting positive
-    intergroup contact, building bridges
--   As a group: nurture a strong supportive social network
--   But remember that this should not be exclusive!
-:::
 
 ## Key differences
 
@@ -274,6 +167,11 @@ This study has followed a cohort of 1,037 individuals born in Dunedin, New Zeala
 
 <https://dunedinstudy.otago.ac.nz>
 
+--------
+
+::: {layout="[[1], [1,1,1]]"}
+![](figs/mds.png){width="50%" fig-align="center"} ![](figs/sponsors.png)
+:::
 
 ## The New Zealand Attitudes and Values Study (NZAVS)
 
@@ -341,7 +239,6 @@ the buffering of religious community-making.
 
 :::
 
-# Muslim Diversity Study (MDS)
 
 ## Important NZAVS links
 
@@ -350,114 +247,7 @@ Current study group: https://osf.io/75snb/wiki/Research%20Group/
 Publications: https://osf.io/75snb/wiki/Publications/
 
 
-## Aims
 
-::: incremental
--   Increase Muslim community **representation** in research
--   Increase **research opportunities** for the Muslim community
--   **Share findings** back with the community members, leadership, and
-    government.
-:::
-
-## FAQ's
-
-::: incremental
-
--   Are my responses confidential?
--   Can my responses be linked back to me?
--   I don't like some of the questions. Is it required to answer all questions?
--   How does it help Muslim community in the long run?
--   How can you participate?
-:::
-
-## MDS Team Christchurch
-
--   Marzia Ehsani
--   Zahra Haidary
--   Khadija Jasim
--   Sarah Quader
-
-## MDS Auckland Team
-
--   Omer Anwarzada
--   Ayyan Ali
--   Asem Arif
--   Weaam Bassiouni
--   Aqsa Butt
--   Dr Iman Hussain
--   Abduallah Kalantan
--   Noor Najm
-
-## MDS Hamilton Team
-
--   Sana Nisar Ahmad
--   Dr Hala Burhoum
--   Yasir Saifudeen
-
-## MDS Palmerston North Team
-
--   Mashal Khan
-
-## MDS Wellington Team
-
--   Tuba Azeem
--   Parus Khoso
--   Hawwa Niyaz
--   Hussain Raissi
-
-## MDS Dunedin Team
-
--   Dr Farah Shawkat
--   Dr Mai Tamimi
-
-## MDS Media and Admin Team
-
--   Jamila Badis
--   Noor Najm
-
-## MDS Core Team
-
-::: {layout="[[40,-20,40], [-30, 40, -30], [40,-20,40]]"}
-![](figs/usman-a.jpeg){width="0.9in"}
-
-![](figs/joe-b.jpg){width="0.9in"}
-
-![](figs/chris-s.png){width="0.9in"}
-
-![](figs/kumar-y.jpg){width="0.9in"}
-
-![](figs/aarif-r.jpeg){width="0.9in"}
-:::
-
-------------------------------------------------------------------------
-
--   20+ Research Assistants
--   Numerous research collaborators
--   Muslim Reference Group
-
-## Talks in the past
-
-![](figs/care-lecture.png){width="40%"}
-
-![](figs/uc-lecture.png){width="40%"}
-
-## To find out more
-
-![](figs/mds-uc-banner.png){width=50%}
-
-<https://linktr.ee/muslimdiversity>
-
-## Or use this QR code
-
-![](figs/mds-qr.png){width=50%}
-
-## Thank you
-
--   UCMUSA
--   Christchurch MDS Team
--   Asturlab Cultural Centre
-
-------------------------------------------------------------------------
 
 **Patai?**
 

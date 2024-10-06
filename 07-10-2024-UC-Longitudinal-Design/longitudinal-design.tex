@@ -106,39 +106,6 @@
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-% definitions for citeproc citations
-\NewDocumentCommand\citeproctext{}{}
-\NewDocumentCommand\citeproc{mm}{%
-  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
-\makeatletter
- % allow citations to break across lines
- \let\@cite@ofmt\@firstofone
- % avoid brackets around text for \cite:
- \def\@biblabel#1{}
- \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
-\makeatother
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
-\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
- {\begin{list}{}{%
-  \setlength{\itemindent}{0pt}
-  \setlength{\leftmargin}{0pt}
-  \setlength{\parsep}{0pt}
-  % turn on hanging indent if param 1 is 1
-  \ifodd #1
-   \setlength{\leftmargin}{\cslhangindent}
-   \setlength{\itemindent}{-1\cslhangindent}
-  \fi
-  % set entry spacing
-  \setlength{\itemsep}{#2\baselineskip}}}
- {\end{list}}
-\usepackage{calc}
-\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
@@ -206,32 +173,20 @@
 \begin{document}
 \frame{\titlepage}
 
-\begin{frame}
-\begin{figure}
-
-\begin{minipage}{\linewidth}
-\begin{center}
-\includegraphics[width=0.5\textwidth,height=\textheight]{figs/mds.png}
-\end{center}
-\includegraphics{figs/sponsors.png}\end{minipage}%
-
-\end{figure}%
-\end{frame}
-
 \begin{frame}{Outline}
 \phantomsection\label{outline}
 \begin{itemize}
 \tightlist
 \item
-  Social perspective
+  Longitudinal design
 \item
-  Developmental perspective
+  Strengths and weaknesses
 \item
-  Identity denial
+  Design and analysis considerations
 \item
-  Negative consequences
+  Types of longitudinal design
 \item
-  What to do?
+  Applications and examples
 \end{itemize}
 \end{frame}
 
@@ -259,39 +214,29 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort
 \end{center}
 \end{frame}
 
-\begin{frame}{Social experiment}
-\phantomsection\label{social-experiment}
-\begin{columns}[c,totalwidth=8em]
-\begin{column}{0.4\textwidth}
+\begin{frame}{Strengths}
+\phantomsection\label{strengths}
 \begin{itemize}[<+->]
 \tightlist
 \item
-  \textbf{Task 1}: Estimate the number of dots on each slide
+  Estimation of the cohort effect
 \item
-  \textbf{Outcome}: \emph{``Over-estimators''} and
-  \emph{``under-estimators''}
+  Cohort effect: A cohort effect is when differences in behaviour or
+  traits among people are due to the time period or events they
+  experienced together, rather than their age or other factors. Example:
+  Technology Adoption: People born in the 1990s grew up with the
+  internet and are generally more tech-savvy than those born in the
+  1950s, who had to learn digital skills later in life. The difference
+  in comfort with technology is a cohort effect.
 \item
-  Divided into two random groups
-\item
-  \textbf{Task 2}: Allocate points to other participants that can be
-  cashed for money.
+  Allows studying changes of behaviour in individuals across time
 \end{itemize}
-\end{column}
-
-\begin{column}{0.6\textwidth}
-\includegraphics{figs/tajfel.png}
-\end{column}
-\end{columns}
 \end{frame}
 
-\begin{frame}{Strengths and Weaknesses}
-\phantomsection\label{strengths-and-weaknesses}
+\begin{frame}{Weaknesses}
+\phantomsection\label{weaknesses}
 \begin{itemize}[<+->]
 \tightlist
-\item
-  The absence of cohort effect
-\item
-  Allows studies changes of behaviour in individuals across time
 \item
   Time consuming (for researchers and subjects), needs commitment
 \item
@@ -302,33 +247,8 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort
 \end{itemize}
 \end{frame}
 
-\begin{frame}{The need for self-esteem}
-\phantomsection\label{the-need-for-self-esteem}
-Kassin et al.~(2021)
-
-\includegraphics[width=0.9\textwidth,height=\textheight]{figs/selfesteem.png}
-\end{frame}
-
-\begin{frame}
-\begin{itemize}[<+->]
-\tightlist
-\item
-  \textbf{Advantage}: Derive pride from our connections
-\item
-  \textbf{Disadvantage}: The need to belittle \emph{``them''} in order
-  to feel secure about \emph{``us''}.
-\item
-  Examples: Religious fervor, racial and ethnic conceit, aggressive
-  nationalism, and even gossiping (Bosson et al. 2006; Weaver and Bosson
-  2011)
-\item
-  When people shared negative attitudes about a third party, they felt
-  closer to each other.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{ADesign and Analysis Considerations}
-\phantomsection\label{adesign-and-analysis-considerations}
+\begin{frame}{Design and Analysis Considerations}
+\phantomsection\label{design-and-analysis-considerations}
 \begin{itemize}[<+->]
 \tightlist
 \item
@@ -346,49 +266,6 @@ Kassin et al.~(2021)
 \end{itemize}
 \end{frame}
 
-\begin{frame}
-\begin{itemize}[<+->]
-\tightlist
-\item
-  For example, this person might start expressing or endorsing negative
-  stereotypes about Muslims, such as portraying them as
-  \emph{terrorists}, \emph{backward}, or \emph{incompatible} with
-  Western values. By doing so, they may attempt to reaffirm their own
-  \emph{identity} or sense of \emph{belonging} within the dominant
-  culture, thus temporarily alleviating their feelings of
-  \emph{insecurity} or \emph{inferiority}.
-\item
-  By linking the individual's feelings of insecurity or threat in social
-  or professional settings to the broader context of Islamophobia in New
-  Zealand, we can illustrate how the self-esteem maintenance model (Fein
-  and Spencer 1997) may play out in real-life situations, where
-  individuals derogate members of stereotyped groups, such as Muslims,
-  to cope with their own insecurities.
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\textbf{People all over the world believe that their own nation,
-culture, language, and religion are better and more deserving than
-others.}
-\end{frame}
-
-\begin{frame}[fragile]
-\textbf{But wait\ldots{} \texttt{When} do we start thinking about
-identity?}
-\end{frame}
-
-\section{Identity development}\label{identity-development}
-
-\begin{frame}{Erik Erikson}
-\phantomsection\label{erik-erikson}
-1902 - 1994. From Wikipedia (The Free Encyclopedia)
-
-\begin{center}
-\includegraphics{figs/Erik_Erikson.jpg}
-\end{center}
-\end{frame}
-
 \begin{frame}{Types of longitudinal design}
 \phantomsection\label{types-of-longitudinal-design}
 \begin{itemize}[<+->]
@@ -403,21 +280,6 @@ identity?}
   Accelerated longitudinal designs
 \end{itemize}
 \end{frame}
-
-\begin{frame}{Psychosocial theory of human development}
-\phantomsection\label{psychosocial-theory-of-human-development}
-Weiten (2013)
-\includegraphics[width=0.9\textwidth,height=\textheight]{figs/stages.png}
-\end{frame}
-
-\begin{frame}{Marcia's identity statuses}
-\phantomsection\label{marcias-identity-statuses}
-Weiten (2013) \includegraphics{figs/marcia.png} Identity achievement is
-associated with higher self-esteem, conscientiousness, security,
-achievement motivation, and capacity for intimacy (Kroger 2006).
-\end{frame}
-
-\section{Negative consequences}\label{negative-consequences}
 
 \begin{frame}{Trend studies}
 \phantomsection\label{trend-studies}
@@ -485,45 +347,6 @@ achievement motivation, and capacity for intimacy (Kroger 2006).
   changes in a short span.
 \item
   Example: Studying language acquisition in children over a few months
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\textbf{Have you been in a condition that people don't believe that you
-are a New Zealander?}
-\end{frame}
-
-\section{Identity denial}\label{identity-denial}
-
-\begin{frame}{Identity denial}
-\phantomsection\label{identity-denial-1}
-\begin{itemize}[<+->]
-\tightlist
-\item
-  Where are you \emph{really} from?: Asian Americans and identity denial
-  (Cheryan and Monin 2005)
-\item
-  Leads to poor psychological health and wellbeing, such as depressive
-  symptoms and stress (Albuja, Sanchez, and Gaither 2019)
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\textbf{Do you think our youth have an identity problem?}
-\end{frame}
-
-\section{Solutions}\label{solutions}
-
-\begin{frame}
-\begin{itemize}[<+->]
-\tightlist
-\item
-  Individually: coping, awareness, standing up, promoting positive
-  intergroup contact, building bridges
-\item
-  As a group: nurture a strong supportive social network
-\item
-  But remember that this should not be exclusive!
 \end{itemize}
 \end{frame}
 
@@ -608,6 +431,18 @@ behavior.
 \url{https://dunedinstudy.otago.ac.nz}
 \end{frame}
 
+\begin{frame}
+\begin{figure}
+
+\begin{minipage}{\linewidth}
+\begin{center}
+\includegraphics[width=0.5\textwidth,height=\textheight]{figs/mds.png}
+\end{center}
+\includegraphics{figs/sponsors.png}\end{minipage}%
+
+\end{figure}%
+\end{frame}
+
 \begin{frame}{The New Zealand Attitudes and Values Study (NZAVS)}
 \phantomsection\label{the-new-zealand-attitudes-and-values-study-nzavs}
 The New Zealand Attitudes and Values Study is a long-term research
@@ -677,125 +512,64 @@ opinions and behaviours.
   insights into how social and historical changes impact people's
   worldviews.
 \end{itemize}
-
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
-\toprule\noalign{}
-\endhead
-::: incremental - Data Collection Methods: The NZAVS collects data
-through online or printed surveys. The surveys include both established
-measures and new items designed to capture emerging issues and trends. -
-Public Engagement: The study emphasizes public engagement and
-transparency. Researchers share findings with the public and
-policymakers, contributing to informed discussions and evidence-based
-decision-making. - Impact on Policy and Society: The insights gained
-from the NZAVS have the potential to inform social policies, educational
-initiatives, and public discourse in New Zealand. The study's findings
-can help anticipate societal changes and design interventions that
-address emerging challenges. - Treatment: Treatments can happen -- but
-mostly in the form of natural or man-made events (e.g., changes in the
-government, some government policies/legislations, Covid-19,
-earthquakes, floods, massacres). \\
-::: \\
-\#\# Examples of Research Questions Addressed by NZAVS \\
-::: incremental 1. How have attitudes toward multiculturalism and
-diversity changed over different generations? 2. What are the factors
-influencing environmental attitudes and behaviors among New Zealanders?
-3. How do perceptions of social inequality vary across age groups and
-socioeconomic backgrounds? 4. What are the predictors of political
-engagement and civic participation in New Zealand? 5. How has the
-perception of national identity evolved in response to changing societal
-norms and events? 6. A current NZAVS project looking at diversity and
-flourishing within Muslims in NZ:
-https://usman-afzali.github.io/muslim-diversity/ \\
-::: \\
-\# Muslim Diversity Study (MDS) \\
-\#\# Important NZAVS links \\
-Homepage: https://osf.io/75snb/wiki/home/ Current study group:
-https://osf.io/75snb/wiki/Research\%20Group/ Publications:
-https://osf.io/75snb/wiki/Publications/ \\
-\#\# Aims \\
-::: incremental - Increase Muslim community \textbf{representation} in
-research - Increase \textbf{research opportunities} for the Muslim
-community - \textbf{Share findings} back with the community members,
-leadership, and government. ::: \\
-\#\# FAQ's \\
-::: incremental \\
-- Are my responses confidential? - Can my responses be linked back to
-me? - I don't like some of the questions. Is it required to answer all
-questions? - How does it help Muslim community in the long run? - How
-can you participate? ::: \\
-\#\# MDS Team Christchurch \\
-- Marzia Ehsani - Zahra Haidary - Khadija Jasim - Sarah Quader \\
-\#\# MDS Auckland Team \\
-- Omer Anwarzada - Ayyan Ali - Asem Arif - Weaam Bassiouni - Aqsa Butt -
-Dr Iman Hussain - Abduallah Kalantan - Noor Najm \\
-\#\# MDS Hamilton Team \\
-- Sana Nisar Ahmad - Dr Hala Burhoum - Yasir Saifudeen \\
-\#\# MDS Palmerston North Team \\
-- Mashal Khan \\
-\#\# MDS Wellington Team \\
-- Tuba Azeem - Parus Khoso - Hawwa Niyaz - Hussain Raissi \\
-\#\# MDS Dunedin Team \\
-- Dr Farah Shawkat - Dr Mai Tamimi \\
-\#\# MDS Media and Admin Team \\
-- Jamila Badis - Noor Najm \\
-\#\# MDS Core Team \\
-::: \{layout=``{[}{[}40,-20,40{]}, {[}-30, 40, -30{]},
-{[}40,-20,40{]}{]}''\}
-\includegraphics[width=0.9in,height=\textheight]{figs/usman-a.jpeg} \\
-\includegraphics[width=0.9in,height=\textheight]{figs/joe-b.jpg} \\
-\includegraphics[width=0.9in,height=\textheight]{figs/chris-s.png} \\
-\includegraphics[width=0.9in,height=\textheight]{figs/kumar-y.jpg} \\
-\includegraphics[width=0.9in,height=\textheight]{figs/aarif-r.jpeg}
-::: \\
-\bottomrule\noalign{}
-\end{longtable}
-
-\begin{itemize}
-\tightlist
-\item
-  20+ Research Assistants
-\item
-  Numerous research collaborators
-\item
-  Muslim Reference Group
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Talks in the past}
-\phantomsection\label{talks-in-the-past}
-\includegraphics[width=0.4\textwidth,height=\textheight]{figs/care-lecture.png}
-
-\includegraphics[width=0.4\textwidth,height=\textheight]{figs/uc-lecture.png}
-\end{frame}
-
-\begin{frame}{To find out more}
-\phantomsection\label{to-find-out-more}
-\includegraphics[width=0.5\textwidth,height=\textheight]{figs/mds-uc-banner.png}
-
-\url{https://linktr.ee/muslimdiversity}
-\end{frame}
-
-\begin{frame}{Or use this QR code}
-\phantomsection\label{or-use-this-qr-code}
-\includegraphics[width=0.5\textwidth,height=\textheight]{figs/mds-qr.png}
-\end{frame}
-
-\begin{frame}{Thank you}
-\phantomsection\label{thank-you}
-\begin{itemize}
-\tightlist
-\item
-  UCMUSA
-\item
-  Christchurch MDS Team
-\item
-  Asturlab Cultural Centre
-\end{itemize}
 \end{frame}
 
 \begin{frame}
+\begin{itemize}[<+->]
+\tightlist
+\item
+  Data Collection Methods: The NZAVS collects data through online or
+  printed surveys. The surveys include both established measures and new
+  items designed to capture emerging issues and trends.
+\item
+  Public Engagement: The study emphasizes public engagement and
+  transparency. Researchers share findings with the public and
+  policymakers, contributing to informed discussions and evidence-based
+  decision-making.
+\item
+  Impact on Policy and Society: The insights gained from the NZAVS have
+  the potential to inform social policies, educational initiatives, and
+  public discourse in New Zealand. The study's findings can help
+  anticipate societal changes and design interventions that address
+  emerging challenges.
+\item
+  Treatment: Treatments can happen -- but mostly in the form of natural
+  or man-made events (e.g., changes in the government, some government
+  policies/legislations, Covid-19, earthquakes, floods, massacres).
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Examples of Research Questions Addressed by NZAVS}
+\phantomsection\label{examples-of-research-questions-addressed-by-nzavs}
+\begin{enumerate}[<+->]
+\tightlist
+\item
+  How have attitudes toward multiculturalism and diversity changed over
+  different generations?
+\item
+  What are the factors influencing environmental attitudes and behaviors
+  among New Zealanders?
+\item
+  How do perceptions of social inequality vary across age groups and
+  socioeconomic backgrounds?
+\item
+  What are the predictors of political engagement and civic
+  participation in New Zealand?
+\item
+  How has the perception of national identity evolved in response to
+  changing societal norms and events?
+\item
+  A current NZAVS project looking at diversity and flourishing within
+  Muslims in NZ: https://usman-afzali.github.io/muslim-diversity/
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Important NZAVS links}
+\phantomsection\label{important-nzavs-links}
+Homepage: https://osf.io/75snb/wiki/home/ Current study group:
+https://osf.io/75snb/wiki/Research\%20Group/ Publications:
+https://osf.io/75snb/wiki/Publications/
+
 \textbf{Patai?}
 
 \textbf{Ka Kite}
@@ -803,43 +577,6 @@ Dr Iman Hussain - Abduallah Kalantan - Noor Najm \\
 
 \begin{frame}{References}
 \phantomsection\label{references}
-\phantomsection\label{refs}
-\begin{CSLReferences}{1}{0}
-\bibitem[\citeproctext]{ref-albuja2019identity}
-Albuja, Analia F, Diana T Sanchez, and Sarah E Gaither. 2019.
-{``Identity Denied: Comparing American or White Identity Denial and
-Psychological Health Outcomes Among Bicultural and Biracial People.''}
-\emph{Personality and Social Psychology Bulletin} 45 (3): 416--30.
-
-\bibitem[\citeproctext]{ref-bosson2006}
-Bosson, JENNIFER K., AMBER B. JOHNSON, KATE NIEDERHOFFER, and WILLIAM B.
-SWANN. 2006. {``Interpersonal Chemistry Through Negativity: Bonding by
-Sharing Negative Attitudes about Others.''} \emph{Personal
-Relationships} 13 (2): 135--50.
-\url{https://doi.org/10.1111/j.1475-6811.2006.00109.x}.
-
-\bibitem[\citeproctext]{ref-cheryan2005you}
-Cheryan, Sapna, and Benoı̂t Monin. 2005. {``Where Are You Really from?:
-Asian Americans and Identity Denial.''} \emph{Journal of Personality and
-Social Psychology} 89 (5): 717.
-
-\bibitem[\citeproctext]{ref-fein1997a}
-Fein, Steven, and Steven J. Spencer. 1997. {``Prejudice as Self-Image
-Maintenance: Affirming the Self Through Derogating Others.''}
-\emph{Journal of Personality and Social Psychology} 73 (1): 31--44.
-\url{https://doi.org/10.1037/0022-3514.73.1.31}.
-
-\bibitem[\citeproctext]{ref-kroger2006identity}
-Kroger, Jane. 2006. {``Identity Development During Adolescence.''}
-\emph{Blackwell Handbook of Adolescence}, 205--26.
-
-\bibitem[\citeproctext]{ref-weaver2011}
-Weaver, Jonathan R., and Jennifer K. Bosson. 2011. {``I Feel Like I Know
-You: Sharing Negative Attitudes of Others Promotes Feelings of
-Familiarity.''} \emph{Personality and Social Psychology Bulletin} 37
-(4): 481--91. \url{https://doi.org/10.1177/0146167211398364}.
-
-\end{CSLReferences}
 \end{frame}
 
 
