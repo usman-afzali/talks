@@ -55,7 +55,7 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 
 ::: incremental
 -   Estimation of the cohort effect
--   Cohort effect: A cohort effect is when differences in behaviour or traits among people are due to the time period or events they experienced together, rather than their age or other factors. Example: Technology Adoption: People born in the 1990s grew up with the internet and are generally more tech-savvy than those born in the 1950s, who had to learn digital skills later in life. The difference in comfort with technology is a cohort effect.
+-   Cohort effect: A cohort effect is when differences in behaviour or traits among people are due to the time period or events they experienced together, rather than their age or other factors. For instance, technology adoption: People born in the 1990s grew up with the internet and are generally more tech-savvy than those born in the 1950s, who had to learn digital skills later in life. The difference in comfort with technology is a cohort effect.
 -   Allows studying changes of behaviour in individuals across time
 
 :::
@@ -76,7 +76,6 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 -   Minimizing selection bias
 -   Choosing appropriate measurement tools
 -   Combining quantitative and qualitative approaches
--   Analysing growth trajectories (e.g., growth curve modelling)
 -   Exploring inter-individual and intra-individual differences
 
 :::
@@ -84,43 +83,40 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 
 ## Types of longitudinal design
 
-::: incremental
 -   Trend studies
 -   Cohort studies
 -   Panel studies
 -   Accelerated longitudinal designs
 
-:::
-
 ## Trend studies
 
 :::incremental
+-   Example: Tracking changes in cognitive abilities in a cohort of aging adults.
 -   Trend studies, also known as time-trend studies, involve studying changes in a **single variable or phenomenon across different time points**. In trend studies, researchers collect data from different cross-sectional samples at various time intervals. The focus is on observing how the variable of interest changes over time within each sample, without necessarily tracking the same individuals across time.
--   Example: Tracking changes in cognitive abilities in a cohort of aging adults
 
 :::
 
 ## Cohort Studies
 
 :::incremental
+-   Example: Comparing social attitudes in different generations.
 -   Cohort studies involve tracking **specific groups (cohorts)** of individuals over time. Cohorts are usually defined by a shared characteristic, such as birth year or life experience. Researchers collect data from the same group of individuals at multiple time points to study changes and developments within that specific cohort. This design allows for the examination of cohort-specific effects and trends.
--   Example: Comparing social attitudes in different generations
 
 :::
 
 ## Panel Studies
 
 :::incremental
--   Panel studies involve collecting data from the **same individuals** (the panel) at multiple time points. The goal is to track individual trajectories and changes over time. Panel studies require the same participants to be measured on the same variables repeatedly, making them well-suited for examining within-person variability and changes within specific individuals over time.
 -   Example: Tracking academic performance in a group of students from childhood to adulthood
+-   Panel studies involve collecting data from the **same individuals** (the panel) at multiple time points. The goal is to track individual trajectories and changes over time. Panel studies require the same participants to be measured on the same variables repeatedly, making them well-suited for examining within-person variability and changes within specific individuals over time.
 
 :::
 
 ## Accelerated longitudinal design
 
 :::incremental
--   Accelerated longitudinal designs involve **intensive data collection over a shorter period** compared to traditional longitudinal studies. This design is particularly useful when researchers are interested in studying rapid changes or development within a relatively compressed timeframe. Accelerated designs can involve repeated measurements over weeks or months, capturing significant changes in a short span.
 -   Example: Studying language acquisition in children over a few months
+-   Accelerated longitudinal designs involve **intensive data collection over a shorter period** compared to traditional longitudinal studies. This design is particularly useful when researchers are interested in studying rapid changes or development within a relatively compressed time-frame. Accelerated designs can involve repeated measurements over weeks or months, capturing significant changes in a short span.
 
 :::
 
@@ -158,6 +154,8 @@ Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even
 -   **Clinical psychology** 
 -   Tracking treatment effectiveness and relapse prevention 
 -   Understanding trajectories of mental health disorders
+-   **Social psychology**
+-   Tracking changes in values, attitudes and behaviours
 
 :::
 
@@ -167,90 +165,72 @@ This study has followed a cohort of 1,037 individuals born in Dunedin, New Zeala
 
 <https://dunedinstudy.otago.ac.nz>
 
---------
-
-::: {layout="[[1], [1,1,1]]"}
-![](figs/mds.png){width="50%" fig-align="center"} ![](figs/sponsors.png)
-:::
 
 ## The New Zealand Attitudes and Values Study (NZAVS)
-
-The New Zealand Attitudes and Values Study is a long-term research project that began in 2009 by Prof [Chris Sibley]() (The University of Auckland). It focuses on investigating the attitudes, values, and beliefs of New Zealanders over time. The study aims to provide a comprehensive understanding of how various factors, including demographics, experiences, and historical context, shape individuals' opinions and behaviours.
-
-------------------------------------------------------------------------
+![](figs/sponsors.png)
 
 
-1.  Muslims with the strongest ties to their community as measured by
-service attendance and prayer are buffered most from anti-Muslim
-prejudice.
+----------
 
-2.    Muslims experience greater challenges to employment and health than
-matched members of other religious groups.
+The New Zealand Attitudes and Values Study (NZAVS) is a longitudinal quantitative panel research project that began in 2009 by Prof Chris Sibley (The University of Auckland). It focuses on investigating the attitudes, values, and beliefs of New Zealanders over time. The study aims to provide a comprehensive understanding of how various factors, including demographics, experiences, and historical context, shape individuals' opinions and behaviours.
 
-3. Subjective well-being, the meaning of life, and psychological distress
-are similar among Muslims and matched members of religious groups from
-the buffering of religious community-making.
-
-
-------------------------------------------------------------------------
+---------
 
 ![](figs/alluvial.png)
 
 
 
--------------
-
-
-::: {layout="[[1], [1]]"}
-![](figs/mds.png){width="60%" fig-align="center"}
-
-![](figs/sponsors.png)
-:::
-
 ## NZAVS Key Features
 
 ::: incremental
--   Longitudinal Nature: The NZAVS follows a large and diverse sample of New Zealanders across different age groups over an extended period. This longitudinal design enables researchers to track changes in attitudes and values across generations and identify trends and shifts over time.
--   Wide Range of Topics: The study covers a broad range of topics, including social, political, environmental, and cultural attitudes. It delves into issues such as discrimination, social cohesion, well-being, environmental concerns, political participation, and national identity.
--   Cohort Comparison: By comparing responses from different cohorts of participants (e.g., different age groups), the NZAVS can highlight generational shifts in attitudes and values. This approach provides insights into how social and historical changes impact people's worldviews.
+-   **Longitudinal Nature:** The NZAVS follows a large and diverse sample of New Zealanders across different age groups over an extended period. This longitudinal design enables researchers to track changes in attitudes and values across generations and identify trends and shifts over time.
+-   **Wide Range of Topics:** The study covers a broad range of topics, including social, political, environmental, and cultural attitudes. It delves into issues such as discrimination, social cohesion, well-being, environmental concerns, political participation, and national identity.
+-   **Data Collection Methods:** The NZAVS collects data through online or printed surveys. The surveys include both established measures and new items designed to capture emerging issues and trends.
 :::
 
 ------------------------------------------------------------------------
+
 ::: incremental
--   Data Collection Methods: The NZAVS collects data through online or printed surveys. The surveys include both established measures and new items designed to capture emerging issues and trends.
--   Public Engagement: The study emphasizes public engagement and transparency. Researchers share findings with the public and policymakers, contributing to informed discussions and evidence-based decision-making.
--   Impact on Policy and Society: The insights gained from the NZAVS have the potential to inform social policies, educational initiatives, and public discourse in New Zealand. The study's findings can help anticipate societal changes and design interventions that address emerging challenges.
--   Treatment: Treatments can happen – but mostly in the form of natural or man-made events (e.g., changes in the government, some government policies/legislations, Covid-19, earthquakes, floods, massacres).
+
+-   **Public Engagement:** The study emphasizes public engagement and transparency. Researchers share findings with the public and policymakers, contributing to informed discussions and evidence-based decision-making.
+-   **Treatment:** Treatments can happen – but mostly in the form of natural or man-made events (e.g., changes in the government, some government policies/legislations, Covid-19, earthquakes, floods, massacres).
 
 :::
 
 
 
-## Examples of Research Questions Addressed by NZAVS
-
-::: incremental
-1.    How have attitudes toward multiculturalism and diversity changed over different generations?
-2.    What are the factors influencing environmental attitudes and behaviors among New Zealanders?
-3.    How do perceptions of social inequality vary across age groups and socioeconomic backgrounds?
-4.    What are the predictors of political engagement and civic participation in New Zealand?
-5.    How has the perception of national identity evolved in response to changing societal norms and events?
-6.    A current NZAVS project looking at diversity and flourishing within Muslims in NZ: https://usman-afzali.github.io/muslim-diversity/
+## Examples of Research Topics Addressed by NZAVS
 
 
-:::
+## Comparing Warmth for Different Groups
+
+![](figs/image002.png){width=85%}
+
+
+## Overtime Change in Warth Towards Muslims
+
+![](figs/discontinuity_plot_warm_muslims_20240913.png){width=85%}
+
+
+## Tracking Changes Overtime
+
+![](figs/seed.png)
+
 
 
 ## Important NZAVS links
 
-Homepage: https://osf.io/75snb/wiki/home/
-Current study group: https://osf.io/75snb/wiki/Research%20Group/
-Publications: https://osf.io/75snb/wiki/Publications/
+-   Homepage: <https://osf.io/75snb/wiki/home/>
+-   Publications: <https://osf.io/75snb/wiki/Publications/>
 
 
 
+------
 
-**Patai?**
+**Pātai**
+
+--------
 
 **Ka Kite**
 
-## References
+
