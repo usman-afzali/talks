@@ -47,7 +47,7 @@ editor:
 
 Example: Measuring IQ at 40, 60, and 80 years of age in the same cohort (or even the same individuals).
 
-![](~/Documents/GitHub/talks/figs/iq-example-long-design.jpg){fig-align="center"}
+![](~/Documents/Figures/iq-example-long-design.jpg){fig-align="center"}
 
 
 ## Strengths
@@ -166,7 +166,7 @@ This study has followed a cohort of 1,037 individuals born in Dunedin, New Zeala
 
 
 ## The New Zealand Attitudes and Values Study (NZAVS)
-![](~/Documents/GitHub/talks/figs/mds-sponsors.png)
+![](~/Documents/Figures/mds-sponsors.png)
 
 ----------
 
@@ -174,7 +174,7 @@ The New Zealand Attitudes and Values Study (NZAVS) is a longitudinal quantitativ
 
 ---------
 
-![](~/Documents/GitHub/talks/figs/nzavs-alluvial.png)
+![](~/Documents/Figures/nzavs-alluvial.png)
 
 
 ## NZAVS Features
@@ -199,22 +199,20 @@ The New Zealand Attitudes and Values Study (NZAVS) is a longitudinal quantitativ
 
 ## Comparing Warmth for Different Groups
 
-![](~/Documents/GitHub/talks/figs/boxplots-warmth-groups.png){width=85%}
+![](~/Documents/Figures/boxplots-warmth-groups.png){width=85%}
 
 ## Overtime Change in Warth Towards Muslims
 
-![](~/Documents/GitHub/talks/figs/discontinuity_plot_warm_muslims_2024.png){width=85%}
+![](~/Documents/Figures/discontinuity_plot_warm_muslims_2024.png){width=85%}
 
 ## Tracking Changes Overtime
 
-![](~/Documents/GitHub/talks/figs/individual-warmth-trajectory.png)
+![](~/Documents/Figures/individual-warmth-trajectory.png)
 
 ## NZAVS Links
 
 -   Homepage: <https://osf.io/75snb/wiki/home/>
 -   Publications: <https://osf.io/75snb/wiki/Publications/>
-
-
 
 ------
 
