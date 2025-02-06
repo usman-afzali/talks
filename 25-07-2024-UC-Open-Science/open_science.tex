@@ -23,13 +23,13 @@
 }
 \setbeamertemplate{section page}{
   \centering
-  \begin{beamercolorbox}[sep=12pt,center]{part title}
+  \begin{beamercolorbox}[sep=12pt,center]{section title}
     \usebeamerfont{section title}\insertsection\par
   \end{beamercolorbox}
 }
 \setbeamertemplate{subsection page}{
   \centering
-  \begin{beamercolorbox}[sep=8pt,center]{part title}
+  \begin{beamercolorbox}[sep=8pt,center]{subsection title}
     \usebeamerfont{subsection title}\insertsubsection\par
   \end{beamercolorbox}
 }
@@ -95,15 +95,17 @@
 \makeatother
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
 % definitions for citeproc citations
@@ -181,9 +183,7 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
+
 \usepackage{bookmark}
 
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
@@ -198,6 +198,7 @@
   urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
 
+
 \title{Open Science}
 \author{Usman Afzali, PhD - Postdoctoral Fellow and Lecturer}
 \date{2024-07-25}
@@ -206,6 +207,7 @@
 
 \begin{document}
 \frame{\titlepage}
+
 
 \begin{frame}{Outline}
 \phantomsection\label{outline}
@@ -289,7 +291,7 @@
 \begin{frame}{Listening to ``Why I'm Sixty-Four'' makes you younger}
 \phantomsection\label{listening-to-why-im-sixty-four-makes-you-younger}
 \begin{center}
-\includegraphics[width=0.8\textwidth,height=\textheight]{~/Documents/Figures/p-Hacking-example.png}
+\includegraphics[width=0.8\linewidth,height=\textheight,keepaspectratio]{~/Documents/Figures/p-Hacking-example.png}
 \end{center}
 \end{frame}
 
@@ -323,7 +325,7 @@
 \begin{frame}{Changing the false positive rate}
 \phantomsection\label{changing-the-false-positive-rate}
 \begin{center}
-\includegraphics[width=0.8\textwidth,height=\textheight]{~/Documents/Figures/p-Hacking-table.png}
+\includegraphics[width=0.8\linewidth,height=\textheight,keepaspectratio]{~/Documents/Figures/p-Hacking-table.png}
 \end{center}
 \end{frame}
 
@@ -348,7 +350,7 @@
 \begin{frame}{Why would one engage in QRP's?}
 \phantomsection\label{why-would-one-engage-in-qrps}
 \begin{center}
-\includegraphics[width=0.7\textwidth,height=\textheight]{~/Documents/Figures/publish-perish-comic.jpeg}
+\includegraphics[width=0.7\linewidth,height=\textheight,keepaspectratio]{~/Documents/Figures/publish-perish-comic.jpeg}
 \end{center}
 \end{frame}
 
@@ -372,7 +374,7 @@
 \begin{frame}{Avoiding QRP's}
 \phantomsection\label{avoiding-qrps}
 \begin{center}
-\includegraphics[width=0.5\textwidth,height=\textheight]{~/Documents/Figures/avoiding-qrp.png}
+\includegraphics[width=0.5\linewidth,height=\textheight,keepaspectratio]{~/Documents/Figures/avoiding-qrp.png}
 \end{center}
 \end{frame}
 
@@ -477,7 +479,7 @@ compliant open access journals or platforms.
 \begin{frame}{}
 \phantomsection\label{section-3}
 \begin{center}
-\includegraphics[width=0.8\textwidth,height=\textheight]{~/Documents/Figures/paid-os.png}
+\includegraphics[width=0.8\linewidth,height=\textheight,keepaspectratio]{~/Documents/Figures/paid-os.png}
 \end{center}
 \end{frame}
 
@@ -496,14 +498,14 @@ compliant open access journals or platforms.
 \begin{frame}{Centre for Open Science}
 \phantomsection\label{centre-for-open-science}
 \begin{center}
-\includegraphics[width=0.8\textwidth,height=\textheight]{~/Documents/Figures/cos-intro.png}
+\includegraphics[width=0.8\linewidth,height=\textheight,keepaspectratio]{~/Documents/Figures/cos-intro.png}
 \end{center}
 \end{frame}
 
 \begin{frame}{Open Science Framework}
 \phantomsection\label{open-science-framework}
 \begin{center}
-\includegraphics{~/Documents/Figures/osf-wiki.png}
+\pandocbounded{\includegraphics[keepaspectratio]{~/Documents/Figures/osf-wiki.png}}
 \end{center}
 \end{frame}
 
@@ -645,7 +647,7 @@ compliant open access journals or platforms.
 \begin{frame}{}
 \phantomsection\label{section-4}
 \begin{center}
-\includegraphics{~/Documents/Figures/linkedin-predatory-duplicate.jpg}
+\pandocbounded{\includegraphics[keepaspectratio]{~/Documents/Figures/linkedin-predatory-duplicate.jpg}}
 \end{center}
 \end{frame}
 
@@ -668,7 +670,7 @@ compliant open access journals or platforms.
 \begin{frame}{}
 \phantomsection\label{section-5}
 \begin{center}
-\includegraphics{~/Documents/Figures/retractions-twitter.png}
+\pandocbounded{\includegraphics[keepaspectratio]{~/Documents/Figures/retractions-twitter.png}}
 \end{center}
 \end{frame}
 
@@ -696,6 +698,7 @@ Simmons, Joseph P., Leif D. Nelson, and Uri Simonsohn. 2011.
 
 \end{CSLReferences}
 \end{frame}
+
 
 
 
