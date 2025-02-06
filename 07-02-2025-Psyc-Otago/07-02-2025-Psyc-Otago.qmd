@@ -130,13 +130,13 @@ date-format: long
 
 
 ## Publications
-::: {.incremental}
+
 1. Exploring New Zealand National Identity and Its Importance for Attitudes toward Muslims and Support for Diversity. Yogeeswaran et al. (2019). NZJP.
 2. Prejudice toward Muslims in New Zealand: Insights from the New Zealand Attitudes and Values Study. Sibley et al. (2020). NZJP.
 3. Hate begets warmth? The impact of an anti-Muslim terrorist attack on public attitudes toward Muslims. Shanaah et al. (2021). Terrorism and Political Violence.
 4. Psychological impact of far-right terrorism against Muslim minorities on national distress, community, and wellbeing. Byrne et al. (2022). Nature Scientific Reports.
 5. Long-term causal effects of far-right terrorism in New Zealand. Bulbulia et al. (2023). PNAS Nexus.
-:::
+
 
 # Postdoc 2 (2023-2025)
 
@@ -170,6 +170,7 @@ date-format: long
 4. Demographic and personality factors associated with Islamophobia in New Zealand. Badis et al. (under review).
 :::
 
+# Bigger Picture
 
 ## Areas of Research
 - Human flourishing
@@ -179,9 +180,7 @@ date-format: long
 - Cognitive psychology
 - Forensic psychology
 
-# Research Projects
-
-##
+## Research Projects
 
 :::{.incremental}
 - As PI in the Muslim Diversity Study.
@@ -192,9 +191,7 @@ date-format: long
 :::
 
 
-# Current Research Supervision
-
-##
+## Current Research Supervision
 
 :::{.incremental}
 
@@ -206,9 +203,7 @@ using mobile brain/body imaging (MoBI). [Associate supervisor].
 comprehension and EEG. [Co-supervisor].
 :::
 
-# Teaching
-
-##
+## Teaching
 
 :::{.incremental}
 - Research Methods/Statistics (UC)
@@ -217,6 +212,15 @@ comprehension and EEG. [Co-supervisor].
 - Religion and Human Behaviour (Otago)
 - Introduction to the Scientific Study of Religion (Otago)
 :::
+
+## Overall Causes and Interests
+
+:::{.incremental}
+- Open Science and pre-registration
+- Tools: Quarto, GitHub, EEG, AI
+- Ethics in publishing
+:::
+
 
 # Thank You!
 
