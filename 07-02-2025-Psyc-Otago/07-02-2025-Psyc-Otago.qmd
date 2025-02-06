@@ -3,12 +3,11 @@ title: "Research Summary"
 format:
   revealjs: 
     slide-number: true
-    chalkboard: 
-      buttons: false
     preview-links: auto
     smaller: true
     logo: images/quarto.png
     footer: 'www.usmanafzali.com'
+    embed-resources: true
 author:
   - name: Usman Afzali
     orcid: 0000-0001-7883-8573
