@@ -29,7 +29,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="WERO_files/libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
   <link href="WERO_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="WERO_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -140,7 +160,7 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 <a href="mailto:usman.afzali@otago.ac.nz">usman.afzali@otago.ac.nz</a>
 </div>
         <p class="quarto-title-affiliation">
-            Religion Programme, University of Otago
+            Lecturer in Science of Religion, University of Otago
           </p>
     </div>
 </div>
@@ -148,21 +168,9 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
   <p class="date">February 10, 2025</p>
 </section>
 <section>
-<section id="background" class="title-slide slide level1 center">
-<h1>Background</h1>
+<section id="basics" class="title-slide slide level1 center">
+<h1>Basics</h1>
 
-</section>
-<section id="the-new-zealand-attitudes-and-values-study-nzavs" class="slide level2">
-<h2>The New Zealand Attitudes and Values Study (NZAVS)</h2>
-<ul>
-<li>Started in Feb 2023</li>
-<li>Examines the the social attitudes, values, resilience, flourishing, meaning-making, well-being, and the experiences of Muslims</li>
-<li>Examines the role of religion and religiosity</li>
-<li>Effects of these variables on each other -Addresses under-representations of Muslims in the New Zealand Attitudes and Values Study (NZAVS)</li>
-</ul>
-</section>
-<section id="muslim-diversity-study" class="slide level2">
-<h2>Muslim Diversity Study</h2>
 </section>
 <section id="team" class="slide level2">
 <h2>Team</h2>
@@ -187,6 +195,71 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 <li><code>r n_total</code> individuals who have participated in the New Zealand Attitudes and Values Study since 2009.</li>
 <li><code>r n_mus_post</code> Muslims participating in the Muslim Diversity Study.</li>
 </ul>
+</section></section>
+<section>
+<section id="background" class="title-slide slide level1 center">
+<h1>Background</h1>
+
+</section>
+<section id="muslim-diversity-study-mds" class="slide level2">
+<h2>Muslim Diversity Study (MDS)</h2>
+<ul>
+<li>Started in Feb 2023</li>
+<li>Examines the the social attitudes, values, resilience, flourishing, meaning-making, well-being, and the experiences of Muslims</li>
+<li>Examines the role of religion and religiosity</li>
+<li>Effects of these variables on each other</li>
+<li>Addresses under-representations of Muslims in the New Zealand Attitudes and Values Study (NZAVS) <span class="citation" data-cites="afzali2024">(<a href="#/references" role="doc-biblioref" onclick="">Afzali et al. 2024</a>)</span></li>
+</ul>
+</section>
+<section id="the-new-zealand-attitudes-and-values-study-nzavs" class="slide level2">
+<h2>The New Zealand Attitudes and Values Study (NZAVS)</h2>
+<ul>
+<li>Planned 20-year longitudinal study, currently in its 15th year</li>
+<li>Postal/online questionnaire</li>
+<li>Sample frame drawn randomly from NZ Electoral Roll</li>
+<li>Large multidisciplinary research team</li>
+<li>Sample contains ~72k+ unique people, or 1.45% of the adult NZ population.</li>
+<li>Limitations with Muslim sample</li>
+</ul>
+</section>
+<section id="nzavs-measures" class="slide level2 smaller">
+<h2>NZAVS Measures</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Big-Six Personality</li>
+<li>Social Dominance Orientation</li>
+<li>Right-Wing Authoritarianism</li>
+<li>Ambivalent Sexism</li>
+<li>Patriotism</li>
+<li>Nationalism</li>
+<li>Affect toward different ethnic groups</li>
+<li>Attitudes toward Multiculturalism</li>
+<li>Immigration</li>
+<li>Schwartz Values</li>
+<li>Subjective Wellbeing</li>
+<li>Satisfaction with Life</li>
+</ul>
+</div><div class="column">
+<ul>
+<li>Body Image</li>
+<li>Self-Esteem</li>
+<li>Psychological Distress</li>
+<li>Health ratings</li>
+<li>Climate change beliefs</li>
+<li>Attitudes toward the environment</li>
+<li>Intergroup contact (positive and negative)</li>
+<li>Voting behaviour</li>
+<li>Political party support</li>
+<li>Perceived discrimination</li>
+<li>Felt belongingness</li>
+<li>Colour-blind ideology</li>
+<li>Ethnic identity</li>
+</ul>
+</div></div>
+</section>
+<section id="the-need-for-mds" class="slide level2">
+<h2>The Need for MDS</h2>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
@@ -200,8 +273,19 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 <p><img data-src="plots/plot_religious_id.png"></p>
 <p><img data-src="plots/plot_religious_practice.png"></p>
 <p><img data-src="plots/plot_social_belong.png"></p>
-<p><img data-src="plots/plot_social_support.png"> ## Team</p>
+<p><img data-src="plots/plot_social_support.png"></p>
+</section>
+<section id="team-1" class="slide level2">
+<h2>Team</h2>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-afzali2024" class="csl-entry" role="listitem">
+Afzali, M. U., J. S. Badis, P. Khoso, G. Aqsa, M. S. Ahmed, A. Ali, A. Ali, et al. 2024. <span>“Muslim Diversity Study: Quantitative Protocol and Practical Insights on Engaging New Zealand<span>’</span>s Muslim Communities.”</span> <a href="http://dx.doi.org/10.31219/osf.io/tqvsk">http://dx.doi.org/10.31219/osf.io/tqvsk</a>.
+</div>
+</div>
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">

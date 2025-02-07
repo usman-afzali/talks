@@ -13,50 +13,100 @@ author:
   - name: Usman Afzali
     orcid: 0000-0001-7883-8573
     email: usman.afzali@otago.ac.nz
-    affiliations: Religion Programme, University of Otago
+    affiliations: Lecturer in Science of Religion, University of Otago
 date: "02/10/2025"
 date-format: long  
+bibliography: references.bib
 ---
 
-# Background
-
-## The New Zealand Attitudes and Values Study (NZAVS)
-
-- Started in Feb 2023
-- Examines the the social attitudes, values, resilience, flourishing, meaning-making, well-being, and the experiences of Muslims
-- Examines the role of religion and religiosity
-- Effects of these variables on each other
--Addresses under-representations of Muslims in the New Zealand Attitudes and Values Study (NZAVS)
-
-
-## Muslim Diversity Study
-
+# Basics
 
 ## Team
 
-- Prof Joseph A. Bulbulia
-- Prof Chris G. Sibley
-- Mr Aarif A. Rasheed
-- Associate Prof Kumar Yogeswaaran
-- The MDS Team
-- MDS Collaborators
-- MDS Advisory Group
+-   Prof Joseph A. Bulbulia
+-   Prof Chris G. Sibley
+-   Mr Aarif A. Rasheed
+-   Associate Prof Kumar Yogeswaaran
+-   The MDS Team
+-   MDS Collaborators
+-   MDS Advisory Group
 
 ## Supported by
 
-- Templeton Religion Trust
-- University of Auckland
-- University of Canterbury
-- University of Otago
-- Victoria University of Wellington
-- `r n_total` individuals who have participated in the New Zealand Attitudes and Values Study since 2009.
-- `r n_mus_post` Muslims participating in the Muslim Diversity Study.
+-   Templeton Religion Trust
+-   University of Auckland
+-   University of Canterbury
+-   University of Otago
+-   Victoria University of Wellington
+-   `r n_total` individuals who have participated in the New Zealand Attitudes and Values Study since 2009.
+-   `r n_mus_post` Muslims participating in the Muslim Diversity Study.
+
+# Background
+
+## Muslim Diversity Study (MDS)
+
+-   Started in Feb 2023
+-   Examines the the social attitudes, values, resilience, flourishing, meaning-making, well-being, and the experiences of Muslims
+-   Examines the role of religion and religiosity
+-   Effects of these variables on each other
+-   Addresses under-representations of Muslims in the New Zealand Attitudes and Values Study (NZAVS) [@afzali2024]
+
+
+## The New Zealand Attitudes and Values Study (NZAVS)
+
+- Planned 20-year longitudinal study, currently in its 15th year
+- Postal/online questionnaire
+- Sample frame drawn randomly from NZ Electoral Roll
+- Large multidisciplinary research team
+- Sample contains ~72k+ unique people, or 1.45% of the adult NZ population.
+- Limitations with Muslim sample
+
+## NZAVS Measures  {.smaller}
+
+::::{.columns}
+
+:::{.column}
+- Big-Six Personality
+- Social Dominance Orientation
+- Right-Wing Authoritarianism
+- Ambivalent Sexism
+- Patriotism
+- Nationalism
+- Affect toward different ethnic groups
+- Attitudes toward Multiculturalism
+- Immigration
+- Schwartz Values
+- Subjective Wellbeing
+- Satisfaction with Life
+
+:::
+
+:::{.column}
+- Body Image
+- Self-Esteem
+- Psychological Distress
+- Health ratings
+- Climate change beliefs
+- Attitudes toward the environment
+- Intergroup contact (positive and negative)
+- Voting behaviour
+- Political party support
+- Perceived discrimination
+- Felt belongingness
+- Colour-blind ideology
+- Ethnic identity
+
+:::
+
+::::
+
+## The Need for MDS
+
 
 
 ## 
 
 ![](plots/plot_belief.png)
-
 
 ![](plots/plot_descrim.png)
 
@@ -77,5 +127,7 @@ date-format: long
 ![](plots/plot_social_belong.png)
 
 ![](plots/plot_social_support.png)
+
 ## Team
 
+## References
