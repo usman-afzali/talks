@@ -1,6 +1,5 @@
 ---
-title: "Muslim Diversity Study"
-subtitle: "NZ Muslims’ perception of discrimination compared with other religious groups – Insight from NZAVS"
+title: "NZ Muslims’ Self-Perception of Discrimination"
 format:
   revealjs: 
     slide-number: true
