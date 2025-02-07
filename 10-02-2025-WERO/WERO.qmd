@@ -22,7 +22,6 @@ date-format: long
 
 ## The New Zealand Attitudes and Values Study (NZAVS)
 
-
 ## Muslim Diversity Study
 
 
