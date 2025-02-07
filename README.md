@@ -11,3 +11,8 @@ Slides' repo for public talks of Usman.
    
 
 For further info, contact <https://github.com/usman-afzali>.
+
+
+## Note
+
+To get an .html output, use `embed-resources: true` in the yaml.
