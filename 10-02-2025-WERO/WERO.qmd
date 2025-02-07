@@ -22,6 +22,13 @@ date-format: long
 
 ## The New Zealand Attitudes and Values Study (NZAVS)
 
+- Started in Feb 2023
+- Examines the the social attitudes, values, resilience, flourishing, meaning-making, well-being, and the experiences of Muslims
+- Examines the role of religion and religiosity
+- Effects of these variables on each other
+- Addresses under-representations of Muslims in the New Zealand Attitudes and Values Study (NZAVS)
+
+
 ## Muslim Diversity Study
 
 
