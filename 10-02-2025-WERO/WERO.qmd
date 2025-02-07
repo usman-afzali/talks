@@ -1,0 +1,76 @@
+---
+title: "Muslim Diversity Study"
+subtitle: "NZ Muslims’ perception of discrimination compared with other religious groups – Insight from NZAVS"
+format:
+  revealjs: 
+    slide-number: true
+    preview-links: auto
+    smaller: true
+    scrollable: true
+    logo: images/quarto.png
+    footer: 'www.usmanafzali.com'
+    embed-resources: true
+author:
+  - name: Usman Afzali
+    orcid: 0000-0001-7883-8573
+    email: usman.afzali@otago.ac.nz
+    affiliations: Religion Programme, University of Otago
+date: "02/10/2025"
+date-format: long  
+---
+
+# Background
+
+## The New Zealand Attitudes and Values Study (NZAVS)
+
+
+## Muslim Diversity Study
+
+
+## Team
+
+- Prof Joseph A. Bulbulia
+- Prof Chris G. Sibley
+- Mr Aarif A. Rasheed
+- Associate Prof Kumar Yogeswaaran
+- The MDS Team
+- MDS Collaborators
+- MDS Advisory Group
+
+## Supported by
+
+- Templeton Religion Trust
+- University of Auckland
+- University of Canterbury
+- University of Otago
+- Victoria University of Wellington
+- `r n_total` individuals who have participated in the New Zealand Attitudes and Values Study since 2009.
+- `r n_mus_post` Muslims participating in the Muslim Diversity Study.
+
+
+## 
+
+![](plots/plot_belief.png)
+
+
+![](plots/plot_descrim.png)
+
+![](plots/plot_health.png)
+
+![](plots/plot_life.png)
+
+![](plots/plot_person_focussed_a.png)
+
+![](plots/plot_person_focussed_b.png)
+
+![](plots/plot_psych.png)
+
+![](plots/plot_religious_id.png)
+
+![](plots/plot_religious_practice.png)
+
+![](plots/plot_social_belong.png)
+
+![](plots/plot_social_support.png)
+## Team
+
