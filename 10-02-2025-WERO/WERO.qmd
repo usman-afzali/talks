@@ -14,120 +14,275 @@ author:
     orcid: 0000-0001-7883-8573
     email: usman.afzali@otago.ac.nz
     affiliations: Lecturer in Science of Religion, University of Otago
+  - \usepackage{tabularray}    
 date: "02/10/2025"
 date-format: long  
 bibliography: references.bib
 ---
 
-# Basics
+## Thanks
 
-## Team
+::: {.panel-tabset}
+
+### Research Supported by
+
+
+-   Templeton Religion Trust
+-   University of Otago
+-   University of Auckland
+-   Victoria University of Wellington
+-   University of Canterbury
+-   76,409 individuals who have participated in the New Zealand Attitudes and Values Study since 2009.
+-   658 Muslims participating in the Muslim Diversity Study.
+
+### Research with
 
 -   Prof Joseph A. Bulbulia
 -   Prof Chris G. Sibley
 -   Mr Aarif A. Rasheed
 -   Associate Prof Kumar Yogeswaaran
--   The MDS Team
+-   The MDS Team (30 staff, part-time fixed-term)
 -   MDS Collaborators
--   MDS Advisory Group
+-   MDS Advisory Group (29 leaders and academics)
 
-## Supported by
-
--   Templeton Religion Trust
--   University of Auckland
--   University of Canterbury
--   University of Otago
--   Victoria University of Wellington
--   `r n_total` individuals who have participated in the New Zealand Attitudes and Values Study since 2009.
--   `r n_mus_post` Muslims participating in the Muslim Diversity Study.
+:::
 
 # Background
 
-## Muslim Diversity Study (MDS)
+## Overview {.smaller}
 
--   Started in Feb 2023
--   Examines the the social attitudes, values, resilience, flourishing, meaning-making, well-being, and the experiences of Muslims
--   Examines the role of religion and religiosity
--   Effects of these variables on each other
--   Addresses under-representations of Muslims in the New Zealand Attitudes and Values Study (NZAVS) [@afzali2024]
+:::{.incremental}
+
+1. **New Zealand Attitudes and Values Study (NZAVS)**:
+   - A nationally representative panel study, initiated in 2009, currently in year 16.
+   - Sample frame is drawn randomly from the NZ Electoral Roll.
+   - Postal questionnaire (coverage; retention \~ 70-80%).
+   - Large multidisciplinary research team (\>80).
+   - Focus on personality, social attitudes, values, religion, employment, prejudice $\dots$
+
+   - Tracks nearly 1% of New Zealand’s adult population annually, with 76,409 participants to date.
+
+   - Limitations with Muslim sample [@afzali2024]
+
+2. **Muslim Diversity Study (MDS)**:
+   - A longitudinal booster study within the NZAVS, launched in 2023.
+   - Established in partnership and co-desiging with the Muslim community to improve representation of Muslims in the NZAVS.
+   - Increased Muslim sample from less than 0.1% to nearly 1% of New Zealand’s Muslim population (658 participants) [@afzali2024].
 
 
-## The New Zealand Attitudes and Values Study (NZAVS)
+3. **Purpose of the MDS**:
+   - Document Muslim *resilience*, *flourishing*, *meaning-making*, *wellbeing*, etc. over the lifespan
+   - Explore challenges to flourishing and examine how Muslims overcome adversity.
+   - Address gaps in research on how adversity shapes the experiences of Muslims in New Zealand.
 
-- Planned 20-year longitudinal study, currently in its 15th year
-- Postal/online questionnaire
-- Sample frame drawn randomly from NZ Electoral Roll
-- Large multidisciplinary research team
-- Sample contains ~72k+ unique people, or 1.45% of the adult NZ population.
-- Limitations with Muslim sample
+4. **Broader Contribution**:
+   - Amplifies Muslim voices within NZAVS’s historical record.
+   - Aims to enrich understanding of beliefs, attitudes, and behaviours of New Zealanders for future generations.
+   - Shares findings with diff stakeholders e.g., the government, community organisations, rights advocates $\dots$
+:::
 
-## NZAVS Measures  {.smaller}
 
-::::{.columns}
+# Past Research
 
-:::{.column}
-- Big-Six Personality
-- Social Dominance Orientation
-- Right-Wing Authoritarianism
-- Ambivalent Sexism
-- Patriotism
-- Nationalism
-- Affect toward different ethnic groups
-- Attitudes toward Multiculturalism
-- Immigration
-- Schwartz Values
-- Subjective Wellbeing
-- Satisfaction with Life
+## Warmth Thermometer
+
+![Afzali et al. (2024)](plots/measure_warmth.png)
+
+## Historical Attitudes
+
+![Sibley et al. (2020)](plots/plot_longterm-prejudice.png)
+
+## Before vs. After Chch Shootings
+
+![Bulbulia et al. (2023)](plots/plot_rdd.png)
+
+# Current Findings
+
+## Model
+
+:::{.incremental}
+
+- Self-perception
+- Psychological wellbeing
+- Overall wellbeing
+- Religiosity
+- Report models that control for demographics unlikely to be influenced by religious identification (age, place of birth, ethnicity, and gender).
+- Focus on documenting associations between religious affiliation and wellbeing, without inferring causality.
 
 :::
 
-:::{.column}
-- Body Image
-- Self-Esteem
-- Psychological Distress
-- Health ratings
-- Climate change beliefs
-- Attitudes toward the environment
-- Intergroup contact (positive and negative)
-- Voting behaviour
-- Political party support
-- Perceived discrimination
-- Felt belongingness
-- Colour-blind ideology
-- Ethnic identity
+
+## Age {.smaller}
+
+| Religion                     | Not Religious (N=21551) | Muslim (N=658) | Anglican (N=1363) | Buddhist (N=270) | Catholic (N=2017) | Christian (NFD) (N=3696) | Christian (Others) (N=1095) | Hindu (N=136) | Jewish (N=87) | Presby Congreg Reform (N=576) | Other Religions (N=744) |
+|------------------------------|------------------------|---------------|------------------|----------------|----------------|----------------------|----------------------|------------|--------|-------------------------|------------------|
+| **Mean (SD)**                | 51.6 (16.8)           | 33.8 (12.6)  | 63.3 (12.2)      | 56.2 (14.2)    | 56.4 (15.1)    | 53.0 (16.6)          | 59.1 (14.4)          | 52.0 (17.5) | 54.7 (16.3) | 64.1 (11.5)             | 54.2 (16.7)    |
+| **Median [Min, Max]**        | 55.0 [18, 97]         | 31.0 [18, 84] | 65.0 [18, 97]    | 60.0 [20, 81]  | 60.0 [18, 92]  | 57.0 [18, 99]        | 62.0 [18, 94]        | 57.0 [19, 79] | 60.0 [21, 84] | 65.0 [19, 95]           | 59.0 [18, 88]  |
+| **Missing**                  | 0 (0%)                | 21 (3.2%)     | 0 (0%)           | 0 (0%)         | 0 (0%)         | 1 (0.0%)             | 0 (0%)               | 0 (0%)       | 0 (0%)       | 0 (0%)                   | 0 (0%)         |
+
+
+
+
+## Born in New Zealand by Religious Group {.smaller}
+
+| Variable                      | Not Religious (N=21551) | Muslim (N=658) | Anglican (N=1363) | Buddhist (N=270) | Catholic (N=2017) | Christian (NFD) (N=3696) | Christian (Others) (N=1095) | Hindu (N=136) | Jewish (N=87) | Presby Congreg Reform (N=576) | Other Religions (N=744) |
+|------------------------------|----------------------|--------------|----------------|----------------|----------------|---------------------|---------------------|--------------|--------------|-------------------------|----------------|
+| **Born in NZ (Mean, SD)**    | 0.794 (0.405)      | 0.230 (0.421)| 0.831 (0.375)  | 0.587 (0.493)  | 0.786 (0.410)  | 0.776 (0.417)       | 0.747 (0.435)       | 0.441 (0.498)| 0.667 (0.474)| 0.890 (0.313)          | 0.779 (0.415)|
+| **Born in NZ (Median [Min, Max])** | 1.00 [0, 1]   | 0 [0, 1]     | 1.00 [0, 1]    | 1.00 [0, 1]    | 1.00 [0, 1]    | 1.00 [0, 1]         | 1.00 [0, 1]         | 0 [0, 1]     | 1.00 [0, 1]  | 1.00 [0, 1]            | 1.00 [0, 1]  |
+
+
+
+## Male by Religious Group
+
+| Variable                      | Not Religious (N=21551) | Muslim (N=658) | Anglican (N=1363) | Buddhist (N=270) | Catholic (N=2017) | Christian (NFD) (N=3696) | Christian (Others) (N=1095) | Hindu (N=136) | Jewish (N=87) | Presby Congreg Reform (N=576) | Other Religions (N=744) |
+|------------------------------|----------------------|--------------|----------------|----------------|----------------|---------------------|---------------------|--------------|--------------|-------------------------|----------------|
+| **Male (Mean, SD)**          | 0.374 (0.484)      | 0.393 (0.489)| 0.326 (0.469)  | 0.401 (0.491)  | 0.337 (0.473)  | 0.363 (0.481)       | 0.366 (0.482)       | 0.400 (0.492)| 0.354 (0.481)| 0.339 (0.474)          | 0.289 (0.454)|
+| **Male (Median [Min, Max])** | 0 [0, 1]          | 0 [0, 1]     | 0 [0, 1]       | 0 [0, 1]       | 0 [0, 1]       | 0 [0, 1]            | 0 [0, 1]            | 0 [0, 1]     | 0 [0, 1]     | 0 [0, 1]               | 0 [0, 1]     |
+| **Male (Missing)**           | 275 (1.3%)        | 1 (0.2%)     | 3 (0.2%)       | 3 (1.1%)       | 4 (0.2%)       | 11 (0.3%)           | 9 (0.8%)            | 1 (0.7%)     | 5 (5.7%)     | 1 (0.2%)               | 21 (2.8%)    |
+
+
+## Self-Perception Measures
+
+:::{.incremental}
+
+- Age: *I feel that I am often discriminated against because of my age.*
+- Gender: *I feel that I am often discriminated against because of my gender.*
+- Ethnic: *I feel that I am often discriminated against because of my ethnicity.*
+- Religious: *I feel that I am often discriminated against because of my religious/spiritual beliefs.*
 
 :::
 
-::::
-
-## The Need for MDS
-
-
-
-## 
-
-![](plots/plot_belief.png)
+## Self-Perception
 
 ![](plots/plot_descrim.png)
 
-![](plots/plot_health.png)
+## Findings ... {.smaller}
 
-![](plots/plot_life.png)
+- Muslims face distinctive challenges, with religious discrimination as the most pronounced disparity, consistent with prior research on low societal acceptance of Muslims in New Zealand.
 
-![](plots/plot_person_focussed_a.png)
 
-![](plots/plot_person_focussed_b.png)
+## Psychological Wellbeing
+
+- Anxiety: Kessler
+- Depression: Kessler
+- Fatigue: *During the last 30 days, how often did … you feel exhausted?*
+- Rumination: *During the last 30 days, how often did…you have negative thoughts that repeated over and over? (Nolen-hoeksema & Morrow 1993).*
+
+##
 
 ![](plots/plot_psych.png)
 
+## Findings ... {.smaller}
+
+- Muslims face distinctive challenges, with religious discrimination as the most pronounced disparity, consistent with prior research on low societal acceptance of Muslims in New Zealand.
+- Muslims exhibit robust psychological well-being, particularly in anxiety, fatigue, and rumination.
+
+## Life-Reflective Wellbeing Measures
+
+::: {.incremental}
+
+- Gratitude: *I have much in my life to be thankful for. When I look at the world, I don’t see much to be grateful for (reversed). I am grateful to a wide variety of people.* (McCullough et al., 2002)
+
+- Life Satisfaction: *I am satisfied with my life. In most ways my life is close to ideal.* (Diener et al. 1985).
+
+- Meaning (Purpose): *My life has a clear sense of purpose.* (Steger et al. 2006)
+
+- Meaning (Sense): *I have a good sense of what makes my life meaningful.* (Steger et al. 2006)
+
+:::
+
+## Life-Reflective Wellbeing
+
+![](plots/plot_life.png)
+
+## Findings ... {.smaller}
+
+- Muslims face distinctive challenges, with religious discrimination as the most pronounced disparity, consistent with prior research on low societal acceptance of Muslims in New Zealand.
+- Findings suggest that Muslims exhibit robust psychological well-being, particularly in anxiety, fatigue, and rumination
+- Findings underscore consistently elevated life-focused wellbeing among Muslims, with gratitude, life satisfaction, and meaning playing key roles.
+
+## Person-Focussed Wellbeing Measures
+
+::: {.incremental}
+
+- Self Esteem: *On the whole am satisfied with myself. I take a positive attitude toward myself. I am inclined to feel that I am a failure (reversed).*
+- Forgivingness: *Sometimes I can’t sleep because of thinking about past wrongs I have suffered. I can usually forgive and forget when someone does me wrong. I find myself regularly thinking about past times that I have been wronged.*
+- Perfectionisn: *Doing my best never seems to be enough. My performance rarely measures up to my standards. I am hardly ever satisfied with my performance.* (Rice et al., 2014)
+
+:::
+
+
+## Person-Focussed Wellbeing 
+
+![](plots/plot_person_focussed_a.png)
+
+## Findings ... {.smaller}
+
+- Muslims face distinctive challenges, with religious discrimination as the most pronounced disparity, consistent with prior research on low societal acceptance of Muslims in New Zealand.
+- Findings suggest that Muslims exhibit robust psychological well-being, particularly in anxiety, fatigue, and rumination
+- Findings underscore consistently elevated life-focused well-being among Muslims, with gratitude, life satisfaction, and meaning playing key roles.
+- Muslims report high self esteem despite adversity and religious discrimination.
+
+## The Importance/Strength of Findings (so far) {.smaller}
+
+:::{.incremental}
+
+- Muslim report relatively high religious discrimination.
+- Yet, their psychology wellbeing is comparable with other groups.
+- Their life-focussed wellbeing is elevated.
+- Their person-focusssed wellbeing is great.
+- Large sample size.
+- These models adjust for demographic measures (age, place of birth, ethnicity, and gender).
+
+:::
+
+## Religious Belief
+
+
+- Do you believe in a God?
+
+- Do you believe in some form of spirit or life force?
+
+##
+
+![](plots/plot_belief.png)
+
+## Religious Identification
+
+- How important is your religion to how you see yourself?
+- I identify as a spiritual person.
+
+
+##
+
 ![](plots/plot_religious_id.png)
+
+## Religious Practices
+
+- How many times did you attend a church or place of worship in the last month?
+
+- How many times did you pray in the last week?
+
+- How many times did you read religious scripture in the last week?
+
+## 
 
 ![](plots/plot_religious_practice.png)
 
-![](plots/plot_social_belong.png)
 
-![](plots/plot_social_support.png)
+## Conclusion
 
-## Team
+:::{.incremental}
+- Findings suggest that religious identity, community, and practices may enhance self-esteem while buffering against prejudice. 
+
+- Future research should investigate these questions longitudinally.
+
+:::
+
+## A Final Thought
+
+Building on these findings, I want to argue that `Islamophobia` should be categorised specifically as `religious discrimination` rather than `race-based discrimination`. 
+
+This distinction would bring greater nuance to how we understand and address the structure of discrimination.
 
 ## References
