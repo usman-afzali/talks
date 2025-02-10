@@ -13,8 +13,7 @@ author:
   - name: Usman Afzali
     orcid: 0000-0001-7883-8573
     email: usman.afzali@otago.ac.nz
-    affiliations: Lecturer in Science of Religion, University of Otago
-  - \usepackage{tabularray}    
+    affiliations: Lecturer in Science of Religion, University of Otago 
 date: "02/10/2025"
 date-format: long  
 bibliography: references.bib
@@ -86,7 +85,9 @@ bibliography: references.bib
 
 ## Warmth Thermometer
 
-![Afzali et al. (2024)](plots/measure_warmth.png)
+![Sibley et al. 2020](images/measure_warmth.png)
+
+Can be used as a proxy to measure Islamophobia (Badis et al., under review)
 
 ## Historical Attitudes
 
@@ -174,7 +175,10 @@ bibliography: references.bib
 
 ## Findings ... {.smaller}
 
+::: {.fragment .semi-fade-out}
 - Muslims face distinctive challenges, with religious discrimination as the most pronounced disparity, consistent with prior research on low societal acceptance of Muslims in New Zealand.
+:::
+
 - Muslims exhibit robust psychological well-being, particularly in anxiety, fatigue, and rumination.
 
 ## Life-Reflective Wellbeing Measures
@@ -197,8 +201,14 @@ bibliography: references.bib
 
 ## Findings ... {.smaller}
 
+::: {.fragment .semi-fade-out}
+
 - Muslims face distinctive challenges, with religious discrimination as the most pronounced disparity, consistent with prior research on low societal acceptance of Muslims in New Zealand.
+
+
 - Findings suggest that Muslims exhibit robust psychological well-being, particularly in anxiety, fatigue, and rumination
+:::
+
 - Findings underscore consistently elevated life-focused wellbeing among Muslims, with gratitude, life satisfaction, and meaning playing key roles.
 
 ## Person-Focussed Wellbeing Measures
@@ -218,12 +228,17 @@ bibliography: references.bib
 
 ## Findings ... {.smaller}
 
+::: {.fragment .semi-fade-out}
+
 - Muslims face distinctive challenges, with religious discrimination as the most pronounced disparity, consistent with prior research on low societal acceptance of Muslims in New Zealand.
 - Findings suggest that Muslims exhibit robust psychological well-being, particularly in anxiety, fatigue, and rumination
 - Findings underscore consistently elevated life-focused well-being among Muslims, with gratitude, life satisfaction, and meaning playing key roles.
+
+:::
+
 - Muslims report high self esteem despite adversity and religious discrimination.
 
-## The Importance/Strength of Findings (so far) {.smaller}
+## The Importance/Strength of Findings {.smaller}
 
 :::{.incremental}
 
@@ -270,7 +285,7 @@ bibliography: references.bib
 ![](plots/plot_religious_practice.png)
 
 
-## Conclusion
+## Conclusions
 
 :::{.incremental}
 - Findings suggest that religious identity, community, and practices may enhance self-esteem while buffering against prejudice. 
@@ -281,8 +296,12 @@ bibliography: references.bib
 
 ## A Final Thought
 
+:::{.incremental}
+
 Building on these findings, I want to argue that `Islamophobia` should be categorised specifically as `religious discrimination` rather than `race-based discrimination`. 
 
 This distinction would bring greater nuance to how we understand and address the structure of discrimination.
+
+:::
 
 ## References
