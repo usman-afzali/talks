@@ -1,3 +1,8 @@
+# Ignore RStudio project files
+.Rproj.user/
+
+# Ignore Quarto-related temporary files
+quartoCrashCourse_files/
 # Ignore generated Quarto files
 quartoCrashCourse_files/
 
