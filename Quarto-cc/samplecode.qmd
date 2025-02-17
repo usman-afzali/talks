@@ -1,0 +1,32 @@
+---
+title: "sample code"
+format: html
+---
+
+```{r}
+#| label: tbl-ybocs-pclc
+#| tbl-cap: YBOCS & PCLC Cut-Off Values
+#| apa-note: The YBOCS ranges classify OCD severity, while PCLC ranges classify PTSD severity.
+
+# Load necessary libraries
+library(knitr)
+library(tibble)
+
+# Create the data frame
+cut_off_values <- tibble(
+  `YBOCS Range` = c("8 - 15", "16 - 23", "24 - 31", "32 - 40"),
+  `OCD Severity` = c("Mild", "Moderate", "Severe", "Extreme"),
+  `PCLC Range` = c("17 - 29", "28 - 29", "30 - 44", "45 - 85"),
+  `PTSD Severity` = c(
+    "No severity", 
+    "Some symptoms", 
+    "Moderate to moderately high", 
+    "High severity"
+  )
+)
+
+# Generate the table
+cut_off_values %>%
+  knitr::kable()
+
+```
