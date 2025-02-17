@@ -1,4 +1,17 @@
-.Rproj.user
+# Ignore generated Quarto files
+quartoCrashCourse_files/
+
+# Ignore common web assets
+*.css
+*.js
+*.map
+*.woff
+*.ttf
+*.eot
+*.png
+*.jpeg
+*.svg
+X.Rproj.user
 .Rhistory
 .RData
 .Ruserdata
