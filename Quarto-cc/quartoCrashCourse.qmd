@@ -187,6 +187,12 @@ Other formats include **pptx** and **beamer**.
 
 Do you see any advantages with this?
 
+3. Or, share `html`
+
+```{zsh}
+    embed-resources: false
+```
+
 
 # Version control, Remote repositories, and Blogging {background-color="orange"}
 
