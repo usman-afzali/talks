@@ -249,8 +249,8 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 </ul>
 </div>
 </section>
-<section id="problem-1" class="slide level2" data-background-color="#346bc8">
-<h2>Problem 1</h2>
+<section id="problem-1---the-need-for-automation" class="slide level2" data-background-color="#346bc8">
+<h2>Problem 1 - the need for automation</h2>
 
 <img data-src="figs/problem1.png" style="width:70.0%" class="r-stretch"></section>
 <section id="problems-2" class="slide level2" data-background-color="#346bc8">
@@ -261,6 +261,7 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 <li class="fragment">Having to redo a whole document only to change formatting for various purposes.</li>
 <li class="fragment"><code>MS Word</code> is not necessarily the best application for writing up.</li>
 <li class="fragment">The need to remember data analysis/stats decisions made along the way.</li>
+<li class="fragment">Open Science</li>
 </ul>
 </div>
 </section>
@@ -300,15 +301,17 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 </section>
 <section id="quarto-according-to-chatgpt" class="slide level2" data-background-color="#346bc8">
 <h2>Quarto According to ChatGPT</h2>
-<p>Quarto is like a <code>supercharged document creator</code> for researchers, writers, and data enthusiasts. Imagine a <code>mix</code> of Microsoft Word, PowerPoint, and a coding tool, all in one—except it’s designed for making professional reports, interactive documents, presentations, and even websites.</p>
-<p>Think of Quarto as a way to write text, insert images, and include tables—just like in Word—but with added <code>benefits</code>:</p>
+<div>
 <ul>
-<li><p>You can mix text with data visualizations (charts, graphs) seamlessly.</p></li>
-<li><p>It allows you to create reports that automatically update when your data changes.</p></li>
-<li><p>You can export your work into various formats: PDFs, Word docs, websites, slides, and even books.</p></li>
+<li class="fragment"><p>Quarto is like a <code>supercharged document creator</code> for researchers, writers, and data enthusiasts. Imagine a <code>mix</code> of Microsoft Word, PowerPoint, and a coding tool, all in one—except it’s designed for making professional reports, interactive documents, presentations, and even websites.</p></li>
+<li class="fragment"><p>Think of Quarto as a way to write text, insert images, and include tables—just like in Word—but with added <code>benefits</code>:</p></li>
+<li class="fragment"><p>You can mix text with data visualizations (charts, graphs) seamlessly.</p></li>
+<li class="fragment"><p>It allows you to create reports that automatically update when your data changes.</p></li>
+<li class="fragment"><p>You can export your work into various formats: PDFs, Word docs, websites, slides, and even books.</p></li>
+<li class="fragment"><p>If you’ve heard of Markdown (a simple way to format text), Quarto makes it even better by adding features for science, business reports, and technical writing. You don’t need to be a programmer, but if you are, you can integrate code (R, Python, Julia, etc.) to generate real-time analysis and visuals.</p></li>
+<li class="fragment"><p>Think of it as the <code>future of smart documentation</code>—less hassle, more automation, and professional results.</p></li>
 </ul>
-<p>If you’ve heard of Markdown (a simple way to format text), Quarto makes it even better by adding features for science, business reports, and technical writing. You don’t need to be a programmer, but if you are, you can integrate code (R, Python, Julia, etc.) to generate real-time analysis and visuals.</p>
-<p>Think of it as the <code>future of smart documentation</code>—less hassle, more automation, and professional results.</p>
+</div>
 </section>
 <section id="featured-in-nature" class="slide level2" data-background-color="#346bc8">
 <h2>Featured in <em>Nature</em></h2>
@@ -353,11 +356,10 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 <h2>Basics cont…</h2>
 <div>
 <ul>
-<li class="fragment">For a brief start-up, copy the provided code and paste it in the current open <code>.qmd</code> and hit render.</li>
+<li class="fragment">For a brief start-up, copy part of the code from <a href="https://quarto.org/docs/authoring/markdown-basics.html">basics of documentation</a>, paste it in the current open <code>.qmd</code> and hit render.</li>
 <li class="fragment">Alternatively, you can copy a similar <code>.qmd</code> document to the current project, open it, then edit and render it.</li>
-<li class="fragment">Demo</li>
-<li class="fragment">A comprehensive step-by-step tutorial is available on Quarto <a href="https://quarto.org/docs/authoring/markdown-basics.html">website</a>.</li>
-<li class="fragment">Or, you could watch this YouTube <a href="https://www.youtube.com/watch?v=yvi5uXQMvu4">video</a> in your own time. It is a bit outdated, but a great start.</li>
+<li class="fragment">A comprehensive step-by-step tutorial is available on Quarto website.</li>
+<li class="fragment">Or, you could watch <a href="https://www.youtube.com/watch?v=yvi5uXQMvu4">this YouTube video</a> in your own time. It is a bit outdated, but a great start.</li>
 </ul>
 </div>
 </section>
@@ -369,13 +371,13 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 </section>
 <section id="saving-as-pdfdocx-etc" class="slide level2" data-background-color="#346bc8">
 <h2>Saving as pdf/docx etc</h2>
-<p>Add the following code to <code>yaml</code>.</p>
+<p>Add the following code to <code>yaml</code>. - Be mindful of spacing – this is one of the Positron strengths over RStudio.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource {zsh} number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a href=""></a>format:</span>
 <span id="cb2-2"><a href=""></a>  pdf:</span>
 <span id="cb2-3"><a href=""></a>    toc: true</span>
 <span id="cb2-4"><a href=""></a>    number-sections: true</span>
 <span id="cb2-5"><a href=""></a>    colorlinks: true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Visit <a href="https://quarto.org/docs/output-formats/pdf-basics.html">quarto website</a> for further details.</p>
+<p>Visit <a href="https://quarto.org/docs/output-formats/pdf-basics.html">here</a> for further details.</p>
 </section></section>
 <section>
 <section id="presentation" class="title-slide slide level1 center" data-background-color="orange">
@@ -429,21 +431,21 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 </section>
 <section id="blogging" class="slide level2" data-background-color="#346bc8">
 <h2>Blogging</h2>
-<p>Now that we know basics of documentation, version control and remote repos (I know, we are yet to demonstrate this), blogging is extremely easy with Quarto.</p>
+<p>Now that we know basics of documentation, version control and remote repos, blogging is extremely easy with Quarto.</p>
 <p>Blogging with Quarto can be done with the use of Git and <code>GitHub Pages</code>, or we can also use <code>PositCloud</code> instead of GitHub Pages.</p>
 <p>Recently, Posit provided a <a href="https://www.youtube.com/playlist?list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn">series of new videos</a> on Quarto that I am yet to watch. There is a small <a href="https://www.youtube.com/watch?v=l7r24gTEkEY">watchlist</a> on blogging too. From a brief look, it looks like these are even easier and more accessible.</p>
 </section>
-<section id="needed-for-blogging" class="slide level2 scrollable" data-background-color="#346bc8">
+<section id="needed-for-blogging" class="slide level2 smaller scrollable" data-background-color="#346bc8">
 <h2>Needed for blogging</h2>
 <p>Important steps for using remote repo are:</p>
 <ol type="1">
-<li>Git <em>This may or may not work.</em> The code is available in the code.text file.</li>
+<li>Git <em>This may or may not work.</em> The guide is available in the shared folder.</li>
 <li>GitHub account</li>
 <li>Connecting the local system with remote repo</li>
 <li>Creating a repository on GitHub</li>
 <li>Connecting the remote repo with the local one</li>
 </ol>
-<p>These steps are important whether or not we are blogging. For blogging, then of course we need a publisher domain - which could be GitHub Pages or PositCloud.</p>
+<p>These steps are important whether or not we are blogging. For blogging, we also need a publisher domain - which could be GitHub Pages or PositCloud.</p>
 </section></section>
 <section>
 <section id="quarto-templates" class="title-slide slide level1 center" data-background-color="orange">
@@ -461,17 +463,32 @@ Usman Afzali <a href="https://orcid.org/0000-0001-7883-8573" class="quarto-title
 <li>For further info, see <a href="https://m.canouil.dev/quarto-extensions/">Quarto Extensions</a></li>
 </ul>
 </section>
-<section id="advantages-of-documentation-with-quarto" class="slide level2" data-background-color="#346bc8">
-<h2>Advantages of documentation with Quarto</h2>
+<section id="a-few-examples" class="slide level2" data-background-color="#346bc8">
+<h2>A few examples</h2>
+<ul>
+<li>Provided code</li>
+<li>T/NT paper</li>
+<li>Repos + website</li>
+</ul>
+</section>
+<section id="revisit-the-problems" class="slide level2" data-background-color="magenta">
+<h2>Revisit the problems</h2>
 <div>
 <ul>
 <li class="fragment">Keep your data files and write up files integrated.</li>
-<li class="fragment">Create re-usable workflow – becomes much easier once we are familiar.</li>
-<li class="fragment">Workflow is executable… why is this important?</li>
-<li class="fragment">Use version control to see the previous versions.</li>
+<li class="fragment">Automation</li>
+<li class="fragment">Efficiency</li>
+<li class="fragment">Avoid re-doing</li>
+<li class="fragment">Register data analytic steps</li>
 <li class="fragment">Hide/show <code>R</code> code when appropriate.</li>
+<li class="fragment">Don’t need to keep many versions of the same document (version control)</li>
+<li class="fragment">A free application which perhaps makes MS Word and SPSS/Jamovi/Statistica etc. redundant</li>
+<li class="fragment">Better formatting options</li>
+<li class="fragment">Trendy - with a large and growing develope community</li>
+<li class="fragment">Publishable, executable, and shareable code.</li>
 <li class="fragment">Move ready-made <code>.qmd</code> files to a journal template rather than re-formatting the whole manuscript.</li>
 <li class="fragment">The pdf version is generally appropriate for <code>PsyArXiv</code>.</li>
+<li class="fragment">Store files online</li>
 </ul>
 </div>
 </section>

@@ -32,7 +32,7 @@ bibliography: references.bib
 -   Final thoughts
 :::
 
-## Problem 1 {background-color="#346bc8"}
+## Problem 1 - the need for automation {background-color="#346bc8"}
 
 ![](figs/problem1.png){width="70%"}
 
@@ -43,6 +43,7 @@ bibliography: references.bib
 -   Having to redo a whole document only to change formatting for various purposes.
 -   `MS Word` is not necessarily the best application for writing up.
 -   The need to remember data analysis/stats decisions made along the way.
+- Open Science
 :::
 
 ##  {background-color="#346bc8"}
@@ -71,9 +72,11 @@ Any other similar problems?
 
 ## Quarto According to ChatGPT {background-color="#346bc8"}
 
-Quarto is like a `supercharged document creator` for researchers, writers, and data enthusiasts. Imagine a `mix` of Microsoft Word, PowerPoint, and a coding tool, all in one—except it’s designed for making professional reports, interactive documents, presentations, and even websites.
+:::{.incremental}
 
-Think of Quarto as a way to write text, insert images, and include tables—just like in Word—but with added `benefits`:
+- Quarto is like a `supercharged document creator` for researchers, writers, and data enthusiasts. Imagine a `mix` of Microsoft Word, PowerPoint, and a coding tool, all in one—except it’s designed for making professional reports, interactive documents, presentations, and even websites.
+
+- Think of Quarto as a way to write text, insert images, and include tables—just like in Word—but with added `benefits`:
 
 -   You can mix text with data visualizations (charts, graphs) seamlessly.
 
@@ -81,9 +84,11 @@ Think of Quarto as a way to write text, insert images, and include tables—just
 
 -   You can export your work into various formats: PDFs, Word docs, websites, slides, and even books.
 
-If you’ve heard of Markdown (a simple way to format text), Quarto makes it even better by adding features for science, business reports, and technical writing. You don’t need to be a programmer, but if you are, you can integrate code (R, Python, Julia, etc.) to generate real-time analysis and visuals.
+- If you’ve heard of Markdown (a simple way to format text), Quarto makes it even better by adding features for science, business reports, and technical writing. You don’t need to be a programmer, but if you are, you can integrate code (R, Python, Julia, etc.) to generate real-time analysis and visuals.
 
-Think of it as the `future of smart documentation`—less hassle, more automation, and professional results.
+- Think of it as the `future of smart documentation`—less hassle, more automation, and professional results.
+:::
+
 
 ## Featured in *Nature* {background-color="#346bc8"}
 
@@ -122,11 +127,10 @@ Cut the tyranny of copy-and-paste with these coding tools [@perkel2022]
 ## Basics cont... {background-color="#346bc8"}
 
 ::: incremental
--   For a brief start-up, copy the provided code and paste it in the current open `.qmd` and hit render.
+-   For a brief start-up, copy part of the code from [basics of documentation](https://quarto.org/docs/authoring/markdown-basics.html), paste it in the current open `.qmd` and hit render.
 -   Alternatively, you can copy a similar `.qmd` document to the current project, open it, then edit and render it.
--   Demo
--   A comprehensive step-by-step tutorial is available on Quarto [website](https://quarto.org/docs/authoring/markdown-basics.html).
--   Or, you could watch this YouTube [video](https://www.youtube.com/watch?v=yvi5uXQMvu4) in your own time. It is a bit outdated, but a great start.
+-   A comprehensive step-by-step tutorial is available on Quarto website.
+-   Or, you could watch [this YouTube video](https://www.youtube.com/watch?v=yvi5uXQMvu4) in your own time. It is a bit outdated, but a great start.
 :::
 
 ## Add citations and reference list {background-color="#346bc8"}
@@ -140,6 +144,7 @@ Otherwise, you could use doi.
 ## Saving as pdf/docx etc {background-color="#346bc8"}
 
 Add the following code to `yaml`.
+- Be mindful of spacing -- this is one of the Positron strengths over RStudio.
 
 ```{zsh}         
 format:
@@ -149,7 +154,7 @@ format:
     colorlinks: true
 ```
 
-Visit [quarto website](https://quarto.org/docs/output-formats/pdf-basics.html) for further details.
+Visit [here](https://quarto.org/docs/output-formats/pdf-basics.html) for further details.
 
 # Presentation {background-color="orange"}
 
@@ -200,23 +205,23 @@ To know more: Follow this [link](https://docs.github.com/en/get-started/getting-
 
 ## Blogging {background-color="#346bc8"}
 
-Now that we know basics of documentation, version control and remote repos (I know, we are yet to demonstrate this), blogging is extremely easy with Quarto.
+Now that we know basics of documentation, version control and remote repos, blogging is extremely easy with Quarto.
 
 Blogging with Quarto can be done with the use of Git and `GitHub Pages`, or we can also use `PositCloud` instead of GitHub Pages.
 
 Recently, Posit provided a [series of new videos](https://www.youtube.com/playlist?list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn) on Quarto that I am yet to watch. There is a small [watchlist](https://www.youtube.com/watch?v=l7r24gTEkEY) on blogging too. From a brief look, it looks like these are even easier and more accessible.
 
-## Needed for blogging {background-color="#346bc8"}
+## Needed for blogging {background-color="#346bc8" .smaller}
 
 Important steps for using remote repo are:
 
-1.  Git *This may or may not work.* The code is available in the code.text file.
+1.  Git *This may or may not work.* The guide is available in the shared folder.
 2.  GitHub account
 3.  Connecting the local system with remote repo
 4.  Creating a repository on GitHub
 5.  Connecting the remote repo with the local one
 
-These steps are important whether or not we are blogging. For blogging, then of course we need a publisher domain - which could be GitHub Pages or PositCloud.
+These steps are important whether or not we are blogging. For blogging, we also need a publisher domain - which could be GitHub Pages or PositCloud.
 
 # Quarto Templates {background-color="orange"}
 
@@ -230,18 +235,31 @@ Follow on-screen instruction.
 
 -   For further info, see [Quarto Extensions](https://m.canouil.dev/quarto-extensions/)
 
-## Advantages of documentation with Quarto {background-color="#346bc8"}
+## A few examples {background-color="#346bc8"}
+
+- Provided code
+- T/NT paper
+- Repos + website
+
+
+## Revisit the problems {background-color="magenta"}
 
 :::{.incremental}
--   Keep your data files and write up files integrated.
--   Create re-usable workflow -- becomes much easier once we are familiar.
--   Workflow is executable... why is this important?
--   Use version control to see the previous versions.
--   Hide/show `R` code when appropriate.
--   Move ready-made `.qmd` files to a journal template rather than re-formatting the whole manuscript.
--   The pdf version is generally appropriate for `PsyArXiv`.
+- Keep your data files and write up files integrated.
+- Automation
+- Efficiency
+- Avoid re-doing
+- Register data analytic steps
+- Hide/show `R` code when appropriate.
+- Don't need to keep many versions of the same document (version control)
+- A free application which perhaps makes MS Word and SPSS/Jamovi/Statistica etc. redundant
+- Better formatting options
+- Trendy - with a large and growing develope community
+- Publishable, executable, and shareable code.
+- Move ready-made `.qmd` files to a journal template rather than re-formatting the whole manuscript.
+- The pdf version is generally appropriate for `PsyArXiv`.
+- Store files online
 :::
-
 
 ## Final thoughts {background-color="#346bc8"}
 
@@ -250,6 +268,7 @@ Follow on-screen instruction.
 -   Getting Help: [Awesome Quarto](https://github.com/mcanouil/awesome-quarto), Quarto website, YouTube, social media.
 
 -   Feedback
+
 
 # THE END {background-color="orange"}
 

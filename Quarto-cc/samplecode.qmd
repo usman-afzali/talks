@@ -8,6 +8,7 @@ format: html
 #| tbl-cap: YBOCS & PCLC Cut-Off Values
 #| apa-note: The YBOCS ranges classify OCD severity, while PCLC ranges classify PTSD severity.
 
+
 # Load necessary libraries
 library(knitr)
 library(tibble)
@@ -30,3 +31,6 @@ cut_off_values %>%
   knitr::kable()
 
 ```
+
+
+`echo` hides/shows the R code. This can be useful in at least three ways... let's think
