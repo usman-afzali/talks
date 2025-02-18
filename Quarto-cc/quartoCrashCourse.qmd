@@ -11,6 +11,7 @@ format:
     smaller: true
     logo: figs/quarto.png
     footer: 'www.usmanafzali.com'
+    embed-resources: false    
 author:
   - name: Usman Afzali
     orcid: 0000-0001-7883-8573
@@ -24,7 +25,7 @@ bibliography: references.bib
 # Kauhau {background-color="orange"}
 
 ::: incremental
--   What is `Quarto`?
+-   What is `Quarto` and how it helps me?
 -   Documentation
 -   Presentation
 -   Templates

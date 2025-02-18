@@ -1,0 +1,24 @@
+---
+title: "Quarto Crash Course"
+subtitle: "For Scientfic Publishing in Psychology"
+format: pptx
+author:
+  - name: Usman Afzali
+    orcid: 0000-0001-7883-8573
+    email: usman.afzali@otago.ac.nz
+    affiliations: Religion Programme, University of Otago
+date: "02/18/2025"
+date-format: long
+bibliography: references.bib
+---
+
+# Kauhau {background-color="orange"}
+
+::: incremental
+-   What is `Quarto` and how it helps me?
+-   Documentation
+-   Presentation
+-   Templates
+-   Version control, Remote repositories, and Blogging
+-   Final thoughts
+:::
